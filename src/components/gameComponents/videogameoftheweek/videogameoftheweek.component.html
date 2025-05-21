@@ -1,0 +1,83 @@
+@if (videogame) {
+  <div class="container">
+    <!-- Banner de Videojuego de la Semana -->
+    <div class="week-banner">
+      <h1>Videogame of the Week</h1>
+    </div>
+
+    <!-- Video del Trailer -->
+    <div class="trailer-container">
+      <youtube-player
+        [videoId]="videogame.idVideo"
+        [width]="800"
+        [height]="450"
+        (ready)="savePlayer($event)"
+        (change)="onStateChange($event)"
+      ></youtube-player>
+    </div>
+
+    <!-- Banner de Información del Juego -->
+    <div class="game-info-container ">
+      <!-- Imagen del Juego -->
+      <div class="game-image">
+        <img
+          [src]="videogame.image"
+          [alt]="videogame.title"
+        >
+      </div>
+
+      <!-- Información del Juego -->
+      <div class="game-details ">
+        <h2>{{ videogame.title }}</h2>
+
+        <div class="game-info-section ">
+          <p>
+            <strong>Storyline:</strong> {{ videogame.storyline }}
+          </p>
+
+          <p>
+            <strong>Release Date:</strong> {{ videogame.releaseDate }}
+          </p>
+
+          <div>
+            <strong>Genres:</strong>
+            <span>
+                {{ videogame.genres.join(', ') }}
+              </span>
+          </div>
+
+          <div>
+            <strong>Platforms:</strong>
+            <span>
+                {{ videogame.platforms.join(', ') }}
+              </span>
+          </div>
+
+          <div>
+            <strong>Global Score:</strong>
+            <span class="global-score">
+              @if (videogame.globalScore == 0) {
+                This game has not yet been reviewed. Be the first to review it!
+              } @else {
+                {{ videogame.globalScore }}
+              }
+
+              </span>
+          </div>
+          <nav class="action-section">
+            <button class="button" (click)="addToLibrary()">
+              Add to library <i class="icon-chevron"></i>
+            </button>
+            <button class="button" (click)="goToReviews()">
+              Reviews <i class="icon-chevron"></i>
+            </button>
+          </nav>
+
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+}
+

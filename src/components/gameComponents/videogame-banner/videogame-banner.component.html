@@ -1,0 +1,71 @@
+<div class="titulo">
+  <h1>
+    {{ videogame?.title }}
+  </h1>
+</div>
+
+<h4 class="date-companies">
+  <p class="date">Release Date: {{ videogame?.releaseDate }}</p>
+  <p class="companies">
+    {{ videogame?.companies}}
+  </p>
+</h4>
+
+<main>
+  <section class="galeria">
+      <!-- Imagen -->
+      <div class="div-imagen">
+        <img [src]="videogame?.image" alt="Videogame Banner" class="img">
+      </div>
+
+      <!-- YouTube Player -->
+        <youtube-player [videoId]="videogame!.idVideo"(ready)="savePlayer($event)"
+          (change)="onStateChange($event)" class="video"></youtube-player>
+  </section>
+
+  <section class="section-card">
+    <div class="div-card">
+        <div class="div-ratings-platforms-genres">
+          <!-- Rating con p-knob -->
+          <div class="div-ratings">
+            <h5>Rating</h5>
+            <app-score-knob [videogame]="videogame"></app-score-knob>
+
+            @if (videogame.globalScore == 0) {
+            <h5 class="not-reviewed">This game has not been reviewed</h5>
+            } @else {
+            <p class="global-score">{{ videogame?.globalScore }} / 5</p>
+            <button class="button-reviews" [routerLink]="['/videogames', videogame.id, 'reviews']">Reviews</button>
+            }
+          </div>
+
+          <!-- Información de Géneros -->
+          <div class="div-genres">
+            <h5>Genres</h5>
+            <ul class="list-genres">
+              @for(genre of videogame?.genres; track $index){
+              <div>
+                <i class="bi bi-caret-right p-mb-1"></i> {{ genre }}
+              </div>
+              }
+            </ul>
+          </div>
+
+          <div class="div-platforms">
+            <h5>Platforms</h5>
+            <ul class="list-platforms">
+              @for(platform of videogame?.platforms; track $index){
+              <div>
+                <i class="bi bi-caret-right p-mb-1"></i> {{ platform }}
+              </div>
+              }
+            </ul>
+          </div>
+        </div>
+
+      <div class="div-storyline">
+        <section class="section-storyline">{{ videogame?.storyline }}</section>
+      </div>
+    </div>
+  </section>
+</main>

@@ -1,0 +1,143 @@
+.grid-lista {
+  display: grid;
+  list-style: none;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(clamp(10rem, 15vw, 20rem), 0.3fr));
+  justify-content: center;
+  overflow: visible;
+  gap: 2rem;
+  padding: 2rem 5rem;
+  margin: 0;
+}
+
+main,
+.galeria {
+  width: 100%;
+  height: 100%;
+}
+
+.tarjeta {
+  display: flex;
+  min-width: fit-content;
+  height: fit-content;
+  object-fit: cover;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.5s ease, box-shadow 1s ease;
+  transform-origin: center;
+  backface-visibility: hidden;
+  will-change: transform;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tarjeta:hover {
+  transform: scale(1.05);
+  box-shadow: 0px -6px 40px rgba(243, 255, 255, .1);
+}
+
+.tarjeta img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+  object-fit: cover;
+  border-radius: .5rem;
+}
+
+.flex-descripcion {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  /* Cubre el 100% del ancho */
+  height: 100%;
+  /* Cubre el 100% de la altura */
+  background-color: var(--opacity-null);
+  transition: background-color 0.5s ease;
+  /* Suaviza la transición del fondo */
+  z-index: 2;
+  padding: 2rem .5rem;
+  color: white;
+}
+
+.flex-descripcion:hover {
+  background-color: rgba(0, 0, 0, .7);
+}
+
+.descripcion {
+  text-align: center;
+  font-size: clamp(1.2rem, 2vw, 3rem);
+  opacity: 0;
+  transform: scale(0.98);
+  z-index: 3;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  backface-visibility: hidden;
+  will-change: opacity, transform;
+  text-shadow:
+      0 0 1rem rgba(0, 0, 0, 0.6);
+  /* Sombra clara superior */
+  padding: .5rem .5rem .5rem .5rem;
+  margin-inline: 1rem;
+  border-radius: .3rem;
+  white-space: normal;
+  display: -webkit-box;
+  /* Define un contenedor flexbox para texto */
+  line-clamp: 3;
+  -webkit-line-clamp: 3;
+  /* Número de líneas máximo */
+  -webkit-box-orient: vertical;
+  /* Dirección del contenido */
+  overflow: hidden;
+  /* Oculta el texto extra */
+  text-overflow: ellipsis;
+  /* Agrega "..." al final */
+  max-width: 90%;
+  /* O un valor específico */
+  max-height: 70%;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-descripcion:hover .descripcion {
+  transform: scale(1.1);
+  opacity: 1;
+  background-color: rgba(0, 0, 0, .7);
+}
+
+.iconos {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 0;
+}
+
+.iconos i {
+  display: block;
+  font-size: clamp(1.2rem, 2vw, 3rem);
+  color: #808080;
+  background-color: rgba(0, 0, 0, .7);
+  padding: clamp(.5rem, 1.5vw, 1rem);
+  border-radius: 50%;
+  box-shadow: 0px 1px 20px rgba(2, 2, 2, 1),
+      0px -1px 10px rgba(243, 255, 225, .1);
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out, color 0.3s;
+  backface-visibility: hidden;
+  will-change: opacity, transform;
+  cursor: pointer;
+  z-index: 4;
+}
+
+.iconos i:hover {
+  color: var(--text-color);
+}
+
+.flex-descripcion:hover .iconos i {
+  opacity: 1;
+}

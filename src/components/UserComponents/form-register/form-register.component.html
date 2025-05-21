@@ -1,0 +1,74 @@
+<div class="register-container">
+  <h2>Sign up</h2>
+  <div class="form-container">
+    <form class="form" [formGroup]="registrationForm" (ngSubmit)="onSubmit()">
+
+      <!-- CORREO ELECTRÓNICO -->
+      <div class="form-group">
+        <label for="mail">Email</label>
+        <input type="email" id="mail" formControlName="mail" class="form-control" placeholder="email@..." />
+        <div *ngIf="registrationForm.get('mail')?.touched && registrationForm.get('mail')?.invalid" class="error-msj">
+
+          @if(registrationForm.get('mail')?.hasError('emailTaken') && registrationForm.get('mail')?.touched){
+          <div class="error-msj">Email already registered</div>
+          } @else if (registrationForm.get('mail')?.invalid && registrationForm.get('mail')?.touched){
+          <div class="error-msj">{{ emailError }}</div>
+          }
+        </div>
+      </div>
+
+      <!-- CONTRASEÑA -->
+      <div class="form-group">
+        <label for="pass">Password</label>
+        <input type="password" id="pass" formControlName="pass" class="form-control" placeholder="Type in password" />
+        <div *ngIf="registrationForm.get('pass')?.touched && registrationForm.get('pass')?.invalid" class="error-msj">
+          {{ passwordError }}
+        </div>
+      </div>
+
+      <!-- REPETIR CONTRASEÑA -->
+      <div class="form-group">
+        <label for="repeatpass">Repeat password</label>
+        <input type="password" id="repeatpass" formControlName="repeatpass" class="form-control"
+          placeholder="Repeat password" />
+        <div *ngIf="registrationForm.errors?.['mismatch'] && registrationForm.get('repeatpass')?.touched"
+          class="error-msj">
+          {{passwordError}}
+        </div>
+      </div>
+
+      <!-- NOMBRE DE USUARIO -->
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" formControlName="username" class="form-control" placeholder="Username" />
+        @if(registrationForm.get('username')?.hasError('usernameTaken') && registrationForm.get('username')?.touched){
+        <div class="error-msj">Username taken</div>
+        }
+        @else if (registrationForm.get('username')?.touched && registrationForm.get('username')?.invalid) {
+        <div class="error-msj">{{usernameError}}</div>
+        }
+      </div>
+
+      <!-- POLÍTICA DE PRIVACIDAD -->
+      <div class="form-check">
+        <input type="checkbox" id="privacyPolicy" formControlName="privacyPolicy" class="form-check-input" />
+
+        <label for="privacyPolicy" class="form-check-label">
+          I accept the privacy policy
+        </label>
+      </div>
+      <div *ngIf="registrationForm.get('privacyPolicy')?.touched && registrationForm.get('privacyPolicy')?.invalid"
+        class="error-msj">
+        You must accept the privacy policy
+      </div>
+
+      <div class="div-button">
+        <!-- BOTÓN DE ENVÍO -->
+        <button type="submit" class="button" [disabled]="registrationForm.invalid">
+          Register
+        </button>
+      </div>
+
+    </form>
+  </div>
+</div>

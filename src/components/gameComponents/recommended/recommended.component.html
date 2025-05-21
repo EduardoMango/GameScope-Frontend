@@ -1,0 +1,38 @@
+  <div class="container">
+
+  <div *ngIf="recommendedGames.length > 0; else noRecommendations" class="display">
+    <div class="recommendation-card ">
+      <div class="game-info">
+        <div class="title">
+          <h1>{{ recommendedGames[currentIndex]?.title }}</h1>
+        </div>
+
+        <div class="video trailer">
+          @if (videoKey) {
+            <youtube-player
+              [videoId]="recommendedGames[currentIndex]?.idVideo"
+              [width]="600"
+              [height]="400"
+              (ready)="savePlayer($event)"
+              (change)="onStateChange($event)"
+              class="equal-size"
+            ></youtube-player>
+          }
+        </div>
+        <div class="storyline">
+        <p class="story-summary text-white">{{ recommendedGames[currentIndex]?.storyline }}</p>
+        </div>
+      </div>
+      <div class="actions d-flex justify-content-center">
+        <button (click)="addToLibrary(recommendedGames[currentIndex]?.id)" class="add-primary">Add to library</button>
+        <button (click)="nextRecommendation(recommendedGames[currentIndex]?.id)" class="uninterested">Not interested</button>
+      </div>
+    </div>
+  </div>
+
+  <ng-template #noRecommendations>
+    <div class="no-recommendations">
+      <p>You have no recommendations left</p>
+    </div>
+  </ng-template>
+  </div>

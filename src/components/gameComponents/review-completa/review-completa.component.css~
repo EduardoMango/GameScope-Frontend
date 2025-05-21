@@ -1,0 +1,222 @@
+.reviews-section {
+  color: #e0e0e0;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #1e1e2f;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.review-container {
+  margin: 20px auto;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+
+}
+
+.reviews-section h3 {
+  color: #b3c7f9;
+  font-size: 24px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #5a8dee;
+  padding-bottom: 5px;
+}
+
+.delete{
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.delete:hover{
+  cursor: pointer;
+}
+
+.review {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #333;
+}
+
+.review h4 {
+  font-size: 18px;
+  margin: 0;
+  color: #5a8dee;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.review h4:hover {
+  color: #82aaff;
+}
+
+.review p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.review-completa{
+  padding: 20px;
+  background-color: var(--clr-bg);
+}
+
+.review-completa h4 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #b3c7f9;
+}
+
+.review-completa p {
+  font-size: 15px;
+  margin: 8px 0;
+}
+
+.review-completa .fecha {
+  font-style: italic;
+  color: #9aa3bc;
+}
+
+button {
+  margin-top: 15px;
+  padding: 8px 15px;
+  background-color: #5a8dee;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #82aaff;
+}
+
+/* Contenedor principal de dos columnas */
+.comentarios-container {
+  display: flex;
+  flex-wrap: wrap; /* Permite que las columnas se ajusten en pantallas pequeñas */
+  gap: 20px;
+  justify-content: center; /* Centrar las columnas horizontalmente */
+  margin: 20px auto;
+  max-width: 1200px; /* Ancho máximo del contenedor */
+  padding: 20px;
+  background-color: #333f58ff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Columna izquierda (Formulario) */
+.nuevo-comentario {
+  flex: 1 1 45%; /* Ocupa el 45% del espacio disponible */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: #333f58ff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Columna derecha (Lista de comentarios) */
+.comentarios {
+  flex: 1 1 45%; /* Ocupa el 45% del espacio disponible */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: #333f58ff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Formularios */
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+/* Lista de comentarios */
+.lista-comentarios {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.comment{
+  display:flex;
+}
+
+.comentario {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #333f58ff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  color: #5a8dee;
+}
+
+.fecha {
+  font-size: 0.9em;
+  color: #666;
+  text-align: right;
+  margin-top: 10px;
+}
+
+/* Estilo general para los botones */
+button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+/* Botón activo (cuando ha sido presionado) */
+button.active {
+  background-color: #4caf50; /* Verde para el botón activo */
+
+}
+
+/* Botón desactivado (disabled) */
+button:disabled {
+  background-color: #f44336; /* Gris para los desactivados */
+  color: black;
+  cursor: not-allowed;
+}
+
+/* Botón dislike activo (cuando ha sido presionado) */
+button.disliked {
+  background-color: #f44336; /* Rojo para el botón dislike */
+  color: white;
+}
+
+/* Efecto hover para los botones habilitados */
+button:not(:disabled):hover {
+  transform: scale(1.1);
+}
+
+/* Espaciado para los botones (si no está en el inline-style) */
+button + button {
+  margin-left: 10px;
+}

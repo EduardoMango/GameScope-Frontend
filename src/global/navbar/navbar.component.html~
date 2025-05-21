@@ -1,0 +1,53 @@
+<header class="header-gamescope">
+  <div class="div-logo-gamescope">
+    <a href="/public" class="url-logo-gamescope">
+      <img src="https://i.imgur.com/gDo9QBt.png" alt="Descripción de la imagen" class="logo-gamescope">
+    </a>
+  </div>
+
+  <input type="checkbox" id="check">
+  <label for="check" class="icons">
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <i class='bx bx-x' id="close-icon"></i>
+  </label>
+
+  <div class="div-lista-navbar">
+    <div class="navbar-link home" style="--i:0;"><a href="#">Home</a></div>
+    <div class="navbar-link" style="--i:1;"><a routerLink="/videogames">Videogames</a></div>
+
+    <div class="navbar-link dropdown-top-games" style="--i:2;">
+      <span class="url-dropdown-top-games">Top
+        <i class='bx bxs-down-arrow'></i>
+      </span>
+      <div class="top-games">
+        <a class="top-games-a" routerLink="/videogames/top/week" style="--i:0;">Weekly</a>
+        <a class="top-games-a" routerLink="/videogames/top/month" style="--i:1;">Monthly</a>
+        <a class="top-games-a" routerLink="/videogames/top/historic" style="--i:2;">Historic</a>
+      </div>
+    </div>
+
+    <div class="navbar-link" style="--i:3;"><a href="#">Game of the week</a></div>
+
+    @if (authService.isSessionActive() && authService.isAdmin()){
+    <div class="navbar-link" style="--i:4;"><a routerLink="/addVideogame">Add Videogame</a></div>
+    }
+
+    <div class="div-logueo-vertical">
+      @if (authService.isSessionActive()){
+      <button (click)="onLogout()" class="logout" style="--i:5;">Log out</button>
+      } @else {
+      <button class="login" (click)="openLogin()" style="--i:5;"> Log in</button>
+      <button class="register" (click)="openRegister()" style="--i:6;">Sign in</button>
+      }
+    </div>
+  </div>
+
+  <div class="div-logueo">
+    @if (authService.isSessionActive()){
+    <button (click)="onLogout()" class="logout" style="--i:5;">Log out</button>
+    } @else {
+    <button class="login" (click)="openLogin()" style="--i:5;"> Log in</button>
+    <button class="register" (click)="openRegister()" style="--i:6;">Sign in</button>
+    }
+  </div>
+</header>

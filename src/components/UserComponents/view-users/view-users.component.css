@@ -1,0 +1,357 @@
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container styling */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  background: #1E1E1E;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+
+/* Search bar */
+.div-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.search {
+  flex: 1;
+  padding: 0.75rem;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.search:focus {
+  border-color: var(--clr-neon);
+}
+
+.search-button {
+  background: #4a90e2;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.search-button:hover {
+  background: #357abd;
+}
+
+/* Alert message */
+.alert {
+  text-align: center;
+  padding: 1rem;
+  background: #f8d7da;
+  color: #721c24;
+  border-radius: 6px;
+  margin: 1rem 0;
+}
+
+/* Card styling */
+.div-card {
+  display: flex;
+  align-items: center;
+  background: #333333;
+  margin-top: 1.5rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.7);
+}
+
+/* Profile Image */
+.div-image .img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #4caf50;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+  object-fit: cover;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.div-image .img:hover {
+  transform: scale(1.1);
+}
+
+.div-image {
+  padding-left: 1rem;
+}
+
+/* User details */
+.div-user {
+  flex: 1;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.username {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.div-user span {
+  font-size: 0.9rem;
+  color: #bbb;
+  margin-bottom: 1rem;
+}
+
+/* Stats section */
+.div-stats {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.div-stats div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #2B2B2B;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  flex: 1;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.7);
+}
+
+.div-stats span {
+  font-size: 0.8rem;
+  color: #bbb;
+}
+
+.number1, .number2, .number3, .number4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #4a90e2;
+  margin-top: 0.25rem;
+}
+
+/* Buttons */
+.div-buttons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.view-profile, .follow {
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #fff;
+  background: #4a90e2;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.follow {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.view-profile:hover, .follow:hover {
+  background: #357abd;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .div-card {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .div-image .img {
+    width: 100%;
+    height: 150px;
+  }
+
+  .div-image {
+    padding: 0;
+    margin: 1rem;
+  }
+
+  .div-stats {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .div-buttons {
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .search-button {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  .search {
+    font-size: 0.9rem;
+  }
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem 1rem;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+/* Modern Paginator Styling */
+.p-paginator {
+  background-color: #121212;
+  border-radius: 32px;
+  padding: 10px 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+}
+
+.paginator-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 15px 0;
+  color: whitesmoke;
+}
+
+/* Paginator Buttons */
+.p-paginator .p-paginator-page,
+.p-paginator-next,
+.p-paginator-prev,
+.p-paginator-first,
+.p-paginator-last {
+  background-color: transparent;
+  color: #a0a0a0;
+  border: none;
+  min-width: 36px;
+  height: 36px;
+  border-radius: 18px;
+  margin: 0 2px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.p-paginator .p-paginator-page:hover,
+.p-paginator-next:hover,
+.p-paginator-prev:hover,
+.p-paginator-first:hover,
+.p-paginator-last:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+
+/* Active/Highlight Page */
+.p-paginator .p-highlight {
+  background-color: #4a4a4a;
+  color: #ffffff;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Disable State */
+.p-paginator .p-disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 480px) {
+  .p-paginator {
+    border-radius: 24px;
+    padding: 8px 12px;
+  }
+
+  .p-paginator .p-paginator-page,
+  .p-paginator-next,
+  .p-paginator-prev,
+  .p-paginator-first,
+  .p-paginator-last {
+    min-width: 32px;
+    height: 32px;
+    border-radius: 16px;
+  }
+}
+
+.reset-button {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.reset-button::before,
+.reset-button::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 2px;
+  background-color: #6b7280; /* Neutral gray color */
+  transform: translate(-50%, -50%) rotate(45deg);
+  transition: background-color 0.3s ease;
+}
+
+.reset-button::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.reset-button:hover {
+  transform: rotate(90deg);
+}
+
+.reset-button:hover::before,
+.reset-button:hover::after {
+  background-color: #dc2626; /* Red color on hover */
+}
+
+.reset-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.2); /* Soft red focus ring */
+}
+
+.reset-button:active {
+  opacity: 0.7;
+}

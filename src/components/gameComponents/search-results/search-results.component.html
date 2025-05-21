@@ -1,0 +1,18 @@
+<main class="mb-5">
+    <section class="galeria">
+        <ul class="grid-lista">
+            <!-- Recorre el arreglo games para generar una tarjeta por cada juego -->
+             @for (game of games; track $index) {
+                 <li class="tarjeta">
+                     <img [src]="game.imagen" [alt]="game.titulo">
+                     <div class="flex-descripcion">
+                         <p class="descripcion">{{ game.titulo }}</p>
+                         <div class="iconos">
+                             <i class="fa-solid fa-plus" (click)="postGame(game)"></i>
+                         </div>
+                     </div>
+                 </li>
+             }
+        </ul>
+    </section>
+</main>

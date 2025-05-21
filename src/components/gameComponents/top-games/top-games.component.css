@@ -1,0 +1,149 @@
+.top-10-container {
+  max-width: 1200px;
+  margin: 5rem auto;
+  padding: 2rem;
+  background-color: black;
+}
+
+.top-10-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: whitesmoke;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.game-card {
+  display: flex;
+  margin-bottom: 1.5rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.game-card:hover {
+  transform: scale(1.02);
+}
+
+.game-rank {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  background-color: #3b82f6;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.game-content {
+  display: flex;
+  flex-grow: 1;
+}
+
+.game-image {
+  width: 250px;
+  flex-shrink: 0;
+}
+
+.game-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.game-details {
+  flex-grow: 1;
+  padding: 1.5rem;
+  position: relative;
+}
+
+.game-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.game-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.game-score {
+  display: flex;
+  align-items: center;
+}
+
+.score-circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #3b82f6;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  position: relative;
+
+}
+
+.score-circle::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  border: 4px solid #3b82f6;
+  clip-path: polygon(0 0, calc(var(--score, 0) * 1%), 100% 0, 100% 100%, 0 100%);
+  background: conic-gradient(
+    #3b82f6 0deg,
+    #3b82f6 calc(var(--score, 0) * 3.6deg),
+    #e0e0e0 calc(var(--score, 0) * 3.6deg)
+  );
+  opacity: 0.3;
+
+}
+
+.game-storyline {
+  color: #666;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  max-height: 4.8em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.details-button {
+  position: absolute;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+  .details-button:hover {
+    background-color: #2563eb;
+  }
+
+  .icon-chevron-right {
+    width: 20px;
+    height: 20px;
+  }

@@ -1,0 +1,102 @@
+/* General container styling */
+.game-search {
+  position: relative;
+  width: fit-content;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* Form container */
+.search-form-container {
+  max-width: fit-content;
+  padding: 1rem;
+  background: var(--clr-bg);
+  border: 1px solid #333;
+  border-radius: 12px;
+  animation: fade-in 0.5s ease-in-out;
+  color: white;
+}
+
+/* Input labels */
+.search-form label {
+  font-weight: bold;
+  color: #f5f5f5;
+  margin-top: 0.5rem;
+  display: block;
+}
+
+/* Input fields */
+.search-form input {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.5rem 0 1rem;
+  border: 1px solid #555;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: #1e1e1e;
+  color: #f5f5f5;
+  transition: .3s ease;
+}
+
+/* Input focus effect */
+.search-form input:focus {
+  border-color: #00aaff;
+  box-shadow: 0 0 5px rgba(0, 170, 255, 0.7);
+  outline: none;
+}
+
+/* Submit button */
+.search-form button {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: none;
+  background-color: #0fccd3;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.search-form button:hover {
+  background-color: #0a858a;
+  transform: scale(1.05);
+}
+
+.messages div {
+  margin-top: 1rem;
+}
+
+/* Animations */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .search-container {
+    padding: 1rem;
+  }
+
+  .search-form button {
+    font-size: 0.9rem;
+    padding: 0.6rem;
+  }
+
+  .search-form input {
+    padding: 0.6rem;
+    font-size: 0.9rem;
+  }
+}

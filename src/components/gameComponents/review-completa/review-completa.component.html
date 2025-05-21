@@ -1,0 +1,101 @@
+<div class="review-container">
+  <!-- Mostrar la reseña completa cuando una esté seleccionada -->
+  <div *ngIf="reviewSeleccionada" class="review-completa">
+    <h4>{{ reviewSeleccionada.title }}</h4>
+    <p><strong>Score Graphics:</strong> {{ reviewSeleccionada.graphicsRating }}</p>
+    @if (reviewSeleccionada.graphicsComment){
+      <p><strong>Comment Graphics:</strong> {{ reviewSeleccionada.graphicsComment }}</p>
+    }
+    <p><strong>Score Gameplay:</strong> {{ reviewSeleccionada.gameplayRating }}</p>
+    @if (reviewSeleccionada.gameplayComment){
+      <p><strong>Comment Gameplay:</strong> {{ reviewSeleccionada.gameplayComment }}</p>
+    }
+    <p><strong>Score price quality:</strong> {{ reviewSeleccionada.priceQualityRating }}</p>
+    @if (reviewSeleccionada.priceQualityComment){
+      <p><strong>Comment price quality:</strong> {{ reviewSeleccionada.priceQualityComment }}</p>
+    }
+    @if(reviewSeleccionada.content){
+      <p><strong>General comment:</strong> {{ reviewSeleccionada.content }}</p>
+    }
+    <p><strong>Review Karma:</strong> {{ reviewSeleccionada.reviewKarma }}</p>
+    <p class="fecha"><strong>Date:</strong> {{ reviewSeleccionada.date | date }}</p>
+    <!-- Action Buttons -->
+    <div>
+      <!-- Botón Like -->
+      <button
+        [class.active]="isReviewLikedByUser(reviewSeleccionada)"
+        (click)="likeReview(reviewSeleccionada)"
+      style="margin-right: 10px;">
+      <i class="bi bi-hand-thumbs-up"></i>
+    </button>
+
+    <!-- Botón Dislike -->
+    <button
+      [class.disliked]="isReviewDislikedByUser(reviewSeleccionada)"
+      (click)="dislikeReview(reviewSeleccionada)"
+      style="margin-right: 10px;">
+      <i class="bi bi-hand-thumbs-down"></i>
+    </button>
+    </div>
+    <button (click)="volverALista()">Return to review list</button>
+
+
+
+
+    <div class="comentarios-container">
+      <!-- Columna izquierda: Formulario -->
+      <div class="nuevo-comentario">
+        <h5>Add comment</h5>
+        <form [formGroup]="comentarioForm">
+          <!-- Campo para el comentario -->
+          <label>
+            Comment:
+            <textarea formControlName="content"></textarea>
+          </label>
+          <div *ngIf="comentarioForm.get('content')?.invalid && comentarioForm.get('content')?.touched" class="error">
+            Comment is required.
+          </div>
+
+          <button type="submit" [disabled]="comentarioForm.invalid" (click)="addComent()">Send</button>
+        </form>
+      </div>
+
+      <!-- Columna derecha: Lista de comentarios -->
+      <div *ngIf="comments.length > 0; else sinComentarios">
+        <ul class="lista-comentarios">
+          <li class="comentario" *ngFor="let comentario of comments">
+            <div class="comment">
+              <p><strong>{{ comentario.author.username }}</strong>: {{ comentario.content }}</p>
+              @if (isAdmin || isOwnComment(comentario)){
+                <i class="bi bi-trash delete" (click)="deleteComment(comentario)"></i>
+              }
+            </div>
+
+            <p class="fecha"><em>{{ comentario.date | date }}</em></p>
+
+            <div>
+              <button
+                [class.active]="isLikedByUser(comentario)"
+                (click)="likeComment(comentario)"
+                style="margin-right: 10px;">
+                <i class="bi bi-hand-thumbs-up"></i>
+              </button>
+              <button
+                  [class.disliked]="isDislikedByUser(comentario)"
+                (click)="dislikeComment(comentario)"
+                style="margin-right: 10px;">
+                <i class="bi bi-hand-thumbs-down"></i>
+              </button>
+              <span><strong>Karma</strong>: {{ comentario.commentKarma || 0 }}</span>
+            </div>
+
+
+          </li>
+        </ul>
+      </div>
+      <ng-template #sinComentarios>
+        <p>There are no comments for this review.</p>
+      </ng-template>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,48 @@
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<nav class="sidebar ">
+  <header>
+    <input type="checkbox" id="check2">
+    <label for="check2" class="icons">
+      <i class="bx bx-chevron-right toggle"></i>
+    </label>
+  </header>
+  <div class="menu-bar">
+    <div class="menu">
+      <ul class="menu-links">
+        <li class="nav-link">
+          <a (click)="goToProfile()">
+            <i class='bx bxs-user-circle'></i>
+            <span class="text nav-text">User</span>
+          </a>
+        </li>
+        <li class="nav-link">
+          <a (click)="goToLibrary()">
+            <i class='bx bx-library'></i>
+            <span class="text nav-text">Library</span>
+          </a>
+        </li>
+        <li class="nav-link">
+          <a (click)="goToRecommended()">
+            <i class='bx bx-shuffle' ></i>
+            <span class="text nav-text">Recommended</span>
+          </a>
+        </li>
+        <li class="nav-link">
+          <a (click)="goToFriends()">
+            <i class='bx bx-group' ></i>
+            <span class="text nav-text">Friends</span>
+          </a>
+        </li>
+        <li class="nav-link">
+          <a (click)="openNotificationsModal()">
+            <i class='bx bx-bell'></i>
+            <span class="text nav-text not">Notifications</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</nav>
+
+<app-notification-modal></app-notification-modal>

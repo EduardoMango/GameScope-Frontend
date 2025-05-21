@@ -1,0 +1,32 @@
+<div class="search-container">
+  <div class="search-form-container " @fadeInOut>
+    <form [formGroup]="searchForm" (ngSubmit)="onSearch()" class="search-form">
+      <!-- Título del juego -->
+      <label for="game-title">Search game:</label>
+      <input type="text" id="game-title" formControlName="title" placeholder="Title" />
+
+      <!-- Género -->
+      <label for="game-genre">Genre:</label>
+      <select id="game-genre" formControlName="genre">
+        @for (genre of genres; track $index) {
+
+        <option value="{{genre}}">{{genre}}</option>
+
+        }
+      </select>
+
+      <!-- Plataforma -->
+      <label for="game-platform">Platform:</label>
+      <select id="game-platform" formControlName="platform">
+        @for (platform of platforms; track $index) {
+
+        <option value="{{platform}}">{{platform}}</option>
+
+        }
+      </select>
+
+      <!-- Botón de enviar el formulario -->
+      <button type="submit" class="button">Search</button>
+    </form>
+  </div>
+</div>

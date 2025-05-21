@@ -1,0 +1,144 @@
+.sidebar {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  z-index: 1000;
+  margin-top: 169.59px;
+  transition: .3s ease;
+  background: transparent;
+  border-top: solid var(--clr-neon) .1rem;
+}
+
+.toggle {
+  font-size: 1.8rem;
+  color: var(--clr-neon);
+  text-shadow:
+  0 0 .2rem #FFF7,
+  0 0 .3rem var(--clr-neon);
+  padding: .1rem;
+  transition: .3s ease;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  box-shadow:
+  inset 0 0 .5rem var(--clr-neon),
+  0 0 .5rem var(--clr-neon);
+  transform: translate(-40%, -50%);
+  z-index: 10000;
+  position: absolute;
+  top: 5%;
+  background-color: transparent;
+  cursor: pointer;
+  border: solid var(--clr-neon);
+  width: fit-content;
+  height: fit-content;
+  background: var(--clr-bg);
+  left: 100%;
+}
+
+#check2 {
+  display: none;
+}
+
+.sidebar:has(#check2:checked) {
+  width: 250px;
+  background: var(--clr-bg);
+  border-right: solid var(--clr-neon) .1rem;
+  box-shadow:
+  inset 0 0 .5rem var(--clr-neon),
+  0 0 .5rem var(--clr-neon);
+}
+
+.sidebar:has(#check2:checked) .menu-links .nav-link a {
+  opacity: 1;
+}
+
+.menu-links {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.menu-links .nav-link a {
+  color: var(--clr-neon);
+  text-decoration: none;
+  font-size: 1.3rem;
+  height: 100%;
+  padding: 0 0 0 1rem;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 1.5s ease, text-shadow .3s ease;
+  width: 100%;
+  padding-block: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.menu-links .nav-link a:hover {
+  text-shadow: 0 0 .3rem white;
+  color: white;
+  cursor: pointer;
+}
+
+.menu-links .nav-link .bx {
+  font-size: 2rem;
+}
+
+.nav-link {
+  display: flex;
+  border-bottom: solid var(--clr-neon) .1rem;
+}
+
+.nav-link a span {
+  margin-left: 1rem;
+}
+
+
+#check2:checked~.icons {
+  transform: translate(-50%, -50%);
+}
+
+#check2:checked~.icons .toggle {
+  rotate: 180deg;
+}
+
+@media(max-width: 1024px) {
+  .sidebar {
+    margin-top: 128px;
+  }
+}
+
+@media(max-width: 768px) {
+  .nav-link a span {
+    display: none;
+  }
+
+  .nav-link a {
+    margin-left: 1rem;
+  }
+
+  .sidebar:has(#check2:checked) {
+    width: 100px;
+  }
+
+  .menu-links .nav-link a {
+    padding-left: 0;
+  }
+
+  .sidebar:has(#check2:checked) .nav-link a {
+    margin: 0 auto;
+    justify-content: center;
+    padding-left: 0;
+  }
+}

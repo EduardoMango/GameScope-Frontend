@@ -1,0 +1,263 @@
+/* Titulo */
+.titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, var(--clr-bg), black);
+  text-align: center;
+  padding: 3rem 1rem;
+  text-transform: uppercase;
+  animation: fadeIn 1.5s ease-in;
+}
+
+.titulo h1 {
+  border: 0.1rem solid var(--clr-neon);
+  padding: 1rem;
+  box-shadow: inset 0 0 1rem var(--clr-neon),
+  0 0 1rem var(--clr-neon);  font-size: 3rem;
+  color: #e3e3e3;
+  text-shadow: 0 0 .4rem black;
+  width: fit-content;
+}
+
+/* Fecha y Compañías */
+.date-companies {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  padding-inline: 2rem;
+}
+
+.date {
+  font-size: 1.1rem;
+  color: #a2a2a2;
+  padding: 1rem;
+}
+
+.companies {
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #a2a2a2;
+  padding: 1rem;
+}
+
+/* Main Section */
+main {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.galeria {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  animation: fadeIn 1.5s ease-in;
+  background-color: var(--clr-bg);
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 800px;
+  flex-wrap: nowrap;
+}
+
+.div-imagen img {
+  box-shadow: 0 0 1rem black;
+  max-width: 600px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.div-imagen img:hover {
+  transform: scale(1.05);
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 1rem black;
+  overflow: hidden;
+  width: fit-content;
+}
+
+/* Ratings, Platforms, Genres */
+.div-card {
+  color: #e3e3e3;
+  width: 100%;
+  max-width: 800px;
+  background-color: var(--clr-bg);
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.div-card:hover {
+  transform: translateY(-10px);
+}
+
+.div-ratings-platforms-genres {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 1.5rem;
+}
+
+.div-ratings,
+.div-genres,
+.div-platforms {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  background-color: rgba(51, 51, 51, 0.5);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+h5 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+button {
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  background: #16a085;
+  color: #ffffff;
+  border: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+  margin-top: 1.5rem;
+}
+
+button:hover {
+  background-color: #1abc9c;
+}
+
+.not-reviewed {
+  color: #f0a6a6;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* Géneros y Plataformas */
+.list-genres, .list-platforms {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: left;
+}
+
+.list-genres div,
+.list-platforms div {
+  font-size: 1rem;
+}
+
+.bi-caret-right {
+  margin-right: 0.5rem;
+  color: #16a085;
+  font-size: 1.2rem;
+}
+
+/* Historia */
+.div-storyline {
+  width: 100%;
+  max-width: 800px;
+  background-color: rgba(51, 51, 51, 0.5);
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-storyline {
+  font-size: 1.1rem;
+  color: #d1d1d1;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Animación de Fade */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .titulo {
+    font-size: 2rem;
+  }
+
+  .galeria {
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+  }
+
+  .div-card {
+    padding: 1.5rem;
+  }
+
+  .div-ratings-platforms-genres {
+    grid-template-columns: 1fr;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  .section-storyline {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .titulo {
+    font-size: 1.5rem;
+  }
+
+  .date-companies {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .date, .companies {
+    font-size: 1rem;
+  }
+
+  .div-card {
+    padding: 1rem;
+  }
+
+  .div-ratings-platforms-genres {
+    grid-template-columns: 1fr;
+  }
+
+  .div-imagen img {
+    width: 100%;
+    height: auto;
+  }
+
+  .video {
+    width: 100%;
+  }
+}

@@ -1,0 +1,93 @@
+import {CommonModule} from '@angular/common';
+import {Component} from '@angular/core';
+import {Router} from '@angular/router';
+import {FormBuilder, FormGroup, ReactiveFormsModule, Validators} from '@angular/forms';
+import {NewUser, User} from '../../../Model/Interfaces/User';
+import {UsersService} from '../../../services/Users.service';
+
+@Component({
+  selector: 'app-form-register',
+  standalone: true,
+  imports: [CommonModule, ReactiveFormsModule],
+  templateUrl: './form-register.component.html',
+  styleUrls: ['./form-register.component.css'] // Corrige el typo 'styleUrl' a 'styleUrls'
+})
+export class FormRegisterComponent {
+  registrationForm: FormGroup;
+
+  constructor(private fb: FormBuilder,
+              private router: Router,
+              private usersService: UsersService) {
+    // Definir el formulario usando FormBuilder
+    this.registrationForm = this.fb.group({
+      mail: ['', [Validators.required]],
+      pass: ['', [Validators.required]],
+      repeatpass: ['', [Validators.required]],
+      username: ['', [Validators.required]],
+      privacyPolicy: [false, Validators.requiredTrue] // Debe ser true para ser válido
+    }, { validators: this.passwordsMatchValidator });
+  }
+
+  // Validador para verificar que las contraseñas coincidan
+  passwordsMatchValidator(form: FormGroup) {
+    const password = form.get('pass')?.value;
+    const repeatPassword = form.get('repeatpass')?.value;
+    return password === repeatPassword ? null : { mismatch: true };
+  }
+
+  // Validación para enviar el formulario
+  onSubmit() {
+    if (this.registrationForm.valid) {
+
+      const formValues = this.registrationForm.value;
+
+      // Selecciona solo los campos necesarios para crear el objeto User
+      const newUser: NewUser = {
+        username: formValues.username,
+        password: formValues.pass,
+        email: formValues.mail
+      };
+
+
+      // Lógica para manejar el envío del formulario
+      this.usersService.registerUser(newUser).subscribe({
+          next: () => {
+            alert("Successful registration");
+          this.router.navigate(['login'])},
+          error: (error) => {
+            const errorMessage = error?.error?.Error || 'Unexpected error. Please try again later.';
+            alert(errorMessage)
+          console.log(error)}
+      }
+
+      );
+    } else {
+      console.log('Invalid Form');
+      this.registrationForm.markAllAsTouched(); // Marca todos los campos como tocados para mostrar errores
+    }
+  }
+
+  // Métodos para mostrar mensajes de error
+  get emailError() {
+    const control = this.registrationForm.get('mail');
+    return control?.touched && control?.invalid ? 'Invalid email' : null;
+  }
+
+  get passwordError() {
+    const control = this.registrationForm.get('pass');
+    const formError = this.registrationForm.errors?.['mismatch'];
+    if (control?.touched && control?.invalid) {
+      return 'Password must be at least 6 characters';
+    }
+    return formError ? 'Passwords do not match' : null;
+  }
+
+  get usernameError() {
+    const control = this.registrationForm.get('username');
+    return control?.touched && control?.invalid ? 'Username is required' : null;
+  }
+
+  openLogin() {
+    this.router.navigate(['login']);
+  }
+}

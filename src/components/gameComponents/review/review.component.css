@@ -1,0 +1,175 @@
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+.register-container h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: var(--clr-neon); /* Color destacado */
+  text-shadow: 0 0 .5rem #16a08491;
+  border: 0.1rem solid var(--clr-neon);
+  padding: 1rem;
+  box-shadow: inset 0 0 1rem var(--clr-neon),
+  0 0 1rem var(--clr-neon);
+}
+
+.form-container {
+  background-color: #1f1f1f;
+  width: 100%;
+  max-width: 600px;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.7);
+  transition: box-shadow 0.3s ease;
+}
+
+.form-container:hover {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.9); /* Efecto de hover */
+}
+
+small {
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Inputs y Textarea */
+input,
+textarea {
+  background-color: #333333;
+  color: #fff;
+  border: 1px solid #555;
+  border-radius: 5px;
+  padding: 0.8rem;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+  width: 100%; /* Asegura que el textarea ocupe todo el ancho disponible */
+  resize: vertical; /* Permite que el textarea cambie su tamaño verticalmente */
+  min-height: 120px; /* Altura mínima para los textarea */
+}
+
+textarea {
+  min-height: 150px; /* Asegura que el textarea sea adecuado para más texto */
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #aaa;
+}
+
+.titulo {
+  height: 40px;
+  min-height: 40px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border: 1px solid #16a085;
+  box-shadow: 0 0 10px rgba(22, 160, 133, 0.5);
+}
+
+h4 {
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
+  color: #f0f0f0;
+  font-weight: 500;
+}
+
+.error {
+  color: #e74c3c;
+  font-size: 0.85rem;
+  margin-top: 0.2rem;
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+}
+
+button[type="submit"] {
+  background-color: #16a085;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 1rem 2.2rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #1abc9c;
+  transform: scale(1.05);
+}
+
+button[disabled] {
+  background-color: #444;
+  color: #888;
+  cursor: not-allowed;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .form-container {
+    padding: 1rem;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.6);
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  h4 {
+    font-size: 1.1rem;
+  }
+
+  input,
+  textarea {
+    font-size: 1rem;
+    padding: 0.7rem;
+  }
+
+  button[type="submit"] {
+    padding: 0.9rem 1.8rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .register-container {
+    padding: 1rem;
+  }
+
+  .form-container {
+    max-width: 100%;
+    border-radius: 8px;
+    padding: 1.2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  input,
+  textarea {
+    font-size: 0.95rem;
+    padding: 0.6rem;
+  }
+
+  button[type="submit"] {
+    width: 100%;
+    padding: 0.9rem;
+    font-size: 1rem;
+  }
+}

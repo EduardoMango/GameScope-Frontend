@@ -1,0 +1,3748 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "isAdmin": true,
+      "isActive": true,
+      "isBanned": false,
+      "username": "eduuprueba",
+      "followers": 1,
+      "following": [
+        "e47d",
+        "3d59"
+      ],
+      "karma": 525,
+      "email": "eduardomango08@gmail.com",
+      "password": "12345678",
+      "currentTitle": "Influencer",
+      "titles": [
+        "GameMaster",
+        "Newbie",
+        "Enthusiast"
+      ],
+      "img": "https://i.imgur.com/I1c99M6.jpeg",
+      "achievements": [
+        {
+          "id": "1",
+          "title": "Logro 1",
+          "iconUrl": "https://i.imgur.com/I1c99M6.jpeg"
+        },
+        {
+          "id": "2",
+          "title": "Logro 2",
+          "iconUrl": "https://i.imgur.com/I1c99M6.jpeg"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "5d474923-7870-4235-8aef-6318363c6b71",
+          "videojuegoId": "20863",
+          "usuarioId": "1",
+          "titulo": "One of the best stealth games",
+          "puntuacionGraficos": 3,
+          "comentarioGraficos": "",
+          "puntuacionJugabilidad": 5,
+          "comentarioJugabilidad": "",
+          "puntuacionPrecioCalidad": 5,
+          "comentarioPrecioCalidad": "",
+          "calificacionGlobal": 4.3,
+          "contenido": "",
+          "fechaCreacion": "2024-11-14T17:07:48.335Z",
+          "comentarios": []
+        },
+        {
+          "id": "4b4a04ff-504d-4303-80e2-a6911ecbbba1",
+          "videojuegoId": "133004",
+          "usuarioId": "1",
+          "titulo": "I love vikings",
+          "puntuacionGraficos": 5,
+          "comentarioGraficos": "",
+          "puntuacionJugabilidad": 4,
+          "comentarioJugabilidad": "",
+          "puntuacionPrecioCalidad": 3,
+          "comentarioPrecioCalidad": "",
+          "calificacionGlobal": 4,
+          "contenido": "",
+          "fechaCreacion": "2024-11-14T17:57:35.398Z",
+          "comentarios": []
+        },
+        {
+          "id": "e0c894d1-7674-4ee4-8ecf-5508f7d1277f",
+          "videojuegoId": "116794",
+          "usuarioId": "1",
+          "titulo": "Great game",
+          "puntuacionGraficos": 5,
+          "comentarioGraficos": "",
+          "puntuacionJugabilidad": 4,
+          "comentarioJugabilidad": "",
+          "puntuacionPrecioCalidad": 3,
+          "comentarioPrecioCalidad": "",
+          "calificacionGlobal": 4,
+          "contenido": "",
+          "fechaCreacion": "2024-11-14T18:17:02.537Z",
+          "comentarios": []
+        },
+        {
+          "id": "932f246f-e0e8-4651-af73-24e6cacc45d8",
+          "videojuegoId": "120",
+          "usuarioId": "1",
+          "titulo": "Great game",
+          "puntuacionGraficos": 5,
+          "comentarioGraficos": "",
+          "puntuacionJugabilidad": 2,
+          "comentarioJugabilidad": "",
+          "puntuacionPrecioCalidad": 4,
+          "comentarioPrecioCalidad": "",
+          "calificacionGlobal": 3.7,
+          "contenido": "",
+          "fechaCreacion": "2024-11-15T16:14:18.658Z",
+          "comentarios": []
+        }
+      ],
+      "notificaciones": [],
+      "library": [
+        {
+          "id": "20863",
+          "title": "Dishonored: Definitive Edition",
+          "companies": [
+            "Arkane Studios",
+            "Zenimax Europe",
+            "Bethesda Softworks"
+          ],
+          "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pcv.jpg",
+          "genres": [
+            "Shooter",
+            "Adventure"
+          ],
+          "storyline": "Dishonored is set in Dunwall, an industrial whaling city where strange steampunk-inspired technology and otherworldly forces coexist in the shadows. You are the once-trusted bodyguard of the beloved Empress. Framed for her murder, you become an infamous assassin, known only by the disturbing mask that has become your calling card. In a time of uncertainty, when the city is besieged by plague and ruled by a corrupt government armed with industrial technologies, dark forces conspire to bestow upon you abilities beyond those of any common man, but at what cost? The truth behind your betrayal is as murky as the waters surrounding the city, and the life you once had is gone forever.",
+          "ageRating": "E",
+          "globalScore": 0,
+          "releaseDate": "07/10/2013",
+          "platforms": [
+            "PC (Microsoft Windows)",
+            "PlayStation 4",
+            "Xbox One"
+          ],
+          "reviews": [],
+          "similarGames": [
+            "55038",
+            "75242",
+            "76877",
+            "87622",
+            "103292",
+            "103301",
+            "105269",
+            "106805",
+            "107318",
+            "111130"
+          ],
+          "idVideo": "UhfLtJlwlns"
+        },
+        {
+          "id": "133004",
+          "title": "Assassin's Creed Valhalla",
+          "companies": [
+            "Ubisoft Montreal",
+            "Ubisoft Montpellier",
+            "Ubisoft Singapore",
+            "Ubisoft Sofia",
+            "Ubisoft Barcelona",
+            "Ubisoft Kyiv",
+            "Ubisoft Chengdu",
+            "Ubisoft Philippines",
+            "Ubisoft Québec",
+            "Ubisoft Bordeaux"
+          ],
+          "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ed3.jpg",
+          "genres": [
+            "Role-playing (RPG)",
+            "Adventure"
+          ],
+          "storyline": "Driven from Norway by endless wars and dwindling resources in the ninth century CE, players will lead Eivor's clan of Norsemen across the icy North Sea to the rich lands of England's broken kingdoms. Players must carve out a new future for their clan, reliving the ruthless fighting style of Viking warriors with a revamped combat system that includes the ability to dual-wield weapons against a greater variety of enemies than ever before.\n\nTo secure resources players can lead raids to select locations using their longship to earn much-needed riches and resources. As the Vikings begin to settle in their new home, they encounter resistance from the Saxons including King Aelfred of Wessex, who denounces them as heathens and looks to be the sole ruler of a civilized England. Against all odds, Eivor must do what is necessary to keep Valhalla within reach.[4]",
+          "ageRating": "E",
+          "globalScore": 0,
+          "releaseDate": "09/11/2020",
+          "platforms": [
+            "PC (Microsoft Windows)",
+            "Google Stadia",
+            "PlayStation 5",
+            "Xbox Series X|S",
+            "PlayStation 4",
+            "Xbox One"
+          ],
+          "reviews": [],
+          "similarGames": [
+            "17548",
+            "19164",
+            "19564",
+            "26574",
+            "34155",
+            "81249",
+            "96217",
+            "103054",
+            "103303",
+            "106987"
+          ],
+          "idVideo": "iylGoWbIeXA"
+        },
+        {
+          "id": "9498",
+          "title": "Deus Ex: Mankind Divided",
+          "companies": [
+            "Feral Interactive",
+            "Square Enix",
+            "Eidos Montréal",
+            "Nixxes Software",
+            "AMD"
+          ],
+          "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25jt.jpg",
+          "genres": [
+            "Shooter",
+            "Puzzle",
+            "Role-playing (RPG)",
+            "Adventure"
+          ],
+          "storyline": "Deus Ex: Mankind Divided directly follows the aftermath of the Aug Incident, a day when mechanically augmented citizens all over the world were stripped of control over their minds and bodies, resulting in the deaths of millions of innocents. The year is now 2029, and the golden era of augmentations is over. Mechanically augmented humans have been deemed outcasts and segregated from the rest of society. Crime and acts of terror serve as a thin veil to cover up an overarching conspiracy aimed at controlling the future of mankind…",
+          "ageRating": "E",
+          "globalScore": 0,
+          "releaseDate": "22/08/2016",
+          "platforms": [
+            "PC (Microsoft Windows)",
+            "PlayStation 4",
+            "Xbox One",
+            "Linux",
+            "Mac"
+          ],
+          "reviews": [],
+          "similarGames": [
+            "41",
+            "43",
+            "533",
+            "2031",
+            "3188",
+            "7351",
+            "9727",
+            "11118",
+            "19441",
+            "19531"
+          ],
+          "idVideo": "qeHARnYRnuE"
+        },
+        {
+          "id": "116794",
+          "title": "Kingdom Come: Deliverance - Royal Edition",
+          "companies": [
+            "Deep Silver",
+            "Warhorse Studios"
+          ],
+          "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1m02.jpg",
+          "genres": [
+            "Role-playing (RPG)",
+            "Adventure"
+          ],
+          "storyline": "Bohemia – located in the heart of Europe, the region is rich in culture, silver, and sprawling castles. The death of its beloved ruler, Emperor Charles IV, has plunged the kingdom into dark times: war, corruption, and discord are tearing this jewel of the Holy Roman Empire apart.\n\nOne of Charles' sons, Wenceslas, has inherited the crown. Unlike his father, Wenceslas is a naive, self-indulgent, unambitious monarch. His half-brother and King of Hungary, Sigismund the Red Fox, senses weakness in Wenceslas. Feigning good will, Sigismund travels to Bohemia and kidnaps his half-brother. With no king on the throne, Sigismund is now free to plunder Bohemia and seize its riches.\n\nIn the midst of this chaos, you're Henry, the son of a blacksmith. Your peaceful life is shattered when a mercenary raid, ordered by King Sigismund himself, burns your village to the ground. By bittersweet fortune, you are one of the few survivors of this massacre.\n\nWithout a home, family, or future you end up in the service of Lord Radzig Kobyla, who is forming a resistance against the invasion. Fate drags you into this bloody conflict and shoves you into a raging civil war, where you help fight for the future of Bohemia.\n\nRedeem your past and emerge a hero!",
+          "ageRating": "E",
+          "globalScore": 0,
+          "releaseDate": "27/05/2019",
+          "platforms": [
+            "PC (Microsoft Windows)",
+            "PlayStation 4",
+            "Xbox One",
+            "Nintendo Switch"
+          ],
+          "reviews": [],
+          "similarGames": [
+            "17548",
+            "19164",
+            "55038",
+            "81249",
+            "96217",
+            "103054",
+            "103303",
+            "106987",
+            "113360",
+            "115653"
+          ],
+          "idVideo": "nEX36NvLKwg"
+        },
+        {
+          "id": "19164",
+          "title": "Borderlands 3",
+          "companies": [
+            "2K Games",
+            "Gearbox Software"
+          ],
+          "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20r3.jpg",
+          "genres": [
+            "Shooter",
+            "Role-playing (RPG)"
+          ],
+          "storyline": "The original shooter-looter returns, packing bazillions of guns and a mayhem-fueled adventure! Blast through new worlds and enemies as one of four new Vault Hunters. Play solo or with friends to take on insane enemies, score loads of loot and save your home from the most ruthless cult leaders in the galaxy.",
+          "ageRating": "E",
+          "globalScore": 0,
+          "releaseDate": "12/09/2019",
+          "platforms": [
+            "PC (Microsoft Windows)",
+            "Google Stadia",
+            "PlayStation 5",
+            "Xbox Series X|S",
+            "PlayStation 4",
+            "Xbox One",
+            "Mac"
+          ],
+          "reviews": [],
+          "similarGames": [
+            "17548",
+            "47823",
+            "54775",
+            "55038",
+            "81249",
+            "96217",
+            "103303",
+            "106987",
+            "113636",
+            "115653"
+          ],
+          "idVideo": "LkHNbsQMxPI"
+        },
+        {
+          "id": "120",
+          "title": "Diablo III",
+          "companies": [
+            "Square Enix",
+            "Blizzard Entertainment"
+          ],
+          "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2l1u.jpg",
+          "genres": [
+            "Role-playing (RPG)",
+            "Hack and slash/Beat 'em up",
+            "Adventure"
+          ],
+          "storyline": "The game takes place in the dark fantasy world of the Diablo series twenty years after the events of Diablo II. Deckard Cain and his niece Leah are in the Tristram Cathedral investigating ancient texts regarding an ominous prophecy. Suddenly, a mysterious star falling from the sky strikes the Cathedral, creating a deep crater into which Deckard Cain disappears.",
+          "ageRating": "E",
+          "globalScore": 0,
+          "releaseDate": "14/05/2012",
+          "platforms": [
+            "PC (Microsoft Windows)",
+            "PlayStation 3",
+            "PlayStation 4",
+            "Xbox 360",
+            "Xbox One",
+            "Mac"
+          ],
+          "reviews": [],
+          "similarGames": [
+            "10776",
+            "17379",
+            "19560",
+            "28168",
+            "36198",
+            "47823",
+            "55199",
+            "96217",
+            "103168",
+            "105049"
+          ],
+          "idVideo": "C2zL-Eq-sNM"
+        },
+        {
+          "id": "7351",
+          "title": "Doom",
+          "companies": [
+            "Certain Affinity",
+            "id Software",
+            "MachineGames",
+            "Tango Gameworks",
+            "BattleCry Studios",
+            "ZeniMax Germany",
+            "Escalation Studios",
+            "Bethesda Softworks"
+          ],
+          "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nc7.jpg",
+          "genres": [
+            "Shooter",
+            "Puzzle"
+          ],
+          "storyline": "You’ve come here for a reason. The Union Aerospace Corporation’s massive research facility on Mars is overwhelmed by fierce and powerful demons, and only one person stands between their world and ours. As the lone DOOM Marine, you’ve been activated to do one thing – kill them all.",
+          "ageRating": "E",
+          "globalScore": 0,
+          "releaseDate": "11/05/2016",
+          "platforms": [
+            "PC (Microsoft Windows)",
+            "PlayStation 4",
+            "Xbox One"
+          ],
+          "reviews": [],
+          "similarGames": [
+            "533",
+            "571",
+            "1006",
+            "2031",
+            "3188",
+            "7342",
+            "9498",
+            "9727",
+            "11118",
+            "19531"
+          ],
+          "idVideo": "MDQM55hYLeY"
+        }
+      ],
+      "uninterestedGamesID": [
+        "43"
+      ]
+    },
+    {
+      "id": "4043",
+      "isAdmin": false,
+      "isActive": false,
+      "isBanned": true,
+      "username": "usuarioprueba",
+      "followers": 0,
+      "following": [
+        "1"
+      ],
+      "karma": -7,
+      "password": "123456",
+      "email": "usuario@usuario.com",
+      "currentTitle": "Collector",
+      "titles": [
+        "Newbie"
+      ],
+      "img": "https://i.imgur.com/yZsE57z.jpeg",
+      "achievements": [],
+      "reviews": [
+        {
+          "id": "a9eae88f-75a6-46fb-a33d-94df69353e4a",
+          "videojuegoId": "133004",
+          "usuarioId": "4043",
+          "titulo": "I hate vikings",
+          "puntuacionGraficos": 2,
+          "comentarioGraficos": "",
+          "puntuacionJugabilidad": 1,
+          "comentarioJugabilidad": "",
+          "puntuacionPrecioCalidad": 1,
+          "comentarioPrecioCalidad": "",
+          "calificacionGlobal": 1.3,
+          "contenido": "",
+          "fechaCreacion": "2024-11-14T17:58:48.992Z",
+          "comentarios": []
+        }
+      ],
+      "notificaciones": [],
+      "library": [
+        {
+          "id": "59",
+          "title": "The Elder Scrolls IV: Oblivion",
+          "companies": [
+            "2K Games",
+            "Ubisoft Entertainment",
+            "Bethesda Game Studios",
+            "4J Studios",
+            "Bethesda Softworks"
+          ],
+          "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8fpz.jpg",
+          "genres": [
+            "Role-playing (RPG)",
+            "Adventure"
+          ],
+          "storyline": "After the mysterious and untimely death of the Emperor, desperate factions vie for control of Tamriel's throne. With the empire ready to crumble, the gates of Oblivion open and demons march upon the land, laying waste to everything in their path. To turn the tide of darkness the player must find the lost heir to the throne and unravel the sinister plot that threatens to destroy all of Tamriel.",
+          "ageRating": "E",
+          "globalScore": 0,
+          "releaseDate": "19/03/2006",
+          "platforms": [
+            "PC (Microsoft Windows)",
+            "PlayStation 3",
+            "Xbox 360"
+          ],
+          "reviews": [],
+          "similarGames": [
+            "6",
+            "15",
+            "16",
+            "56",
+            "127",
+            "472",
+            "533",
+            "832",
+            "1020",
+            "9630"
+          ],
+          "idVideo": "LM1IwZdpL2Y"
+        },
+        {
+          "id": "19457",
+          "title": "The Elder Scrolls V: Skyrim - Special Edition",
+          "companies": [
+            "Bethesda Game Studios",
+            "Bethesda Softworks"
+          ],
+          "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vco.jpg",
+          "genres": [
+            "Role-playing (RPG)",
+            "Adventure"
+          ],
+          "storyline": "Skyrim special edition is a remaster of the classic from 2011. Now with upgraded visuals.\nSkyrim reimagines and revolutionises the open-world fantasy epic, bringing to life a complete virtual world open for you to explore any way you choose.",
+          "ageRating": "E",
+          "globalScore": 0,
+          "releaseDate": "2024-11-12T19:13:33.041Z",
+          "platforms": [
+            "PC (Microsoft Windows)",
+            "PlayStation 5",
+            "Xbox Series X|S",
+            "PlayStation 4",
+            "Xbox One"
+          ],
+          "reviews": [],
+          "similarGames": [
+            "9243",
+            "17548",
+            "19164",
+            "26574",
+            "27092",
+            "81249",
+            "96217",
+            "103303",
+            "106987",
+            "113360"
+          ],
+          "idVideo": "EAJGxAQGDWI"
+        },
+        {
+          "id": "133004",
+          "title": "Assassin's Creed Valhalla",
+          "companies": [
+            "Ubisoft Montreal",
+            "Ubisoft Montpellier",
+            "Ubisoft Singapore",
+            "Ubisoft Sofia",
+            "Ubisoft Barcelona",
+            "Ubisoft Kyiv",
+            "Ubisoft Chengdu",
+            "Ubisoft Philippines",
+            "Ubisoft Québec",
+            "Ubisoft Bordeaux"
+          ],
+          "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ed3.jpg",
+          "genres": [
+            "Role-playing (RPG)",
+            "Adventure"
+          ],
+          "storyline": "Driven from Norway by endless wars and dwindling resources in the ninth century CE, players will lead Eivor's clan of Norsemen across the icy North Sea to the rich lands of England's broken kingdoms. Players must carve out a new future for their clan, reliving the ruthless fighting style of Viking warriors with a revamped combat system that includes the ability to dual-wield weapons against a greater variety of enemies than ever before.\n\nTo secure resources players can lead raids to select locations using their longship to earn much-needed riches and resources. As the Vikings begin to settle in their new home, they encounter resistance from the Saxons including King Aelfred of Wessex, who denounces them as heathens and looks to be the sole ruler of a civilized England. Against all odds, Eivor must do what is necessary to keep Valhalla within reach.[4]",
+          "ageRating": "E",
+          "globalScore": 4,
+          "releaseDate": "09/11/2020",
+          "platforms": [
+            "PC (Microsoft Windows)",
+            "Google Stadia",
+            "PlayStation 5",
+            "Xbox Series X|S",
+            "PlayStation 4",
+            "Xbox One"
+          ],
+          "reviews": [
+            {
+              "id": "4b4a04ff-504d-4303-80e2-a6911ecbbba1",
+              "videojuegoId": "133004",
+              "usuarioId": "1",
+              "titulo": "I love vikings",
+              "puntuacionGraficos": 5,
+              "comentarioGraficos": "",
+              "puntuacionJugabilidad": 4,
+              "comentarioJugabilidad": "",
+              "puntuacionPrecioCalidad": 3,
+              "comentarioPrecioCalidad": "",
+              "calificacionGlobal": 4,
+              "contenido": "",
+              "fechaCreacion": "2024-11-14T17:57:35.398Z",
+              "comentarios": []
+            }
+          ],
+          "similarGames": [
+            "17548",
+            "19164",
+            "19564",
+            "26574",
+            "34155",
+            "81249",
+            "96217",
+            "103054",
+            "103303",
+            "106987"
+          ],
+          "idVideo": "iylGoWbIeXA"
+        },
+        {
+          "id": "164664",
+          "title": "Sekiro: Shadows Die Twice - Game of the Year Edition",
+          "companies": [
+            "Activision",
+            "FromSoftware"
+          ],
+          "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co67k9.jpg",
+          "genres": [
+            "Adventure"
+          ],
+          "storyline": "In Sekiro: Shadows Die Twice you are the 'one-armed wolf', a disgraced and disfigured warrior rescued from the brink of death. Bound to protect a young lord who is the descendant of an ancient bloodline, you become the target of many vicious enemies, including the dangerous Ashina clan. When the young lord is captured, nothing will stop you on a perilous quest to regain your honor, not even death itself.\n\nExplore late 1500s Sengoku Japan, a brutal period of constant life and death conflict, as you come face to face with larger than life foes in a dark and twisted world. Unleash an arsenal of deadly prosthetic tools and powerful ninja abilities while you blend stealth, vertical traversal, and visceral head to head combat in a bloody confrontation.",
+          "ageRating": "E",
+          "globalScore": 0,
+          "releaseDate": "27/10/2020",
+          "platforms": [
+            "PC (Microsoft Windows)",
+            "PlayStation 4",
+            "Xbox One"
+          ],
+          "reviews": [],
+          "similarGames": [
+            "17548",
+            "19164",
+            "23733",
+            "28070",
+            "28168",
+            "81249",
+            "96217",
+            "103054",
+            "103303",
+            "105049"
+          ],
+          "idVideo": "a2IYJRXjCHY"
+        },
+        {
+          "id": "7603",
+          "title": "Hellblade: Senua's Sacrifice",
+          "companies": [
+            "Ninja Theory"
+          ],
+          "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2l7l.jpg",
+          "genres": [
+            "Hack and slash/Beat 'em up",
+            "Adventure",
+            "Indie"
+          ],
+          "storyline": "From the makers of Heavenly Sword, Enslaved: Odyssey to the West, and DmC: Devil May Cry, comes a warrior’s brutal journey into myth and madness.\n\nSet in the Viking age, a broken Celtic warrior embarks on a haunting vision quest into Viking Hell to fight for the soul of her dead lover.\n\nCreated in collaboration with neuroscientists and people who experience psychosis, Hellblade: Senua’s Sacrifice will pull you deep into Senua’s mind.",
+          "ageRating": "E",
+          "globalScore": 0,
+          "releaseDate": "06/08/2017",
+          "platforms": [
+            "PC (Microsoft Windows)",
+            "Xbox Series X|S",
+            "PlayStation 4",
+            "Xbox One",
+            "Nintendo Switch"
+          ],
+          "reviews": [],
+          "similarGames": [
+            "15409",
+            "19150",
+            "22387",
+            "36198",
+            "36952",
+            "55190",
+            "56033",
+            "96217",
+            "106987",
+            "113360"
+          ],
+          "idVideo": "0LVLFvwtHJk"
+        }
+      ],
+      "uninterestedGamesID": []
+    },
+    {
+      "id": "e47d",
+      "isAdmin": false,
+      "isActive": false,
+      "username": "holaSoyUnUser",
+      "followers": 1,
+      "following": [],
+      "karma": 0,
+      "password": "123456",
+      "email": "hola@hola.com",
+      "currentTitle": "Newbie",
+      "titles": [
+        "Newbie"
+      ],
+      "img": "https://i.imgur.com/I1c99M6.jpeg",
+      "achievements": [],
+      "reviews": [],
+      "notificaciones": [],
+      "library": [],
+      "uninterestedGamesID": []
+    },
+    {
+      "id": "3d59",
+      "isAdmin": false,
+      "isActive": true,
+      "username": "killeragus",
+      "followers": 1,
+      "following": [],
+      "karma": 0,
+      "password": "Cairdeas2",
+      "email": "agustin@hotmail.com",
+      "currentTitle": "Newbie",
+      "titles": [
+        "Newbie"
+      ],
+      "img": "https://i.imgur.com/I1c99M6.jpeg",
+      "achievements": [],
+      "reviews": [],
+      "notificaciones": [],
+      "library": [],
+      "uninterestedGamesID": []
+    },
+    {
+      "id": "46c0",
+      "isAdmin": false,
+      "isActive": false,
+      "isBanned": true,
+      "username": "usuarionuevo",
+      "followers": 0,
+      "following": [],
+      "karma": 0,
+      "password": "123456",
+      "email": "holaejemplo@ejemplo.com",
+      "currentTitle": "Newbie",
+      "titles": [
+        "Newbie"
+      ],
+      "img": "https://i.imgur.com/I1c99M6.jpeg",
+      "achievements": [],
+      "reviews": [],
+      "notificaciones": [],
+      "library": [],
+      "uninterestedGamesID": []
+    },
+    {
+      "id": "2635",
+      "isAdmin": false,
+      "isActive": true,
+      "isBanned": false,
+      "username": "usuarionuevo2",
+      "followers": 0,
+      "following": [],
+      "karma": 0,
+      "password": "123456",
+      "email": "holaejemplo2@ejemplo.com",
+      "currentTitle": "Newbie",
+      "titles": [
+        "Newbie"
+      ],
+      "img": "https://i.imgur.com/I1c99M6.jpeg",
+      "achievements": [],
+      "reviews": [],
+      "notificaciones": [],
+      "library": [],
+      "uninterestedGamesID": []
+    },
+    {
+      "id": "8387",
+      "isAdmin": false,
+      "isActive": true,
+      "isBanned": false,
+      "username": "admin",
+      "followers": 0,
+      "following": [],
+      "karma": 0,
+      "password": "password",
+      "email": "admin@admin.com",
+      "currentTitle": "Newbie",
+      "titles": [
+        "Newbie"
+      ],
+      "img": "https://i.imgur.com/I1c99M6.jpeg",
+      "achievements": [],
+      "reviews": [],
+      "notificaciones": [],
+      "library": [
+        {
+          "id": "7603",
+          "title": "Hellblade: Senua's Sacrifice",
+          "companies": [
+            "Ninja Theory"
+          ],
+          "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2l7l.jpg",
+          "genres": [
+            "Hack and slash/Beat 'em up",
+            "Adventure",
+            "Indie"
+          ],
+          "storyline": "From the makers of Heavenly Sword, Enslaved: Odyssey to the West, and DmC: Devil May Cry, comes a warrior’s brutal journey into myth and madness.\n\nSet in the Viking age, a broken Celtic warrior embarks on a haunting vision quest into Viking Hell to fight for the soul of her dead lover.\n\nCreated in collaboration with neuroscientists and people who experience psychosis, Hellblade: Senua’s Sacrifice will pull you deep into Senua’s mind.",
+          "ageRating": "E",
+          "globalScore": 0,
+          "releaseDate": "06/08/2017",
+          "platforms": [
+            "PC (Microsoft Windows)",
+            "Xbox Series X|S",
+            "PlayStation 4",
+            "Xbox One",
+            "Nintendo Switch"
+          ],
+          "reviews": [],
+          "similarGames": [
+            "15409",
+            "19150",
+            "22387",
+            "36198",
+            "36952",
+            "55190",
+            "56033",
+            "96217",
+            "106987",
+            "113360"
+          ],
+          "idVideo": "0LVLFvwtHJk"
+        },
+        {
+          "id": "9498",
+          "title": "Deus Ex: Mankind Divided",
+          "companies": [
+            "Feral Interactive",
+            "Square Enix",
+            "Eidos Montréal",
+            "Nixxes Software",
+            "AMD"
+          ],
+          "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25jt.jpg",
+          "genres": [
+            "Shooter",
+            "Puzzle",
+            "Role-playing (RPG)",
+            "Adventure"
+          ],
+          "storyline": "Deus Ex: Mankind Divided directly follows the aftermath of the Aug Incident, a day when mechanically augmented citizens all over the world were stripped of control over their minds and bodies, resulting in the deaths of millions of innocents. The year is now 2029, and the golden era of augmentations is over. Mechanically augmented humans have been deemed outcasts and segregated from the rest of society. Crime and acts of terror serve as a thin veil to cover up an overarching conspiracy aimed at controlling the future of mankind…",
+          "ageRating": "E",
+          "globalScore": 0,
+          "releaseDate": "22/08/2016",
+          "platforms": [
+            "PC (Microsoft Windows)",
+            "PlayStation 4",
+            "Xbox One",
+            "Linux",
+            "Mac"
+          ],
+          "reviews": [],
+          "similarGames": [
+            "41",
+            "43",
+            "533",
+            "2031",
+            "3188",
+            "7351",
+            "9727",
+            "11118",
+            "19441",
+            "19531"
+          ],
+          "idVideo": "qeHARnYRnuE"
+        },
+        {
+          "id": "14572",
+          "title": "Dishonored: Dunwall City Trials",
+          "companies": [
+            "Arkane Studios",
+            "Bethesda Softworks"
+          ],
+          "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4x7b.jpg",
+          "genres": [
+            "Adventure"
+          ],
+          "storyline": "Enter the world of the Outsider in Dishonored: Dunwall City Trials, the first add-on pack for the critically-acclaimed first-person action game by Arkane Studios. Your combat, stealth and mobility skills will be put to the test as you make your way through 10 distinct maps that feature a variety of challenges. Creatively combine your supernatural abilities, weapons and gadgets to eliminate as many targets as possible, fight off waves of tallboys, guards, weepers and thugs, or take out targets in a non-stop run of drop assassinations. Dunwall City Trials also features a new set of achievements and trophies as well as a global online leaderboard.",
+          "ageRating": "E",
+          "globalScore": 0,
+          "releaseDate": "09/12/2012",
+          "platforms": [
+            "PC (Microsoft Windows)",
+            "PlayStation 3",
+            "PlayStation 4",
+            "Xbox 360",
+            "Xbox One"
+          ],
+          "reviews": [],
+          "similarGames": [
+            "25646",
+            "76253",
+            "80916",
+            "81249",
+            "87622",
+            "96217",
+            "103292",
+            "106805",
+            "106987",
+            "111130"
+          ],
+          "idVideo": "dfG7HcQEV3I"
+        },
+        {
+          "id": "76",
+          "title": "Dragon Age: Origins",
+          "companies": [
+            "Electronic Arts",
+            "BioWare Edmonton",
+            "Edge of Reality"
+          ],
+          "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2mvs.jpg",
+          "genres": [
+            "Role-playing (RPG)"
+          ],
+          "storyline": "Set in the fictional kingdom of Ferelden during a period of civil strife, the game puts the player in the role of a warrior, mage, or rogue coming from an elven, human, or dwarven background. The player character is recruited into the Grey Wardens, an ancient order that stands against monstrous forces known as Darkspawn, and is tasked with defeating the Archdemon that commands them and ending their invasion.",
+          "ageRating": "E",
+          "globalScore": 0,
+          "releaseDate": "02/11/2009",
+          "platforms": [
+            "PC (Microsoft Windows)",
+            "PlayStation 3",
+            "Xbox 360",
+            "Mac"
+          ],
+          "reviews": [],
+          "similarGames": [
+            "73",
+            "78",
+            "80",
+            "478",
+            "1081",
+            "1593",
+            "1887",
+            "19164",
+            "81249",
+            "105049"
+          ],
+          "idVideo": "VaZXJQIHgEA"
+        },
+        {
+          "id": "164664",
+          "title": "Sekiro: Shadows Die Twice - Game of the Year Edition",
+          "companies": [
+            "Activision",
+            "FromSoftware"
+          ],
+          "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co67k9.jpg",
+          "genres": [
+            "Adventure"
+          ],
+          "storyline": "In Sekiro: Shadows Die Twice you are the 'one-armed wolf', a disgraced and disfigured warrior rescued from the brink of death. Bound to protect a young lord who is the descendant of an ancient bloodline, you become the target of many vicious enemies, including the dangerous Ashina clan. When the young lord is captured, nothing will stop you on a perilous quest to regain your honor, not even death itself.\n\nExplore late 1500s Sengoku Japan, a brutal period of constant life and death conflict, as you come face to face with larger than life foes in a dark and twisted world. Unleash an arsenal of deadly prosthetic tools and powerful ninja abilities while you blend stealth, vertical traversal, and visceral head to head combat in a bloody confrontation.",
+          "ageRating": "E",
+          "globalScore": 0,
+          "releaseDate": "27/10/2020",
+          "platforms": [
+            "PC (Microsoft Windows)",
+            "PlayStation 4",
+            "Xbox One"
+          ],
+          "reviews": [],
+          "similarGames": [
+            "17548",
+            "19164",
+            "23733",
+            "28070",
+            "28168",
+            "81249",
+            "96217",
+            "103054",
+            "103303",
+            "105049"
+          ],
+          "idVideo": "a2IYJRXjCHY"
+        },
+        {
+          "id": "2368",
+          "title": "Dark Souls II",
+          "companies": [
+            "Bandai Namco Entertainment",
+            "FromSoftware"
+          ],
+          "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2eoo.jpg",
+          "genres": [
+            "Role-playing (RPG)",
+            "Adventure"
+          ],
+          "storyline": "Dark Souls II is an action role-playing game developed by FromSoftware and published by Bandai Namco Entertainment, released in March 2014. Set in the kingdom of Drangleic, players control the Bearer of the Curse, seeking to cure their undead curse. The game features challenging combat, deep lore, and a dark, atmospheric world. It introduces new mechanics like dual-wielding and a flexible character progression system, with improved multiplayer options for cooperative and PvP play.\n\nThe online servers were shut down on March 31st, 2024.",
+          "ageRating": "E",
+          "globalScore": 0,
+          "releaseDate": "10/03/2014",
+          "platforms": [
+            "PC (Microsoft Windows)",
+            "PlayStation 3",
+            "Xbox 360"
+          ],
+          "reviews": [],
+          "similarGames": [
+            "660",
+            "1593",
+            "1942",
+            "2155",
+            "5619",
+            "6452",
+            "7334",
+            "11133",
+            "105049",
+            "119133"
+          ],
+          "idVideo": "gWybBWmhv-M"
+        },
+        {
+          "id": "15",
+          "title": "Fallout 3",
+          "companies": [
+            "Bethesda Game Studios",
+            "Bethesda Softworks"
+          ],
+          "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ycw.jpg",
+          "genres": [
+            "Shooter",
+            "Role-playing (RPG)"
+          ],
+          "storyline": "The introductory sequence introduces the player to their character's father James, a doctor and scientist in Vault 101. James frequently makes comments about the player character's deceased mother Catherine, and her favorite Bible passage, Revelation 21:6, which speaks of \"the waters of life\".\n\nThe main quest begins after the player is forced to flee Vault 101 when James leaves the vault, throwing it into anarchy and causing the paranoid Overseer to send his security force after the player. The search for James takes the character on a journey through the Wasteland, first to the nearby town of Megaton, named for the undetonated atomic bomb at the center of town, then the Galaxy News Radio station, whose enthusiastic DJ Three Dog gives the player the moniker of \"The Lone Wanderer\". The player travels to Rivet City, a derelict aircraft carrier now serving as a fortified human settlement. Here the player meets Doctor Li, a scientist who worked alongside the player's father. Doctor Li informs the player of Project Purity, a plan conceived by Catherine and James to purify all the water in the Tidal Basin and eventually the entire Potomac River with a giant water purifier built in the Jefferson Memorial. However, continued delays and Catherine's death during childbirth put an end to the project, and James took the player's character as a newborn to raise them in the safety of Vault 101.\n\nAfter investigating the Jefferson Memorial, the Lone Wanderer tracks James to Vault 112, and frees him from a virtual reality program being run by the Vault's sadistic Overseer, Dr. Braun. James and the player return to Rivet City, and James reveals he sought out Braun for information on the Garden of Eden Creation Kit (G.E.C.K.), a device that contains the components needed to finally activate Project Purity. James and Doctor Li lead a team of Rivet City scientists to the memorial with intent to restart the project, but the memorial is invaded by the Enclave, a powerful military organization formed from the remnants of the pre-War United States government. James floods the project's control room with radiation to stop the Enclave military leader, Colonel Augustus Autumn, from taking control of it, killing himself (but Autumn survives), his last words urging his child to run. The Lone Wanderer and Dr. Li flee to the ruins of the Pentagon, now a base for the Brotherhood of Steel and now known as the Citadel.\n\nWith Project Purity still inoperable even with the Enclave occupying the site, the player travels to Vault 87 to find a G.E.C.K. and finish James's work. The player finds the Vault to be a testing site for the FEV (Forced Evolutionary Virus), and the source of the Super Mutants in the Capital Wasteland. After the player acquires the G.E.C.K., the Wanderer is ambushed by the Enclave and captured.\n\nAt the Enclave base at Raven Rock, the player is freed from their cell by the Enclave leader, President John Henry Eden, who requests a private audience with them. En route to his office however, Colonel Autumn defies Eden's orders and takes command of the Enclave military, ordering them to kill the player. Fighting their way to Eden's office, the player discovers Eden is actually a sentient ZAX series supercomputer who took control of the Enclave after their defeat in Fallout 2 on the West Coast thirty years ago. Eden wishes to repeat the plan of then-President Dick Richardson using Project Purity, infecting the water with a modified strain of FEV that will make it toxic to any mutated life. This plan will kill most life in the wasteland including humans, but the Enclave, due to their genetic \"purity\" as a result of their isolation, will be immune and free to take control of the area. The Wanderer, provided with a sample of the new F.E.V., is given a choice to either leave peacefully or convince Eden to self-destruct the entire base. The Lone Wanderer escapes Raven Rock and returns to the Citadel.\n\nWith the knowledge they possess, the G.E.C.K. and the means to activate Project Purity, the Brotherhood assault the Jefferson Memorial, spearheaded by a giant robot named Liberty Prime. In the control room of Project Purity the player confronts Colonel Autumn, and has the choice to persuade him to give up or kill him. Dr. Li informs the player that the purifier is ready to be activated, but the activation code must be input manually, and also that the control room is flooded with lethal amounts of radiation. The Lone Wanderer is forced to choose between sending Sarah Lyons of the Brotherhood inside the extremely irradiated purifier or entering themselves. Whoever enters into the chamber inputs the code hinted at through the game, that being 21:6, and dies from a radiation spike.",
+          "ageRating": "E",
+          "globalScore": 0,
+          "releaseDate": "27/10/2008",
+          "platforms": [
+            "PC (Microsoft Windows)",
+            "PlayStation 3",
+            "Xbox 360"
+          ],
+          "reviews": [],
+          "similarGames": [
+            "14",
+            "16",
+            "20",
+            "41",
+            "59",
+            "472",
+            "533",
+            "538",
+            "1020",
+            "9630"
+          ],
+          "idVideo": "H5h-Q5RNzNU"
+        },
+        {
+          "id": "1517",
+          "title": "Pokémon Emerald Version",
+          "companies": [
+            "Nintendo",
+            "Game Freak"
+          ],
+          "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zhr.jpg",
+          "genres": [
+            "Role-playing (RPG)",
+            "Turn-based strategy (TBS)",
+            "Adventure"
+          ],
+          "storyline": "Both Team Magma and Team Aqua are featured as the villainous teams, each stirring trouble at different stages in the game. The objective of each team, to awaken Groudon and Kyogre, respectively, is eventually fulfilled.\nRayquaza is prominent plot-wise, awakened in order to stop the destructive battle between Groudon and Kyogre. It is now the one out of the three ancient Pokémon that can be caught prior to the Elite Four challenge, while still at the same place and at the same high level as in Ruby and Sapphire.",
+          "ageRating": "E",
+          "globalScore": 0,
+          "releaseDate": "15/09/2004",
+          "platforms": [
+            "Game Boy Advance"
+          ],
+          "reviews": [],
+          "similarGames": [
+            "1280",
+            "1511",
+            "1558",
+            "2287",
+            "2289",
+            "2290",
+            "2325",
+            "2724",
+            "3349",
+            "8353"
+          ],
+          "idVideo": "TEXsORWDFNY"
+        },
+        {
+          "id": "1011",
+          "title": "Borderlands 2",
+          "companies": [
+            "2K Games",
+            "Aspyr Media",
+            "Gearbox Software",
+            "Sony Computer Entertainment of America",
+            "Iron Galaxy Studios"
+          ],
+          "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20tn.jpg",
+          "genres": [
+            "Shooter",
+            "Role-playing (RPG)"
+          ],
+          "storyline": "Five years after the events of Borderlands, a valuable mineral called \"Eridium\" starts flourishing through Pandora's crust. Handsome Jack, the leader of the Hyperion Corporation, secures this new resource and uses it to rule over Pandora with an iron fist. Meanwhile, rumors of an even larger Vault hidden on Pandora spread across the galaxy, drawing a new group of Vault Hunters to the planet in search of it.",
+          "ageRating": "E",
+          "globalScore": 0,
+          "releaseDate": "17/09/2012",
+          "platforms": [
+            "PC (Microsoft Windows)",
+            "PlayStation 3",
+            "PlayStation Vita",
+            "PlayStation 4",
+            "Xbox 360",
+            "Android",
+            "Xbox One",
+            "Linux",
+            "Mac",
+            "Nintendo Switch"
+          ],
+          "reviews": [],
+          "similarGames": [
+            "498",
+            "1877",
+            "19164",
+            "19564",
+            "26574",
+            "55038",
+            "90099",
+            "105269",
+            "107318",
+            "113114"
+          ],
+          "idVideo": "8rmOUoBmChA"
+        }
+      ],
+      "uninterestedGamesID": []
+    }
+  ],
+  "videogames": [
+    {
+      "id": "216319",
+      "title": "Assassin's Creed Jade",
+      "companies": [
+        "Ubisoft Entertainment",
+        "Level Infinite"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6zkr.jpg",
+      "genres": [
+        "Role-playing (RPG)",
+        "Hack and slash/Beat 'em up",
+        "Adventure"
+      ],
+      "storyline": "As the adopted child of the master Wei Yu, players will set out on a quest for revenge after their close friend is betrayed. But as they delve deeper into their mission, they will uncover secrets about the past and a powerful force that threatens to destroy everything they hold dear.\n\nAssassin’s Creed Codename Jade takes place in 215 B.C., between the events of Assassin’s Creed Odyssey and Assassin’s Creed Origins.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "2024-11-12T14:46:14.859Z",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "reviews": [],
+      "similarGames": [],
+      "idVideo": "pfJw0zBEyjE"
+    },
+    {
+      "id": "185706",
+      "title": "Assassin's Creed Valhalla: Dawn of Ragnarök",
+      "companies": [],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4kvw.jpg",
+      "genres": [
+        "Role-playing (RPG)",
+        "Adventure"
+      ],
+      "storyline": "Wield incredible, otherworldly powers. Absorb new abilities from those you’ve defeated and use them to slay all who stand in your way. Shape-shift into a raven for spectacular assassinations or resurrect your defeated foes to fight on your side. Transform your skin into magma to protect yourself, infuse your weapon with ice to unleash devastating strikes, and more.\n\nFaced with visions of a new threat, Eivor must embrace their destiny as Odin and enter the mythical dwarven realm of Svartalfheim, a beautiful but hostile world under invasion. From underground forges to soaring golden peaks, immerse yourself in a vast, perilous new world of Norse mythology as you embrace your fate as a Norse god.\n\nFace off against Jotnars, foes of ice from Jotunheim, and Muspels, new enemies of fire from Muspelheim. Battle a wide range of enemy archetypes, infiltrate their strongholds, and wield their own powers against them as you grow stronger. At the head of this army stands Surtr, an unkillable fire giant and the greatest enemy that Odin has ever faced.\n\nAs Odin, embark on a desperate quest to rescue your son, Baldr, from imprisonment at the hands of an unspeakable foe. Use your wit and cunning to infiltrate hostile territory, gain dwarven allies, and take revenge on Baldr’s captors. Odin’s journey will force him to confront his own fate against the certain doom of Ragnarök.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "2024-11-12T16:55:14.020Z",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "Google Stadia",
+        "PlayStation 5",
+        "Xbox Series X|S",
+        "PlayStation 4",
+        "Xbox One"
+      ],
+      "reviews": [],
+      "similarGames": [],
+      "idVideo": ""
+    },
+    {
+      "id": "891",
+      "title": "Team Fortress 2",
+      "companies": [
+        "Electronic Arts",
+        "Valve"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6rzl.jpg",
+      "genres": [
+        "Shooter"
+      ],
+      "storyline": "The Gravel War - the main setting for Team Fortress 2. A woman, by some accounts, begins acquiring the world's largest supply of Australium. Radigan Conagher finishes building a Life Extender Machine for Blutarch Mann. Saxton Hale fights and captures the last surviving Yeti. Charles Darling absconds with the panthers to put them in his new animal dungeon.\n\nAdministrator, hearing the news of her takeover of Mann Co., orders her assistant Miss Pauling to reassemble the Mercs, recovering Soldier from Hollywood, Pyro from Frontier, and Demoman from his Badlands home. Saxton Hale is released from the Millhaven Ultra Prison for Dangerous Men, held there for burning down most of Charles Darling's zoo months earlier. The Classic mercenaries arrive at New Zealand with the TF2 Medic, killing Sniper, and capturing the others. TF2 Engineer has been maintaining the Life Extender Machines of an elderly woman in 19th century attire, resembling Helen, but extremely aged. The team escapes, killing three Classic mercenaries, but are overcome by blood-sucking robots.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "2024-11-12T19:01:20.626Z",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 3",
+        "Xbox 360",
+        "Linux",
+        "Mac"
+      ],
+      "reviews": [],
+      "similarGames": [],
+      "idVideo": "jHgZh4GV9G0"
+    },
+    {
+      "id": "24920",
+      "title": "Call of Duty: Modern Warfare Remastered",
+      "companies": [
+        "Certain Affinity",
+        "Activision",
+        "Raven Software",
+        "Beenox"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wla.jpg",
+      "genres": [
+        "Shooter"
+      ],
+      "storyline": "One of the most critically-acclaimed games in history. Call of Duty 4: Modern Warfare is back, remastered in true high-definition, featuring enhanced textures, rendering, high-dynamic range lighting, and much more to bring a new generation experience to fans.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "2024-11-12T19:11:27.462Z",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 4",
+        "Xbox One"
+      ],
+      "reviews": [],
+      "similarGames": [],
+      "idVideo": "l-eMi1xJ2dM"
+    },
+    {
+      "id": "19457",
+      "title": "The Elder Scrolls V: Skyrim - Special Edition",
+      "companies": [
+        "Bethesda Game Studios",
+        "Bethesda Softworks"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vco.jpg",
+      "genres": [
+        "Role-playing (RPG)",
+        "Adventure"
+      ],
+      "storyline": "Skyrim special edition is a remaster of the classic from 2011. Now with upgraded visuals.\nSkyrim reimagines and revolutionises the open-world fantasy epic, bringing to life a complete virtual world open for you to explore any way you choose.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "2024-11-12T19:13:33.041Z",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 5",
+        "Xbox Series X|S",
+        "PlayStation 4",
+        "Xbox One"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "9243",
+        "17548",
+        "19164",
+        "26574",
+        "27092",
+        "81249",
+        "96217",
+        "103303",
+        "106987",
+        "113360"
+      ],
+      "idVideo": "EAJGxAQGDWI"
+    },
+    {
+      "id": "59",
+      "title": "The Elder Scrolls IV: Oblivion",
+      "companies": [
+        "2K Games",
+        "Ubisoft Entertainment",
+        "Bethesda Game Studios",
+        "4J Studios",
+        "Bethesda Softworks"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8fpz.jpg",
+      "genres": [
+        "Role-playing (RPG)",
+        "Adventure"
+      ],
+      "storyline": "After the mysterious and untimely death of the Emperor, desperate factions vie for control of Tamriel's throne. With the empire ready to crumble, the gates of Oblivion open and demons march upon the land, laying waste to everything in their path. To turn the tide of darkness the player must find the lost heir to the throne and unravel the sinister plot that threatens to destroy all of Tamriel.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "19/03/2006",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 3",
+        "Xbox 360"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "6",
+        "15",
+        "16",
+        "56",
+        "127",
+        "472",
+        "533",
+        "832",
+        "1020",
+        "9630"
+      ],
+      "idVideo": "LM1IwZdpL2Y"
+    },
+    {
+      "id": "76",
+      "title": "Dragon Age: Origins",
+      "companies": [
+        "Electronic Arts",
+        "BioWare Edmonton",
+        "Edge of Reality"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2mvs.jpg",
+      "genres": [
+        "Role-playing (RPG)"
+      ],
+      "storyline": "Set in the fictional kingdom of Ferelden during a period of civil strife, the game puts the player in the role of a warrior, mage, or rogue coming from an elven, human, or dwarven background. The player character is recruited into the Grey Wardens, an ancient order that stands against monstrous forces known as Darkspawn, and is tasked with defeating the Archdemon that commands them and ending their invasion.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "02/11/2009",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 3",
+        "Xbox 360",
+        "Mac"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "73",
+        "78",
+        "80",
+        "478",
+        "1081",
+        "1593",
+        "1887",
+        "19164",
+        "81249",
+        "105049"
+      ],
+      "idVideo": "VaZXJQIHgEA"
+    },
+    {
+      "id": "2950",
+      "title": "Age of Empires II: HD Edition",
+      "companies": [
+        "Ensemble Studios",
+        "Hidden Path Entertainment",
+        "Microsoft Studios",
+        "Skybox Labs"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xxx.jpg",
+      "genres": [
+        "Real Time Strategy (RTS)",
+        "Strategy"
+      ],
+      "storyline": "The player has control over a society and guides them through four different time periods or \"ages\". The game begins in the Dark Age, where very few buildings and units are available. After a short time when requirements are met, the user gains the ability to advance their civilization beginning with the Feudal Age, where more upgrades, buildings, and units become available. The next age is the Castle Age, in which the powerful Castle may be built, and used to produce powerful units including the unique unit of each civilization. Finally, the user can reach the Imperial Age, which is reminiscent of the early years of the Renaissance. Once the user has reached the Imperial Age, they gain access to all the upgrades, units, and buildings that may be built and researched for their specific civilization.\n\nThe player directly controls Villagers, which are the most important economic unit in the game. The player has the power to order them to move or attack (all units except for Trade Carts, Transport Ships and Trade Cogs), construct new buildings, gather necessary resources (Villager units), and perform a range of other tasks, such as repair damaged buildings or garrison inside Castle or Town Center for safety.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "08/04/2013",
+      "platforms": [
+        "PC (Microsoft Windows)"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "289",
+        "6985",
+        "9058",
+        "10243",
+        "28794",
+        "30229",
+        "31480",
+        "55029",
+        "78550",
+        "117989"
+      ],
+      "idVideo": "q_MEFt7KrxQ"
+    },
+    {
+      "id": "133004",
+      "title": "Assassin's Creed Valhalla",
+      "companies": [
+        "Ubisoft Montreal",
+        "Ubisoft Montpellier",
+        "Ubisoft Singapore",
+        "Ubisoft Sofia",
+        "Ubisoft Barcelona",
+        "Ubisoft Kyiv",
+        "Ubisoft Chengdu",
+        "Ubisoft Philippines",
+        "Ubisoft Québec",
+        "Ubisoft Bordeaux"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ed3.jpg",
+      "genres": [
+        "Role-playing (RPG)",
+        "Adventure"
+      ],
+      "storyline": "Driven from Norway by endless wars and dwindling resources in the ninth century CE, players will lead Eivor's clan of Norsemen across the icy North Sea to the rich lands of England's broken kingdoms. Players must carve out a new future for their clan, reliving the ruthless fighting style of Viking warriors with a revamped combat system that includes the ability to dual-wield weapons against a greater variety of enemies than ever before.\n\nTo secure resources players can lead raids to select locations using their longship to earn much-needed riches and resources. As the Vikings begin to settle in their new home, they encounter resistance from the Saxons including King Aelfred of Wessex, who denounces them as heathens and looks to be the sole ruler of a civilized England. Against all odds, Eivor must do what is necessary to keep Valhalla within reach.[4]",
+      "ageRating": "E",
+      "globalScore": 2.65,
+      "releaseDate": "09/11/2020",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "Google Stadia",
+        "PlayStation 5",
+        "Xbox Series X|S",
+        "PlayStation 4",
+        "Xbox One"
+      ],
+      "reviews": [
+        {
+          "id": "4b4a04ff-504d-4303-80e2-a6911ecbbba1",
+          "videojuegoId": "133004",
+          "usuarioId": "1",
+          "titulo": "I love vikings",
+          "puntuacionGraficos": 5,
+          "comentarioGraficos": "",
+          "puntuacionJugabilidad": 4,
+          "comentarioJugabilidad": "",
+          "puntuacionPrecioCalidad": 3,
+          "comentarioPrecioCalidad": "",
+          "calificacionGlobal": 4,
+          "contenido": "",
+          "fechaCreacion": "2024-11-14T17:57:35.398Z",
+          "comentarios": []
+        },
+        {
+          "id": "a9eae88f-75a6-46fb-a33d-94df69353e4a",
+          "videojuegoId": "133004",
+          "usuarioId": "4043",
+          "titulo": "I hate vikings",
+          "puntuacionGraficos": 2,
+          "comentarioGraficos": "",
+          "puntuacionJugabilidad": 1,
+          "comentarioJugabilidad": "",
+          "puntuacionPrecioCalidad": 1,
+          "comentarioPrecioCalidad": "",
+          "calificacionGlobal": 1.3,
+          "contenido": "",
+          "fechaCreacion": "2024-11-14T17:58:48.992Z",
+          "comentarios": []
+        }
+      ],
+      "similarGames": [
+        "17548",
+        "19164",
+        "19564",
+        "26574",
+        "34155",
+        "81249",
+        "96217",
+        "103054",
+        "103303",
+        "106987"
+      ],
+      "idVideo": "iylGoWbIeXA"
+    },
+    {
+      "id": "1970",
+      "title": "Assassin's Creed IV Black Flag",
+      "companies": [
+        "Ubisoft Montreal",
+        "Ubisoft Annecy",
+        "Ubisoft Bucharest",
+        "Ubisoft Montpellier",
+        "Ubisoft Singapore",
+        "Ubisoft Sofia",
+        "Ubisoft Milan",
+        "Ubisoft Kyiv",
+        "Ubisoft Chengdu",
+        "Ubisoft Québec"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4qfn.jpg",
+      "genres": [
+        "Platform",
+        "Adventure"
+      ],
+      "storyline": "Into this world sails a young, cocky, and fearsome captain named Edward Kenway. His skill with a sword and disdain for authority earn him the respect of pirate legends like Blackbeard, but thrust him into an ancient conflict that threatens to destroy everything the pirates have built.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "28/10/2013",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "Wii U",
+        "PlayStation 3",
+        "Google Stadia",
+        "PlayStation 4",
+        "Xbox 360",
+        "Xbox One",
+        "Nintendo Switch"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "113",
+        "127",
+        "533",
+        "1020",
+        "1121",
+        "1266",
+        "3025",
+        "3042",
+        "5606",
+        "19441"
+      ],
+      "idVideo": "efD7YeX8sl8"
+    },
+    {
+      "id": "14572",
+      "title": "Dishonored: Dunwall City Trials",
+      "companies": [
+        "Arkane Studios",
+        "Bethesda Softworks"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4x7b.jpg",
+      "genres": [
+        "Adventure"
+      ],
+      "storyline": "Enter the world of the Outsider in Dishonored: Dunwall City Trials, the first add-on pack for the critically-acclaimed first-person action game by Arkane Studios. Your combat, stealth and mobility skills will be put to the test as you make your way through 10 distinct maps that feature a variety of challenges. Creatively combine your supernatural abilities, weapons and gadgets to eliminate as many targets as possible, fight off waves of tallboys, guards, weepers and thugs, or take out targets in a non-stop run of drop assassinations. Dunwall City Trials also features a new set of achievements and trophies as well as a global online leaderboard.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "09/12/2012",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 3",
+        "PlayStation 4",
+        "Xbox 360",
+        "Xbox One"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "25646",
+        "76253",
+        "80916",
+        "81249",
+        "87622",
+        "96217",
+        "103292",
+        "106805",
+        "106987",
+        "111130"
+      ],
+      "idVideo": "dfG7HcQEV3I"
+    },
+    {
+      "id": "255606",
+      "title": "Dishonored 2: Limited Edition",
+      "companies": [
+        "Arkane Studios",
+        "Bethesda Softworks"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8559.jpg",
+      "genres": [
+        "Shooter",
+        "Role-playing (RPG)",
+        "Adventure"
+      ],
+      "storyline": "Dishonored 2 is set 15 years after the Lord Regent has been vanquished and the dreaded Rat Plague has passed into history. An otherworldly usurper has seized the throne from Empress Emily Kaldwin, leaving the fate of the Isles hanging in the balance. As either Emily Kaldwin or Corvo Attano, travel beyond the legendary streets of Dunwall to Karnaca, a once-dazzling coastal city that holds the key to restoring Emily to power. Armed with the mark of the Outsider and powerful new supernatural abilities, hunt down your enemies and forever alter the fate of the Empire.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "10/11/2016",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 4",
+        "Xbox One"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "19164",
+        "55038",
+        "76877",
+        "81249",
+        "96217",
+        "103292",
+        "105269",
+        "106805",
+        "106987",
+        "107318"
+      ],
+      "idVideo": "54BXBd2bTDE"
+    },
+    {
+      "id": "20863",
+      "title": "Dishonored: Definitive Edition",
+      "companies": [
+        "Arkane Studios",
+        "Zenimax Europe",
+        "Bethesda Softworks"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pcv.jpg",
+      "genres": [
+        "Shooter",
+        "Adventure"
+      ],
+      "storyline": "Dishonored is set in Dunwall, an industrial whaling city where strange steampunk-inspired technology and otherworldly forces coexist in the shadows. You are the once-trusted bodyguard of the beloved Empress. Framed for her murder, you become an infamous assassin, known only by the disturbing mask that has become your calling card. In a time of uncertainty, when the city is besieged by plague and ruled by a corrupt government armed with industrial technologies, dark forces conspire to bestow upon you abilities beyond those of any common man, but at what cost? The truth behind your betrayal is as murky as the waters surrounding the city, and the life you once had is gone forever.",
+      "ageRating": "E",
+      "globalScore": 4.3,
+      "releaseDate": "07/10/2013",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 4",
+        "Xbox One"
+      ],
+      "reviews": [
+        {
+          "id": "5d474923-7870-4235-8aef-6318363c6b71",
+          "videojuegoId": "20863",
+          "usuarioId": "1",
+          "titulo": "One of the best stealth games",
+          "puntuacionGraficos": 3,
+          "comentarioGraficos": "",
+          "puntuacionJugabilidad": 5,
+          "comentarioJugabilidad": "",
+          "puntuacionPrecioCalidad": 5,
+          "comentarioPrecioCalidad": "",
+          "calificacionGlobal": 4.3,
+          "contenido": "",
+          "fechaCreacion": "2024-11-14T17:07:48.335Z",
+          "comentarios": []
+        }
+      ],
+      "similarGames": [
+        "55038",
+        "75242",
+        "76877",
+        "87622",
+        "103292",
+        "103301",
+        "105269",
+        "106805",
+        "107318",
+        "111130"
+      ],
+      "idVideo": "UhfLtJlwlns"
+    },
+    {
+      "id": "164664",
+      "title": "Sekiro: Shadows Die Twice - Game of the Year Edition",
+      "companies": [
+        "Activision",
+        "FromSoftware"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co67k9.jpg",
+      "genres": [
+        "Adventure"
+      ],
+      "storyline": "In Sekiro: Shadows Die Twice you are the 'one-armed wolf', a disgraced and disfigured warrior rescued from the brink of death. Bound to protect a young lord who is the descendant of an ancient bloodline, you become the target of many vicious enemies, including the dangerous Ashina clan. When the young lord is captured, nothing will stop you on a perilous quest to regain your honor, not even death itself.\n\nExplore late 1500s Sengoku Japan, a brutal period of constant life and death conflict, as you come face to face with larger than life foes in a dark and twisted world. Unleash an arsenal of deadly prosthetic tools and powerful ninja abilities while you blend stealth, vertical traversal, and visceral head to head combat in a bloody confrontation.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "27/10/2020",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 4",
+        "Xbox One"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "17548",
+        "19164",
+        "23733",
+        "28070",
+        "28168",
+        "81249",
+        "96217",
+        "103054",
+        "103303",
+        "105049"
+      ],
+      "idVideo": "a2IYJRXjCHY"
+    },
+    {
+      "id": "11133",
+      "title": "Dark Souls III",
+      "companies": [
+        "Bandai Namco Entertainment",
+        "FromSoftware"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vcf.jpg",
+      "genres": [
+        "Role-playing (RPG)",
+        "Adventure"
+      ],
+      "storyline": "Set in the Kingdom of Lothric, a bell has rung to signal that the First Flame, responsible for maintaining the Age of Fire, is dying out. As has happened many times before, the coming of the Age of Dark produces the undead: cursed beings that rise after death. The Age of Fire can be prolonged by linking the fire, a ritual in which great lords and heroes sacrifice their souls to rekindle the First Flame. However, Prince Lothric, the chosen linker for this age, abandoned his duty and decided to watch the flame die from afar. The bell is the last hope for the Age of Fire, resurrecting previous Lords of Cinder (heroes who linked the flame in past ages) to attempt to link the fire again; however, all but one Lord shirk their duty. Meanwhile, Sulyvahn, a sorcerer from the Painted World of Ariandel, wrongfully proclaims himself Pontiff and seizes power over Irithyll of the Boreal Valley and the returning Anor Londo cathedral from Dark Souls as a tyrant.\n\nThe Ashen One, an Undead who failed to become a Lord of Cinder and thus called an Unkindled, rises and must link the fire by returning Prince Lothric and the defiant Lords of Cinder to their thrones in Firelink Shrine. The Lords include the Abyss Watchers, a legion of warriors sworn by the Old Wolf's Blood which linked their souls into one to protect the land from the Abyss and ultimately locked in an endless battle between each other; Yhorm the Giant, who sacrificed his life for a nation conquered by his ancestor; and Aldrich, who became a Lord of Cinder despite his ravenous appetite for both men and gods. Lothric was raised to link the First Flame but neglected his duties and chose to watch the fire fade instead.\n\nOnce the Ashen One succeeds in returning Lothric and the Lords of Cinder to their thrones, they travel to the ruins of the Kiln of the First Flame. There, they encounter the Soul of Cinder, an amalgamation of all the former Lords of Cinder. Upon defeat, the player can attempt to link the fire or access three other optional endings unlocked by the player's in-game decisions. These include summoning the Fire Keeper to extinguish the flame and begin an age of Dark or killing her in a sudden change of heart. A fourth ending consists of the Ashen One taking the flame for their own, becoming the Lord of Hollows.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "23/03/2016",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 4",
+        "Xbox One"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "1942",
+        "2368",
+        "7331",
+        "7334",
+        "28168",
+        "36198",
+        "47823",
+        "96217",
+        "105049",
+        "106987"
+      ],
+      "idVideo": "Upp8cuRmRfQ"
+    },
+    {
+      "id": "2368",
+      "title": "Dark Souls II",
+      "companies": [
+        "Bandai Namco Entertainment",
+        "FromSoftware"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2eoo.jpg",
+      "genres": [
+        "Role-playing (RPG)",
+        "Adventure"
+      ],
+      "storyline": "Dark Souls II is an action role-playing game developed by FromSoftware and published by Bandai Namco Entertainment, released in March 2014. Set in the kingdom of Drangleic, players control the Bearer of the Curse, seeking to cure their undead curse. The game features challenging combat, deep lore, and a dark, atmospheric world. It introduces new mechanics like dual-wielding and a flexible character progression system, with improved multiplayer options for cooperative and PvP play.\n\nThe online servers were shut down on March 31st, 2024.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "10/03/2014",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 3",
+        "Xbox 360"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "660",
+        "1593",
+        "1942",
+        "2155",
+        "5619",
+        "6452",
+        "7334",
+        "11133",
+        "105049",
+        "119133"
+      ],
+      "idVideo": "gWybBWmhv-M"
+    },
+    {
+      "id": "81085",
+      "title": "Dark Souls: Remastered",
+      "companies": [
+        "Bandai Namco Entertainment",
+        "QLOC",
+        "Virtuos",
+        "FromSoftware"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2uro.jpg",
+      "genres": [
+        "Role-playing (RPG)",
+        "Adventure"
+      ],
+      "storyline": "Dark Souls Remastered is a remastered version of the original game Dark Souls. The updated version of the game features graphical enhancements, an expanded online mode, and the Artorias of the Abyss DLC.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "22/05/2018",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 4",
+        "Xbox One",
+        "Nintendo Switch"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "27092",
+        "55038",
+        "55199",
+        "81249",
+        "96217",
+        "103303",
+        "105049",
+        "106987",
+        "113360",
+        "116530"
+      ],
+      "idVideo": "QbajbLP99T0"
+    },
+    {
+      "id": "2155",
+      "title": "Dark Souls",
+      "companies": [
+        "Bandai Namco Entertainment",
+        "FromSoftware"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1x78.jpg",
+      "genres": [
+        "Role-playing (RPG)",
+        "Adventure"
+      ],
+      "storyline": "Dark Souls is an action role-playing game developed by FromSoftware and published by Bandai Namco Entertainment. Released in September 2011 as a spiritual sequel to Demon's Souls, it is set in a dark, medieval fantasy world. It is renowned for its challenging gameplay, intricate level design, and deep lore. Players control a customizable character known as the Chosen Undead, embarking on a perilous journey to uncover the secrets of the cursed land of Lordran.\n\nDark Souls is known for its punishing difficulty, requiring players to carefully manage combat, stamina, and resources while navigating hostile environments filled with dangerous enemies and formidable bosses. The game features a unique multiplayer component, allowing players to leave messages for others, summon allies for cooperative play, or invade other players' worlds for PvP combat.\n\nThe original release of Dark Souls received critical acclaim for its atmospheric world, innovative mechanics, and rewarding gameplay, solidifying its place as a seminal title in the action RPG genre.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "21/09/2011",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 3",
+        "Xbox 360"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "472",
+        "533",
+        "1081",
+        "1942",
+        "2368",
+        "5619",
+        "7334",
+        "11133",
+        "119133",
+        "119171"
+      ],
+      "idVideo": "WlVBVKAFFg4"
+    },
+    {
+      "id": "135400",
+      "title": "Minecraft",
+      "companies": [
+        "Mojang Studios"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8fu7.jpg",
+      "genres": [
+        "Simulator",
+        "Adventure"
+      ],
+      "storyline": "Bedrock Edition (also known as the Bedrock Version or just Bedrock) refers to the multi-platform family of editions of Minecraft developed by Mojang Studios, Xbox Game Studios, 4J Studios, and SkyBox Labs. Prior to this term, as the engine originated with Pocket Edition, this entire product family was referred to as \"Pocket Edition\", \"MCPE\", or \"Pocket/Windows 10 Edition\".\n\nAll Bedrock editions of Minecraft use the title Minecraft with no subtitle. The current version of Bedrock editions is 1.16.0. Before the Better Together Update, they had different subtitles on each platform, including Pocket Edition (for all mobile platforms), Windows 10 Edition, Gear VR Edition, and Fire TV Edition. Xbox One Edition, Nintendo Switch Edition, and PlayStation 4 Edition were originally part of Legacy Console Edition before the Better Together Update, and their features had to be ported to Bedrock Edition. Apple TV Edition was discontinued shortly afterwards, thus it was no longer updated and removed from the App Store on Apple TV devices.\n\nAlthough all Bedrock versions are nearly identical, the price varies depending on the platform. Approximate prices are listed in USD; Mobile versions cost US$6.99 (€7.99, £6.99, AU$10.99). PlayStation 4, Xbox One, and Fire TV cost US$19.99 (€19.99, £16.74, AU$29.95). The Windows 10 and Nintendo Switch versions are the most expensive, costing US$29.99 (€19.99, £16.74, AU$39.95). The Windows 10 version is sold in a Starter Collection or Master Collection, the latter costing US$49.99 (€49.99, £39.99, AU$69.95) and including more DLC and Minecoins.[33] DLC purchased from the Marketplace on one platform is usable on all other platforms, but the game itself is sold separately on each platform. Despite all being UWP apps, Minecraft is sold as 3 separate apps at different prices on Windows 10, Windows 10 Mobile, and Xbox One. (This means that Xbox Live achievements are not shared between these platforms and buying the game on one of these platforms does not get the game on the others. There are sets of achievements for each platform). The Xbox One version is also playable to Xbox Game Pass subscribers. As with Java Edition, updates are free of charge.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "18/12/2016",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "Amazon Fire TV",
+        "Windows Phone",
+        "PlayStation 5",
+        "PlayStation 4",
+        "Android",
+        "Xbox One",
+        "iOS",
+        "Nintendo Switch"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "9243",
+        "10776",
+        "17379",
+        "17548",
+        "26574",
+        "37419",
+        "81249",
+        "103303",
+        "105011",
+        "113360"
+      ],
+      "idVideo": "MmB9b5njVbA"
+    },
+    {
+      "id": "231",
+      "title": "Half-Life",
+      "companies": [
+        "Sierra Entertainment",
+        "Valve",
+        "Gearbox Software"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7q89.jpg",
+      "genres": [
+        "Shooter",
+        "Puzzle",
+        "Adventure"
+      ],
+      "storyline": "Dr. Gordon Freeman arrives late for work at 8:47 am in the Black Mesa Research Facility, using the advanced Black Mesa tram system that leads through the facility. He arrives at the Anomalous Materials Lab, his work place, and he is informed by the security officer that the scientists have a special experiment today, so he goes to the locker room and puts on the hazard suit. He goes to the lab's lower levels, and arrives at the Anti-Mass Chamber, where he is instructed that the specimen to be used that day is the rarest and also the most unstable specimen. He is tasked with pushing the specimen into the scanning beam of the Anti-Mass Spectrometer for analysis. However as soon as he pushes it, it explodes, and creates a sudden catastrophe called a \"resonance cascade\", opening a portal between Earth and a dimension called Xen. Freeman is apparently teleported to an alien planet and catches glimpses of various alien lifeforms, including a circle of Vortigaunts, shortly before blacking out.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "18/11/1998",
+      "platforms": [
+        "PlayStation 2",
+        "PC (Microsoft Windows)",
+        "Linux",
+        "Mac"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "71",
+        "233",
+        "241",
+        "356",
+        "621",
+        "960",
+        "1006",
+        "1377",
+        "2031",
+        "7351"
+      ],
+      "idVideo": "qobDF0w5qJc"
+    },
+    {
+      "id": "233",
+      "title": "Half-Life 2",
+      "companies": [
+        "Sierra Entertainment",
+        "Valve",
+        "NVIDIA Lightspeed Studios"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nmw.jpg",
+      "genres": [
+        "Shooter"
+      ],
+      "storyline": "Gordon Freeman is brought out of stasis by the G-Man, who inserts him into a train arriving at City 17. After arriving at the station and eluding Combine forces, Gordon joins Lambda resistance members including Barney Calhoun, a former Black Mesa security guard now working undercover as a Combine CP officer, and Alyx Vance, the daughter of one of Gordon's former colleagues, Dr. Eli Vance. After a failed attempt to teleport Gordon to Black Mesa East from Dr. Kleiner's makeshift laboratory, Gordon, re-equipped with the HEV suit and a crowbar, is forced to embark on foot through the city's old canal system. After obtaining an airboat, he battles his way to Black Mesa East, several miles from the city.\n\nGordon is reintroduced to Eli and meets Dr. Judith Mossman. Alyx introduces Gordon to her large pet robot D0g and gives him a \"Gravity Gun\", a weapon which allows Gordon to pick up and move any large object with ease. Black Mesa East soon comes under Combine attack and Eli and Mossman are captured to be taken to a Combine prison, Nova Prospekt. Gordon and Alyx are forced to take separate paths to Nova Prospekt; Gordon takes a detour through the town of Ravenholm, receiving help from its last survivor, Father Grigori. After making his way through the town and a mine, Gordon makes his way to a Resistance outpost. Gordon is provided with a Dune Buggy, which he uses to travel along a crumbling coastal road to Nova Prospekt. Along the way, Gordon encounters frequent Combine patrols, and helps one of the resistance leaders, Colonel Odessa Cubbage, to defend a Resistance base from a Combine gunship.\n\nAfter crossing an antlion-infested beach, Gordon enters Nova Prospekt, where he is reunited with Alyx. They manage to locate Eli, but also discover that Mossman is a Combine informant. Before they can stop her, she teleports herself and Eli back to City 17's Citadel. The Combine teleporter explodes as Gordon and Alyx use it to escape Nova Prospekt.\n\nUpon reaching Kleiner's lab, a shaken Dr. Kleiner reveals to Gordon and Alyx that they were caught in a \"slow teleport\", during which a week had passed. In their absence, the Resistance, who heard about what had happened at Nova Prospekt, has mobilized against the Combine, turning City 17 into a battleground. During the fighting, Alyx is captured by the Combine and taken to the Citadel, and Gordon fights through the city with the aid of D0g and Barney to reach it. Inside the Citadel, he is caught in a Combine confiscation chamber that destroys all of his weapons except for the Gravity Gun, the energy enhancing its capabilities and allowing Gordon to escape and dispatch platoons of Combine soldiers.\n\nEventually, Gordon is captured riding in a Combine transport pod and is taken to Dr. Breen's office, where he and Dr. Mossman are waiting with Eli and Alyx in captivity. Dr. Breen begins to explain his plans for further conquest of the humans by the Combine, contrary to what he had told Dr. Mossman. Angered, Mossman frees Gordon, Alyx, and Eli before Breen teleports them off-world. Dr. Breen tries to escape through a portal, but Gordon pursues him and destroys the portal reactor with the super-charged Gravity Gun. Breen appears to be annihilated in the resulting explosion.\n\nJust before Gordon and Alyx are presumably met with a similar fate, time is frozen. The G-Man reappears, praising Gordon for his actions in City 17 and the Citadel. Making vague mention of \"offers for [Gordon's] services\", the G-Man places him back into stasis.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "15/11/2004",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 3",
+        "Xbox",
+        "Xbox 360",
+        "Android",
+        "Linux",
+        "Mac"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "231",
+        "471",
+        "7350",
+        "37016",
+        "39769",
+        "55038",
+        "103298",
+        "103301",
+        "105269",
+        "113114"
+      ],
+      "idVideo": "ID1dWN3n7q4"
+    },
+    {
+      "id": "126098",
+      "title": "Half-Life: Alyx",
+      "companies": [
+        "Valve"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co87vg.jpg",
+      "genres": [
+        "Shooter",
+        "Puzzle",
+        "Adventure"
+      ],
+      "storyline": "Playing as Alyx Vance, you are humanity’s only chance for survival. The Combine’s control of the planet since the Black Mesa incident has only strengthened as they corral the remaining population in cities. Among them are some of Earth’s greatest scientists: you and your father, Dr. Eli Vance.\n\nAs founders of a fledgling resistance, you’ve continued your clandestine scientific activity—performing critical research, and building invaluable tools for the few humans brave enough to defy the Combine.\n\nEvery day, you learn more about your enemy, and every day you work toward finding a weakness.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "22/03/2020",
+      "platforms": [
+        "SteamVR",
+        "Oculus Rift",
+        "Windows Mixed Reality"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "25311",
+        "25646",
+        "28070",
+        "55038",
+        "55190",
+        "103292",
+        "103301",
+        "105269",
+        "106805",
+        "107318"
+      ],
+      "idVideo": "O2W0N3uKXmo"
+    },
+    {
+      "id": "7046",
+      "title": "Factorio",
+      "companies": [
+        "Wube Software"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tfy.jpg",
+      "genres": [
+        "Simulator",
+        "Strategy",
+        "Indie"
+      ],
+      "storyline": "You crash land on an alien planet and must research a way to get yourself a rocket out of the planet. Defend yourself from the natives who dislike the pollution your production generates.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "13/08/2020",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "Linux",
+        "Mac",
+        "Nintendo Switch"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "9278",
+        "9789",
+        "13200",
+        "17130",
+        "17379",
+        "19301",
+        "25311",
+        "26574",
+        "33153",
+        "34823"
+      ],
+      "idVideo": "DR01YdFtWFI"
+    },
+    {
+      "id": "135254",
+      "title": "Crash Bandicoot 4: It's About Time",
+      "companies": [
+        "Activision",
+        "Beenox",
+        "Toys for Bob",
+        "Hardsuit Labs",
+        "Activision Shanghai"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2hp4.jpg",
+      "genres": [
+        "Platform"
+      ],
+      "storyline": "Following his defeat in Crash Bandicoot: Warped, Uka Uka attempts to liberate himself and his acolytes Doctor Neo Cortex and Nefarious Tropy from their prison in the past. His latest effort rips open a hole in the fabric of space and time, and causes him to pass out. Cortex and N. Tropy swiftly escape and discover that the rift they use links their universe to the rest of the multiverse. They now want to make use of it to conquer all dimensions. It’s up to Crash and Coco to save the day.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "01/10/2020",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 5",
+        "Xbox Series X|S",
+        "PlayStation 4",
+        "Xbox One",
+        "Nintendo Switch"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "19150",
+        "19164",
+        "20329",
+        "24426",
+        "26766",
+        "28070",
+        "29032",
+        "55038",
+        "57187",
+        "119156"
+      ],
+      "idVideo": "5D8mJ4imNqY"
+    },
+    {
+      "id": "9630",
+      "title": "Fallout 4",
+      "companies": [
+        "Bethesda Game Studios",
+        "Bethesda Softworks"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1yc6.jpg",
+      "genres": [
+        "Shooter",
+        "Role-playing (RPG)"
+      ],
+      "storyline": "Bethesda Game Studios welcome you to the world of Fallout 4, their most ambitious game ever, and the next generation of open-world gaming. As the sole survivor of Vault 111, you enter a world destroyed by nuclear war. Every second is a fight for survival, and every choice is yours. Only you can rebuild and determine the fate of the Wasteland. Welcome home.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "08/11/2015",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 5",
+        "Xbox Series X|S",
+        "PlayStation 4",
+        "Xbox One"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "13",
+        "14",
+        "15",
+        "16",
+        "472",
+        "533",
+        "1020",
+        "1121",
+        "9498",
+        "19441"
+      ],
+      "idVideo": "2Xer46PlBlc"
+    },
+    {
+      "id": "15",
+      "title": "Fallout 3",
+      "companies": [
+        "Bethesda Game Studios",
+        "Bethesda Softworks"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ycw.jpg",
+      "genres": [
+        "Shooter",
+        "Role-playing (RPG)"
+      ],
+      "storyline": "The introductory sequence introduces the player to their character's father James, a doctor and scientist in Vault 101. James frequently makes comments about the player character's deceased mother Catherine, and her favorite Bible passage, Revelation 21:6, which speaks of \"the waters of life\".\n\nThe main quest begins after the player is forced to flee Vault 101 when James leaves the vault, throwing it into anarchy and causing the paranoid Overseer to send his security force after the player. The search for James takes the character on a journey through the Wasteland, first to the nearby town of Megaton, named for the undetonated atomic bomb at the center of town, then the Galaxy News Radio station, whose enthusiastic DJ Three Dog gives the player the moniker of \"The Lone Wanderer\". The player travels to Rivet City, a derelict aircraft carrier now serving as a fortified human settlement. Here the player meets Doctor Li, a scientist who worked alongside the player's father. Doctor Li informs the player of Project Purity, a plan conceived by Catherine and James to purify all the water in the Tidal Basin and eventually the entire Potomac River with a giant water purifier built in the Jefferson Memorial. However, continued delays and Catherine's death during childbirth put an end to the project, and James took the player's character as a newborn to raise them in the safety of Vault 101.\n\nAfter investigating the Jefferson Memorial, the Lone Wanderer tracks James to Vault 112, and frees him from a virtual reality program being run by the Vault's sadistic Overseer, Dr. Braun. James and the player return to Rivet City, and James reveals he sought out Braun for information on the Garden of Eden Creation Kit (G.E.C.K.), a device that contains the components needed to finally activate Project Purity. James and Doctor Li lead a team of Rivet City scientists to the memorial with intent to restart the project, but the memorial is invaded by the Enclave, a powerful military organization formed from the remnants of the pre-War United States government. James floods the project's control room with radiation to stop the Enclave military leader, Colonel Augustus Autumn, from taking control of it, killing himself (but Autumn survives), his last words urging his child to run. The Lone Wanderer and Dr. Li flee to the ruins of the Pentagon, now a base for the Brotherhood of Steel and now known as the Citadel.\n\nWith Project Purity still inoperable even with the Enclave occupying the site, the player travels to Vault 87 to find a G.E.C.K. and finish James's work. The player finds the Vault to be a testing site for the FEV (Forced Evolutionary Virus), and the source of the Super Mutants in the Capital Wasteland. After the player acquires the G.E.C.K., the Wanderer is ambushed by the Enclave and captured.\n\nAt the Enclave base at Raven Rock, the player is freed from their cell by the Enclave leader, President John Henry Eden, who requests a private audience with them. En route to his office however, Colonel Autumn defies Eden's orders and takes command of the Enclave military, ordering them to kill the player. Fighting their way to Eden's office, the player discovers Eden is actually a sentient ZAX series supercomputer who took control of the Enclave after their defeat in Fallout 2 on the West Coast thirty years ago. Eden wishes to repeat the plan of then-President Dick Richardson using Project Purity, infecting the water with a modified strain of FEV that will make it toxic to any mutated life. This plan will kill most life in the wasteland including humans, but the Enclave, due to their genetic \"purity\" as a result of their isolation, will be immune and free to take control of the area. The Wanderer, provided with a sample of the new F.E.V., is given a choice to either leave peacefully or convince Eden to self-destruct the entire base. The Lone Wanderer escapes Raven Rock and returns to the Citadel.\n\nWith the knowledge they possess, the G.E.C.K. and the means to activate Project Purity, the Brotherhood assault the Jefferson Memorial, spearheaded by a giant robot named Liberty Prime. In the control room of Project Purity the player confronts Colonel Autumn, and has the choice to persuade him to give up or kill him. Dr. Li informs the player that the purifier is ready to be activated, but the activation code must be input manually, and also that the control room is flooded with lethal amounts of radiation. The Lone Wanderer is forced to choose between sending Sarah Lyons of the Brotherhood inside the extremely irradiated purifier or entering themselves. Whoever enters into the chamber inputs the code hinted at through the game, that being 21:6, and dies from a radiation spike.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "27/10/2008",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 3",
+        "Xbox 360"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "14",
+        "16",
+        "20",
+        "41",
+        "59",
+        "472",
+        "533",
+        "538",
+        "1020",
+        "9630"
+      ],
+      "idVideo": "H5h-Q5RNzNU"
+    },
+    {
+      "id": "13",
+      "title": "Fallout: A Post Nuclear Role Playing Game",
+      "companies": [
+        "Interplay Entertainment",
+        "Black Isle Studios",
+        "MacPlay",
+        "The Omni Group",
+        "Edusoft",
+        "Bethesda Softworks"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ybn.jpg",
+      "genres": [
+        "Role-playing (RPG)",
+        "Turn-based strategy (TBS)"
+      ],
+      "storyline": "Fallout is set in the timeline which deviated from our own some time after World War II, and where technology, politics and culture followed a different course. In the 21st century, a worldwide conflict is brought on by global petroleum shortage. Several nations begin warring with one another for the last of non-renewable resources, namely oil and uranium; known as the Resource Wars, fighting begins in April 2052 and ends in 2077. China invades Alaska in the winter of 2066, causing the United States to go to war with China and using Canadian resources to supply their war efforts, despite Canadian complaints. Eventually the United States violently annexes Canada in February 2076 and reclaims Alaska nearly a year later. After years of conflict, on October 23, 2077, a global nuclear war occurs. It is not known who strikes first, but in less than a few hours most major cities are destroyed. The effects of the war do not fade for the next hundred years and as a consequence, human society has collapsed leaving only survivor settlements barely able to make out a living in the barren wasteland, while a few live through the occurrence in underground fallout shelters known as Vaults. One of these, Vault 13, is the protagonist's home, where the game begins.\n\nIn Vault 13, in 2161 in Southern California, 84 years after the nuclear war. The Water Chip, a computer chip responsible for the water recycling and pumping machinery, breaks. The Vault Overseer tasks the protagonist, the Vault Dweller, with finding a replacement. He or she is given a portable device called the \"Pip-Boy 2000\" that keeps track of map-making, objectives, and bookkeeping. Armed with the Pip-Boy 2000 and meager equipment, including a small sum of bottle caps which are used as currency in the post-apocalyptic world, the main character is sent off on the quest.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "09/10/1997",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "DOS",
+        "OnLive Game System",
+        "Linux",
+        "Mac"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "14",
+        "15",
+        "16",
+        "41",
+        "116",
+        "495",
+        "1009",
+        "1020",
+        "9630",
+        "19441"
+      ],
+      "idVideo": "WkBNKa2KXZE"
+    },
+    {
+      "id": "14",
+      "title": "Fallout 2",
+      "companies": [
+        "Interplay Entertainment",
+        "Black Isle Studios",
+        "MacPlay",
+        "The Omni Group",
+        "Bethesda Softworks"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8ado.jpg",
+      "genres": [
+        "Puzzle",
+        "Role-playing (RPG)",
+        "Turn-based strategy (TBS)"
+      ],
+      "storyline": "In 2241, the primitive Arroyo suffers the worst drought on record. Faced with the calamity, the village elder asks the direct descendant of the Vault Dweller, referred to as the Chosen One, to perform the quest of retrieving a Garden of Eden Creation Kit (GECK) for Arroyo. The GECK is a device that can create thriving communities out of the post-apocalyptic wasteland.[3] The player, assuming the role of the Chosen One, is given nothing more than the Vault Dweller's jumpsuit, a RobCo PIPBoy 2000 handheld device, a Vault 13 water flask, a spear and some cash to start on his mission.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "28/10/1998",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "Mac"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "13",
+        "15",
+        "16",
+        "20",
+        "41",
+        "533",
+        "1009",
+        "1020",
+        "9630",
+        "19441"
+      ],
+      "idVideo": "4KhM3jVehVo"
+    },
+    {
+      "id": "36952",
+      "title": "Wolfenstein II: The New Colossus",
+      "companies": [
+        "id Software",
+        "MachineGames",
+        "Panic Button Games",
+        "Bethesda Softworks"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21c5.jpg",
+      "genres": [
+        "Shooter",
+        "Adventure"
+      ],
+      "storyline": "After the events of the first game, in which General Wilhelm \"Deathshead\" Strasse is eliminated, the Kreisau Circle retrieves the critically injured William \"B.J.\" Blazkowicz from Deathshead's fortress before destroying it with a nuclear cannon. He. is still recovering from his wounds on a stolen U-boat called Eva’s Hammer.\n\nSuddenly, the U-boat is attacked by Frau Engel, a sadistic Nazi commander and captures Caroline. Blazkowicz devises a plan to get himself captured and taken to Engel's airship, the Ausmerzer, which is suspending the U-boat above water. Engel tries to get her daughter Sigrun to decapitate Caroline, but the former refuses, resulting in Engel killing Caroline herself. Sigrun has a change of heart and tackles Engel, allowing Blazkowicz to use Caroline's armor. Blazkowicz disconnects Eva's Hammer from the Ausmerzer and flees back to the U-boat with Caroline's body.\n\nNow armed with Caroline's armor, B.J is ready to return stateside, avenge his friends, kill every Nazi in sight and spark the second American Revolution.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "25/10/2017",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 4",
+        "Xbox One",
+        "Nintendo Switch"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "1905",
+        "11156",
+        "22387",
+        "27092",
+        "28168",
+        "36198",
+        "36926",
+        "37016",
+        "55038",
+        "103301"
+      ],
+      "idVideo": "2PVod121OHo"
+    },
+    {
+      "id": "133945",
+      "title": "World War Z: Game of the Year Edition",
+      "companies": [
+        "Focus Entertainment",
+        "Saber Interactive",
+        "Mad Dog Games, LLC"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co265e.jpg",
+      "genres": [
+        "Shooter"
+      ],
+      "storyline": "Humanity is on the brink of extinction. From New York to Moscow, through Jerusalem, Tokyo and Marseille, the undead apocalypse continues to spread. As the end looms, a hardened few band together to defeat the horde and outlive the dead. \n \nWorld War Z is a heart-pounding co-op third-person shooter for up to 4 players featuring swarms of hundreds of zombies. Based on the Paramount Pictures film, World War Z focuses on fast-paced gameplay while exploring new storylines from around the world. \n \nThis GOTY Edition contains the multi-million seller game World War Z, all its paid and free DLCs released: \n \n- Marseille Episode with 3 new PvE missions located in France \n- Many explosive game modes in PvP/PvE, including the deadly Horde Mode Z \n- All character Skin packs (The Professionals, War Heroes) \n- All weapon Skin and Variant packs (Last Aid, Special Operations Forces, Biohazard, Lobo) \n- And one more upcoming weapon pack",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "04/05/2020",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 4",
+        "Xbox One"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "13210",
+        "17379",
+        "19164",
+        "68287",
+        "83727",
+        "95340",
+        "103292",
+        "105049",
+        "106805",
+        "119177"
+      ],
+      "idVideo": "YReExCHCmj0"
+    },
+    {
+      "id": "90558",
+      "title": "Satisfactory",
+      "companies": [
+        "Coffee Stain Studios",
+        "Coffee Stain Publishing"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8tfy.jpg",
+      "genres": [
+        "Simulator",
+        "Strategy",
+        "Adventure",
+        "Indie"
+      ],
+      "storyline": "Satisfactory is an FPS open-world factory building sim. You play as an engineer on an alien planet tasked to complete ‘Project Assembly’ - a massive machine for a mysterious purpose. Conquer nature, build multi-story factories, and automate to satisfaction!",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "09/09/2024",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 5",
+        "Xbox Series X|S"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "13200",
+        "17130",
+        "25311",
+        "26574",
+        "34823",
+        "37419",
+        "51577",
+        "79134",
+        "109339",
+        "111187"
+      ],
+      "idVideo": "YlnrnxOCwMg"
+    },
+    {
+      "id": "1887",
+      "title": "Dragon Age: Inquisition",
+      "companies": [
+        "Electronic Arts",
+        "BioWare",
+        "BioWare Edmonton"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2mvy.jpg",
+      "genres": [
+        "Role-playing (RPG)",
+        "Tactical",
+        "Adventure"
+      ],
+      "storyline": "A cataclysmic event has plunged the land of Thedas into turmoil. Dragons now darken the sky, casting a shadow of terror over a once-peaceful kingdom. Mages have broken into an all-out war against the oppressive Templars. Nations rise against one another. It falls to you to restore order as you lead the Inquisition and hunt down the agents of chaos - your choices will forever change the Dragon Age.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "17/11/2014",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 3",
+        "PlayStation 4",
+        "Xbox 360",
+        "Xbox One"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "76",
+        "78",
+        "1081",
+        "1593",
+        "1877",
+        "1942",
+        "9243",
+        "14394",
+        "26845",
+        "105049"
+      ],
+      "idVideo": "KUVwqbhEEGE"
+    },
+    {
+      "id": "1",
+      "title": "Thief II: The Metal Age",
+      "companies": [
+        "Looking Glass Studios",
+        "Eidos Interactive",
+        "Square Enix",
+        "Eidos Montréal"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co698n.jpg",
+      "genres": [
+        "Shooter",
+        "Simulator",
+        "Adventure"
+      ],
+      "storyline": "The game begins as Garrett continues his life as a thief. However, he is betrayed by his fence and ambushed after an early mission, and he determines that Truart, the local sheriff, is hunting him. Keepers take Garrett to hear a prophecy about the \"Metal Age\", which he ignores. As Garrett leaves, one of the Keepers informs him that Truart had been hired to kill him, and he gives Garrett a letter that directs him to eavesdrop on a Mechanist meeting. There, Garrett overhears Truart and Father Karras discussing the conversion of street people into mindless \"Servants\", who wear masks that emit a red vapor capable of reducing themselves and nearby humans to rust. Truart promises to provide Karras with twenty victims for the Servant project, not realizing that Karras is recording his words for use in blackmail. Garrett steals the recording from a safe deposit box, in order to coerce Truart into revealing his employer.\n\nHowever, Garrett finds Truart murdered at his estate. Evidence at the crime scene leads him to spy on the police officer Lt. Mosley. Garrett sees Mosley deliver a suspicious letter, which is carried through a portal by a wounded pagan. Garrett enters the portal and finds himself outside the City, and he follows the pagan's trail of blood to Viktoria, who persuades Garrett to join her against the Mechanists. On a lead from Viktoria, he infiltrates Karras' office to learn about the \"Cetus Project\",[31] and inadvertently discovers that Karras is giving Servants to the City's nobles. Garrett travels to a Mechanist base to find out more about the Cetus Project, which is revealed to be a submarine. In order to locate and kidnap a high-ranking Mechanist named Brother Cavador, Garrett stows away in the vehicle.\n\nAfter delivering Cavador to Viktoria, Garrett steals a Servant mask to learn about a Mechanist technology called a \"Cultivator\". Meanwhile, Karras hides inside the Mechanist cathedral in preparation for his plan. Garrett and Viktoria learn that it is the Cultivators inside Servant masks which emit red vapor, or \"rust gas\". Karras had provided Servants to nobles with gardens in order to set off an apocalyptic chain reaction. Viktoria plans to lure the Servants into the hermetically sealed Mechanist cathedral before Karras activates their masks, but Garrett believes this to be too dangerous and leaves. Viktoria goes to the cathedral alone and dies while filling it with plants, and Garrett completes her plan, killing Karras in the rust gas. Afterward, Garrett is approached by a Keeper who explains that Karras' scheme and Viktoria's death had been prophesied. Garrett demands to know the rest of the Keepers' prophecies as the game ends.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "20/03/2000",
+      "platforms": [
+        "PC (Microsoft Windows)"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "2",
+        "3",
+        "4",
+        "471",
+        "9377",
+        "17379",
+        "36198",
+        "47823",
+        "55038",
+        "105049"
+      ],
+      "idVideo": "9C543B6uJ88"
+    },
+    {
+      "id": "119",
+      "title": "Mortal Kombat",
+      "companies": [
+        "NetherRealm Studios",
+        "WB Games"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20mc.jpg",
+      "genres": [
+        "Fighting"
+      ],
+      "storyline": "The story retells the events of the first three games, in a new timeline where Raiden receives a message from himself in the prime future after the Battle of Armageddon has happened and Shao Kahn became the supreme leader of all the realms. Because of this plot, characters and scenarios present are the classic ones, bringing the old to new and starting a new conflict.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "18/04/2011",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 3",
+        "PlayStation Vita",
+        "Xbox 360"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "494",
+        "533",
+        "564",
+        "571",
+        "1006",
+        "1244",
+        "2031",
+        "7020",
+        "7292",
+        "7351"
+      ],
+      "idVideo": "De6u2xrJVLw"
+    },
+    {
+      "id": "884",
+      "title": "Street Fighter IV",
+      "companies": [
+        "Capcom",
+        "Dimps"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1w4t.jpg",
+      "genres": [
+        "Fighting"
+      ],
+      "storyline": "Street Fighter IV takes place several months after the events of Street Fighter II (thus is chronologically set between Street Fighter II and III). After M. Bison's survival following his encounter with Akuma, the S.I.N. corporation began another fighting tournament in order to draw out the most powerful fighters on Earth to complete the BLECE project. Each character has their own reasons for entering this tournament, but S.I.N.'s real desire is to lure Ryu to them in order to analyze the Satsui no Hadō, believed to be the last piece of data needed to complete BLECE.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "17/07/2008",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 3",
+        "Arcade",
+        "Xbox 360",
+        "Android",
+        "iOS"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "4052",
+        "14704",
+        "27419",
+        "36198",
+        "36911",
+        "55173",
+        "55190",
+        "56033",
+        "89550",
+        "101608"
+      ],
+      "idVideo": "DJ3ONTRFSqE"
+    },
+    {
+      "id": "1877",
+      "title": "Cyberpunk 2077",
+      "companies": [
+        "QLOC",
+        "CD Projekt RED",
+        "CD Projekt",
+        "Digital Scapes Studios",
+        "CD Projekt Red Wrocław"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7497.jpg",
+      "genres": [
+        "Shooter",
+        "Role-playing (RPG)",
+        "Adventure"
+      ],
+      "storyline": "In 2077, following an economic collapse sometime during the early 21st century, the United States is forced to rely on large corporations to survive. These corporations deal in a wide range of areas, such as weapons, robotics, cybernetics, pharmaceuticals, communications and biotechnology, and many of these companies operate above the law. The world in between is where decadence, sex and pop culture mix with violent crime, extreme poverty and the unattainable promise of the American Dream. You play as V, a mercenary outlaw deeply embedded in the crime-ridden city of Night City, going after a one-of-a-kind implant that is the key to immortality.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "08/12/2020",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "Google Stadia",
+        "PlayStation 5",
+        "Xbox Series X|S",
+        "PlayStation 4",
+        "Xbox One"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "19164",
+        "19564",
+        "26574",
+        "47823",
+        "55038",
+        "90099",
+        "100413",
+        "105269",
+        "107318",
+        "113114"
+      ],
+      "idVideo": "vjF9GgrY9c0"
+    },
+    {
+      "id": "22439",
+      "title": "The Witcher 3: Wild Hunt - Game of the Year Edition",
+      "companies": [
+        "CD Projekt RED",
+        "CD Projekt"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wz4.jpg",
+      "genres": [
+        "Role-playing (RPG)",
+        "Adventure"
+      ],
+      "storyline": "In the town of White Orchard, Geralt reunites with his long lost lover, Yennefer. She informs Geralt that Emperor Emhyr has summoned him to the city of Vizima. There, Emhyr tasks Geralt with finding Ciri, who has been recently spotted in various locations. Ciri is a Child of the Elder Blood, the last heir to an ancient Elven bloodline that bestows her with the power to manipulate space and time.\n\nGeralt first follows clues that Ciri was in Velen at Crow's Perch, the fort of the Bloody Baron. The Baron refuses to help, but Geralt's acquaintance, sorceress Keira Metz, informs him that an Elven mage, Avallac'h, was searching for Ciri. Keira directs Geralt to the Crones of Crookback Bog, malicious, ancient spirits residing near Velen. The Crones reveal that they had captured Ciri for the Wild Hunt before she escaped, and that they have enslaved the Baron's missing wife, Anna. After determining Anna's fate, Geralt returns to the Baron who tells him that Ciri went to Novigrad.\n\nArriving in Novigrad, Geralt discovers that the Church of the Eternal Fire, a militant religious organization, is purging mages in the city. Rendezvousing with his former lover, Triss Merigold, Geralt learns that Ciri had contacted his friend Dandelion. Geralt navigates Novigrad's criminal underworld to rescue Dandelion, and discovers that Ciri teleported to the Skellige archipelago. While in Novigrad, Geralt may assist Triss in liberating fugitive mages.\n\nAfter sailing to Skellige, Geralt reunites with Yennefer, who has been investigating a magical explosion linked to Ciri. The pair track Ciri's movements to the island of Lofoten and learn the Wild Hunt have attacked it. Following clues, they realise that Uma, a deformed, cursed creature at Crow's Perch, was present following Ciri's escape. Before leaving Skellige, Geralt can help determine who will become the leader of Skellige following the king's death. Yennefer chooses to sever the magical bond that draws her and Geralt together, giving him the option to willingly affirm his love for her or end their relationship.\n\nThe pair recover Uma to the abandoned witcher school of Kaer Morhen where Yennefer successfully removes Uma's curse, transforming him into Avallac'h. He reveals that he teleported Ciri to the Isle of Mists to save her from the Lofoten attack. Geralt travels to the Isle and finds Ciri in a deathlike state until she is awakened by Avallac'h's magic. Ciri reveals that the King of the Wild Hunt, Eredin's homeworld is being destroyed by a plight known as the White Frost, and he wants Ciri's power in order to conquer the Continent. Ciri and Geralt teleport to Kaer Morhen pursued by the Wild Hunt. After a brief reunion with Yennefer, Triss, and their witcher mentor Vesemir, the Hunt attacks. Vesemir is killed protecting Ciri and her distress causes her to uncontrollably unleash her Elder power leading Eredin and the Hunt to retreat. Geralt, Yennefer, Triss, Ciri, and their allies then hold a funeral for Vesemir.\n\nCiri and Geralt travel to Novigrad and help Triss and Yennefer reform the Lodge of Sorceresses to aid in their fight. They also learn about the Sunstone, a relic that can lure Eredin out and bind him to a location. On the Skelligan isle of Undvik, Avallac'h uses the Sunstone to draw out the Hunt and their fleet. Geralt, Ciri, their allies and the Nilfgaardian fleet battle the Hunt, before Geralt faces Eredin in combat and emerges victorious. As the White Frost descends on Skellige, Ciri insists that she must confront it with her Elder Blood before it consumes all life on every world. Ciri enters a portal and defeats the White Frost, ending the threat.\n\nThe ending varies depending on choices made throughout the game. If Ciri is alive, Geralt can retire with either Yennefer or Triss, or remain a lone Witcher. If Geralt helps Nilfgaard win the war and took Ciri to meet the emperor, she will become Empress, believing it the best way to positively affect the world; if Ciri doesn't meet the Emperor, Geralt fakes her death and she becomes a Witcher. If Ciri dies fighting the White Frost, Geralt hunts down her stolen medallion as a keepsake, but is surrounded by monsters upon its discovery, leaving his fate ambiguous.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "28/08/2016",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 4",
+        "Xbox One"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "17548",
+        "19164",
+        "55038",
+        "81249",
+        "96217",
+        "103168",
+        "103303",
+        "106987",
+        "113360",
+        "115653"
+      ],
+      "idVideo": "YmLeUJgzsXY"
+    },
+    {
+      "id": "80",
+      "title": "The Witcher",
+      "companies": [
+        "CD Projekt RED",
+        "Atari, Inc."
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xrx.jpg",
+      "genres": [
+        "Role-playing (RPG)",
+        "Adventure"
+      ],
+      "storyline": "The game begins when Geralt of Rivia, one of a few remaining \"witchers\" – traveling monster hunters for hire, gifted with unnatural powers, is transported to the witcher stronghold of Kaer Morhen by fellow witchers who had discovered him unconscious in a field. Geralt remembers almost nothing of his life before that point. He is taken to Kaer Morhen, the base of the witchers, where he meets a sorceress named Triss Merigold. The castle is attacked by a gang of bandits named Salamandra, led by a criminal known as the Professor, a mage named Savolla who controls a large, praying mantis-like monster, and another mage named Azar Javed. The witchers and the sorceress manage to slay the monster and kill Savolla, but the Professor and Azar manage to escape with the mutagens that genetically alter the witchers. After curing Triss of the wounds she received while fighting Javed, Geralt and the rest of the witchers head off in different directions in order to find information on Salamandra.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "25/10/2007",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "Mac"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "6",
+        "76",
+        "472",
+        "478",
+        "533",
+        "832",
+        "1887",
+        "1942",
+        "3025",
+        "119171"
+      ],
+      "idVideo": "B00E5f7-yz4"
+    },
+    {
+      "id": "8173",
+      "title": "Overwatch",
+      "companies": [
+        "Square Enix",
+        "Blizzard Entertainment"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rcb.jpg",
+      "genres": [
+        "Shooter",
+        "Strategy"
+      ],
+      "storyline": "Soldiers. Scientists. Adventurers. Oddities.\n\nIn a time of global crisis, an international task force of heroes banded together to restore peace to a war-torn world:\n\nOVERWATCH.\n\nIt ended the crisis and helped to maintain peace in the decades that followed, inspiring an era of exploration, innovation, and discovery. But after many years, Overwatch's influence waned, and it was eventually disbanded.\n\nOverwatch is gone… but the world still needs heroes.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "23/05/2016",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 4",
+        "Xbox One",
+        "Nintendo Switch"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "1372",
+        "1877",
+        "7331",
+        "11156",
+        "11186",
+        "17447",
+        "18320",
+        "25657",
+        "27789",
+        "114795"
+      ],
+      "idVideo": "FqnKB22pOC0"
+    },
+    {
+      "id": "125174",
+      "title": "Overwatch 2",
+      "companies": [
+        "Blizzard Entertainment"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co885f.jpg",
+      "genres": [
+        "Shooter"
+      ],
+      "storyline": "Overwatch 2 is a free-to-play shooter featuring 40+ epic heroes, each with game-changing abilities. Choose your hero, group up with your friends and battle across all-new maps and modes in the ultimate team-based shooter.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "09/08/2023",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 5",
+        "Xbox Series X|S",
+        "PlayStation 4",
+        "Xbox One",
+        "Nintendo Switch"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "306",
+        "55038",
+        "57187",
+        "68286",
+        "68287",
+        "103292",
+        "103301",
+        "105269",
+        "107318",
+        "113362"
+      ],
+      "idVideo": "GKXS_YA9s7E"
+    },
+    {
+      "id": "6898",
+      "title": "Pokémon Alpha Sapphire",
+      "companies": [
+        "Nintendo",
+        "The Pokémon Company",
+        "Game Freak"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co56ef.jpg",
+      "genres": [
+        "Role-playing (RPG)",
+        "Strategy",
+        "Turn-based strategy (TBS)",
+        "Adventure"
+      ],
+      "storyline": "During your adventure, you will battle Team Magma in Pokémon Omega Ruby and Team Aqua in Pokémon Alpha Sapphire. Team Magma seeks to increase the land, while Team Aqua wishes to increase the seas. In order to bring about these grand plans, each will turn to the power of a Legendary Pokémon: Groudon or Kyogre. Team Magma pursues Groudon, while Team Aqua goes after Kyogre. What could be driving them to such lengths?",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "20/11/2014",
+      "platforms": [
+        "Nintendo 3DS"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "22387",
+        "25311",
+        "26845",
+        "27092",
+        "28182",
+        "55038",
+        "81249",
+        "96217",
+        "106987",
+        "115653"
+      ],
+      "idVideo": "wjT6OQknxX4"
+    },
+    {
+      "id": "1517",
+      "title": "Pokémon Emerald Version",
+      "companies": [
+        "Nintendo",
+        "Game Freak"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zhr.jpg",
+      "genres": [
+        "Role-playing (RPG)",
+        "Turn-based strategy (TBS)",
+        "Adventure"
+      ],
+      "storyline": "Both Team Magma and Team Aqua are featured as the villainous teams, each stirring trouble at different stages in the game. The objective of each team, to awaken Groudon and Kyogre, respectively, is eventually fulfilled.\nRayquaza is prominent plot-wise, awakened in order to stop the destructive battle between Groudon and Kyogre. It is now the one out of the three ancient Pokémon that can be caught prior to the Elite Four challenge, while still at the same place and at the same high level as in Ruby and Sapphire.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "15/09/2004",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "1280",
+        "1511",
+        "1558",
+        "2287",
+        "2289",
+        "2290",
+        "2325",
+        "2724",
+        "3349",
+        "8353"
+      ],
+      "idVideo": "TEXsORWDFNY"
+    },
+    {
+      "id": "13205",
+      "title": "Astroneer",
+      "companies": [
+        "System Era Softworks"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1niz.jpg",
+      "genres": [
+        "Simulator",
+        "Adventure",
+        "Indie"
+      ],
+      "storyline": "Explore and exploit distant worlds in a game of aerospace industry and interplanetary exploration. With your gun you can reshape the landscape around you and gather resources. On your journey you come across special artifacts that will provide you with research points, in order to unlock new technologies. These include rovers and spaceships, in order the expand your reach on the planets in the solar system. The game also has a co-op mode, allowing players to explore the planets with their friends.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "04/02/2019",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 4",
+        "Xbox One",
+        "Nintendo Switch"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "9552",
+        "17130",
+        "18869",
+        "19301",
+        "21564",
+        "25311",
+        "26574",
+        "36198",
+        "37419",
+        "55190"
+      ],
+      "idVideo": "cv7xbHkLdGw"
+    },
+    {
+      "id": "3193",
+      "title": "Need for Speed: Most Wanted",
+      "companies": [
+        "Electronic Arts",
+        "Criterion Games"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20a5.jpg",
+      "genres": [
+        "Racing",
+        "Adventure"
+      ],
+      "storyline": "Need for Speed: Most Wanted takes on the gameplay style of the first Most Wanted title in the Need for Speed franchise. Most Wanted allows players to select one car and compete against other racers in three types of events: Sprint races, which involves traveling from one point of the city to another, Circuit races, each having two or three laps total and Speed runs, which involve traversing through a course in the highest average speed possible. There is also the Ambush races, which start with the player surrounded by cops and tasked to evade their pursuit as quickly as possible.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "29/10/2012",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 3",
+        "Xbox 360"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "97",
+        "98",
+        "99",
+        "100",
+        "101",
+        "105",
+        "1006",
+        "2150",
+        "3047",
+        "10965"
+      ],
+      "idVideo": "0-Imb_hTVmw"
+    },
+    {
+      "id": "1983",
+      "title": "Bastion",
+      "companies": [
+        "WB Games",
+        "Supergiant Games",
+        "BlitWorks"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qlj.jpg",
+      "genres": [
+        "Role-playing (RPG)",
+        "Adventure",
+        "Indie"
+      ],
+      "storyline": "The game takes place in the aftermath of the Calamity, a catastrophic event that suddenly fractured the city of Caelondia as well as the surrounding areas of the game's world into many floating pieces, disrupting its ecology and reducing most of its people to ash. Players take control of the Kid, a silent protagonist who awakens on one of the few remaining pieces of the old world and sets off for the eponymous Bastion, where everyone was supposed to go in troubled times. The only survivor he meets there is an elderly man named Rucks, the game's narrator, who instructs him to collect the Cores that once powered Caelondia. A device in the Bastion can use the power of the crystalline Cores to create landmasses and structures, as well as enable the Kid to travel farther afield via \"skyways\" that propel him through the air.\n\nDuring his quest, the Kid meets two more survivors: Zulf, an ambassador from the Ura, underground-dwelling people with whom Caelondia was once at war; and Zia, an Ura girl who was raised in Caelondia. Both of them return to the Bastion, but upon reading a journal that the Kid discovers, Zulf intentionally damages parts of the Bastion's central device (the monument) and returns to Ura territory. The Kid learns that the journal belonged to Zia's father, Venn, who had worked for the Caelondians. He had helped Caelondian scientists (\"Mancers\") build a weapon intended to destroy the Ura completely to prevent another war. Venn rigged the weapon to backfire, so that when he was finally forced to trigger it, the resulting Calamity destroyed most of Caelondia as well.\n\nTo repair Zulf's damage to the Bastion, the Kid starts collecting Shards, a lesser form of Cores. As he obtains the penultimate shard needed, the Ura attack the Bastion, damaging it and abducting Zia. In the next seven days, The Kid engages in sporadic skirmishes in Ura territory. When he finally blasts through an Ura outpost and meets Zia, she tells him that she had left with the Ura voluntarily to find out their intentions; Rucks had previously told Zia that the Bastion had the ability to somehow fix the Calamity. The Kid travels to the once-underground Ura homeland to retrieve the last shard. There, he discovers Zulf being attacked by his own people: the battle with Kid has devastated the Ura forces, and they blame Zulf for bringing the Kid to their home. The Kid can choose to drop his weapon to help Zulf or leave him. If he leaves Zulf behind, the Kid destroys the remnants of the Ura and escapes through a skyway. If he chooses to carry Zulf, Ura archers initially open fire on them but ultimately cease fire and watch silently as the Kid and Zulf take the skyway back to the Bastion.\n\nAfter the Kid returns and recovers, Rucks gives him another choice: He can have the Bastion rewind time to before the Calamity in the hopes of preventing it, or use it to evacuate the survivors and move on to somewhere safe. Rucks is unsure if there is any way to prevent the Calamity from reoccurring if the time is rewound, as there was no way to test the process. The game ends either way, showing images of the characters (with the inclusion of Zulf if the player chose to rescue him) flying away or of their lives before the Calamity along with the credits. In the New Game+ mode, which is unlocked after beating the game once, it is hinted that restoring the world didn't prevent the Calamity.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "19/07/2011",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation Vita",
+        "PlayStation 4",
+        "Xbox 360",
+        "Xbox One",
+        "Linux",
+        "iOS",
+        "Mac",
+        "Nintendo Switch"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "1270",
+        "3025",
+        "7344",
+        "9278",
+        "9806",
+        "9938",
+        "11646",
+        "26855",
+        "36198",
+        "105049"
+      ],
+      "idVideo": "TptJHeWngJs"
+    },
+    {
+      "id": "119171",
+      "title": "Baldur's Gate 3",
+      "companies": [
+        "Larian Studios",
+        "Wushu Studios"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co670h.jpg",
+      "genres": [
+        "Role-playing (RPG)",
+        "Strategy",
+        "Turn-based strategy (TBS)",
+        "Tactical",
+        "Adventure"
+      ],
+      "storyline": "The land of Faerûn is in turmoil. Refugees cross the wilds, fleeing the helltorn stronghold of Elturel. A vicious cult marches across the Sword Coast, uniting every race of monsters and men under the banner of a cryptic god they call the Absolute. Chaos strikes at Faerûn's foundations, and none may escape its talons. Not even you.\n\nThe grotesque nautiloid ship appears out of nowhere, blotting out the sun. Its writhing tentacles snatch you from where you stand. The mind flayers have come, imprisoning you on their ship, infecting you with their horrid parasite. You will become one of them.\n\nBy fate or fortune, you survive when the nautiloid crashes in the Sword Coast outlands. You set out for civilisation, desperate for a cure for the parasite festering in your brain, only to take centre stage in a conspiracy that runs as deep as the Nine Hells. New enemies await.\n\nAs for old foes... the shadows stir.\nAnd all roads lead to the legendary city of Baldur's Gate.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "02/08/2023",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "Google Stadia",
+        "PlayStation 5",
+        "Xbox Series X|S",
+        "Mac"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "2365",
+        "5550",
+        "5652",
+        "10297",
+        "14394",
+        "22387",
+        "26845",
+        "55199",
+        "105049",
+        "111253"
+      ],
+      "idVideo": "OcP0WdH7rTs"
+    },
+    {
+      "id": "6",
+      "title": "Baldur's Gate II: Shadows of Amn",
+      "companies": [
+        "BioWare",
+        "Interplay Entertainment",
+        "Black Isle Studios",
+        "MacPlay",
+        "BioWare Edmonton",
+        "MumboJumbo"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co71yr.jpg",
+      "genres": [
+        "Role-playing (RPG)"
+      ],
+      "storyline": "Some time after the events described in Baldur's Gate, the protagonist and his friends Imoen, Minsc and Jaheira have been captured by an elven mage called Jon Irenicus. His intentions and connection to the heroes unknown, Irenicus conducts experiments on them, holding them in cages somewhere in his vast underground complex. During his absence, the heroes manage to escape, and soon find themselves in the city of Athkatla in the country of Amn, where they confront Irenicus. However, at that moment several wizards arrive and arrest both Irenicus and Imoen for unlicensed use of magic. The first task at hand is to raise the money needed to rescue Imoen, before facing Irenicus again and unraveling his true goals.\n\nBaldur's Gate II: Shadows of Amn is a party-based role-playing game using the AD&D rules. The basic gameplay is similar to that of its predecessor: the player navigates a party of up to six active combatants over isometric environments, conversing with non-playable characters using branching dialogue, and fighting enemies in real-time, free-movement combat that can be paused to issue specific orders to the characters. World traveling now occurs by selecting locations on a map rather than exploring wilderness areas to reach the destination. However, the game world is larger than in the previous game, with more individual locations to visit and side quests to perform.\n\nBeing a direct sequel to Baldur's Gate, the game lets the player control stronger, higher-level characters from the onset. The main character can also be imported from the previous installment. Three new classes (sorcerer, monk, and barbarian) are available along with those that were present in the original game. Characters can also acquire specializations within most of the classes: a paladin, for instance, can become a dragon slayer or an inquisitor. Weapon proficiencies are more specific: for example, instead of just specializing in blades, the player can choose between proficiencies in long swords, two-handed swords, bastard swords, katanas and scimitars. There are many new types of weapons, armor, and magic spells in the sequel.\n\nSixteen characters may join the party during the course of the story. Each of them has his or her own motivations, sometimes conflicting with those of other characters. Scripted events and interaction with playable as well as non-playable characters have been noticeably increased in the sequel. The main character can also romance some of the companions by choosing appropriate behavior and dialogue lines. The game allows the player to make many moral decisions and pursue character-specific side quests unrelated to the main story. Many of the companions bring their own quests, and unique tasks are available for the main character depending on his or her class.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "20/09/2000",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "Linux",
+        "Mac"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "214",
+        "216",
+        "255",
+        "472",
+        "533",
+        "753",
+        "832",
+        "1593",
+        "2365",
+        "9834"
+      ],
+      "idVideo": "QMhQxW_WQwA"
+    },
+    {
+      "id": "5",
+      "title": "Baldur's Gate",
+      "companies": [
+        "BioWare",
+        "Interplay Entertainment",
+        "Black Isle Studios",
+        "BioWare Edmonton"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20gb.jpg",
+      "genres": [
+        "Role-playing (RPG)"
+      ],
+      "storyline": "Candlekeep is an ancient fortress situated on the rural Sword Coast. Recently, inexplicable events have been plaguing this quiet place, which has long become a large library where men of wisdom and knowledge can study in peace. Unknown mercenaries try to enter the walls of Candlekeep, interested in a seemingly ordinary and unimportant young person - an orphan who was taken in by the mage Gorion and treated by him as his own child. One night, Gorion decides to leave Candlekeep and take his adopted child to a safe place. However, as they leave the fortress, they are ambushed by a group of assassins. The orphan manages to escape, but Gorion dies in battle.\n\nThe gates of Candlekeep are locked, because its inhabitants are afraid to attract to themselves the wrath of the mysterious attackers. Only Imoen, another child who was brought up by Gorion and has been like a sister to the protagonist, is willing to share the uncertain future. The two have nothing, no place to call their home, only a wide hostile world in front of them. A long and perilous journey begins there.\n\nBaldur's Gate is a role-playing game that uses the rule set of Advanced Dungeons & Dragons (AD&D). Set in the universe of Forgotten Realms, the game is the first part of the saga that lets the player explore various towns, wilderness areas and dungeons, undertake many side quests, and find companions for the long journey. The player creates the hero(ine) by selecting his or her class, choosing between fighter, thief, mage, priest, ranger, and druid (including sub-classes, dual- and multi-class characters); alignment (Good-Evil and Lawful-Chaotic axis), and weapon proficiencies. The 2nd edition AD&D rules are applied in the game during combat, character leveling, class restrictions, etc.\n\nUp to six player-controlled characters can participate in combat. Battles occur in the same environment as exploration, and flow in real time, though the player is able to pause combat at any time to issue precise commands to any of the characters. Once the game is unpaused, the characters repeat the last action selected by the player until it is changed or becomes impossible to execute. Characters can freely move during battles; party formation and positioning in combat play a significant role.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "20/12/1998",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "Linux",
+        "iOS",
+        "Mac"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "19164",
+        "19404",
+        "23651",
+        "49414",
+        "69007",
+        "81249",
+        "99118",
+        "103303",
+        "113910",
+        "115653"
+      ],
+      "idVideo": "oCBTRIsAhGE"
+    },
+    {
+      "id": "538",
+      "title": "BioShock Infinite",
+      "companies": [
+        "2K Games",
+        "Irrational Games",
+        "Aspyr Media",
+        "Human Head Studios",
+        "2K Australia",
+        "Virtual Programming"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2n12.jpg",
+      "genres": [
+        "Shooter",
+        "Adventure"
+      ],
+      "storyline": "BioShock Infinite takes place in the airborne city of Columbia in 1912, where the player assumes the role of Booker DeWitt, a disgraced ex-Pinkerton agent. Booker has been given the job of finding a mysterious and powerful woman imprisoned in Columbia since birth named Elizabeth in order to wipe his debts away, and the story follows the unlikely duo as they journey to escape the flying city while discovering its twisted secrets.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "25/02/2013",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 3",
+        "Xbox 360",
+        "Linux",
+        "Mac"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "20",
+        "21",
+        "43",
+        "533",
+        "571",
+        "1020",
+        "1164",
+        "1377",
+        "2031",
+        "3188"
+      ],
+      "idVideo": "5gBVZj6ROV0"
+    },
+    {
+      "id": "21",
+      "title": "BioShock 2",
+      "companies": [
+        "2K Games",
+        "2K Marin",
+        "Digital Extremes",
+        "2K China",
+        "Arkane Studios",
+        "Darkside Game Studios",
+        "Feral Interactive",
+        "Take-Two Interactive",
+        "D3 Publisher",
+        "2K Australia"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2mlj.jpg",
+      "genres": [
+        "Shooter",
+        "Puzzle",
+        "Role-playing (RPG)",
+        "Adventure"
+      ],
+      "storyline": "Set eight years after the events of the first game, BioShock 2 follows Subject Delta, a prototype Big Daddy sent on a quest to reunite with the Little Sister he was previously bonded to, Eleanor, across a changed and even more dangerous Rapture.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "08/02/2010",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 3",
+        "Xbox 360",
+        "Mac"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "20",
+        "41",
+        "533",
+        "538",
+        "571",
+        "1020",
+        "2031",
+        "3188",
+        "9498",
+        "19531"
+      ],
+      "idVideo": "tzWTcDydlpM"
+    },
+    {
+      "id": "20",
+      "title": "BioShock",
+      "companies": [
+        "2K Games",
+        "Demiurge Studios",
+        "Robosoft Technologies",
+        "2K Boston",
+        "2K Australia"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2mli.jpg",
+      "genres": [
+        "Shooter",
+        "Puzzle",
+        "Role-playing (RPG)",
+        "Adventure"
+      ],
+      "storyline": "In the year 1960, a plane crashes in the middle of the Atlantic Ocean with a man named Jack as the only survivor. He has the apparent luck of resurfacing in front of what looks like a door to an underwater complex. Without hesitating, Jack enters the door and is greeted by slogans that praise the city of Rapture, a paradise of free will built in the 1940s by a business magnate named Andrew Ryan. However, even before he assimilates all this new information, the descent to this supposed paradise ends and he can only see ruins and chaos. Learning about the destiny of Rapture will be now Jack's main motivation while he tries to survive the horrors that free can create.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "20/08/2007",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "Xbox 360",
+        "Mac"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "15",
+        "21",
+        "43",
+        "533",
+        "538",
+        "571",
+        "1020",
+        "2031",
+        "3188",
+        "9498"
+      ],
+      "idVideo": "CoYorK3E4aM"
+    },
+    {
+      "id": "498",
+      "title": "Borderlands",
+      "companies": [
+        "2K Games",
+        "Demiurge Studios",
+        "Feral Interactive",
+        "CyberFront",
+        "Take-Two Interactive",
+        "Gearbox Software",
+        "Shadows in Darkness"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20tx.jpg",
+      "genres": [
+        "Shooter",
+        "Role-playing (RPG)"
+      ],
+      "storyline": "With its addictive action, frantic first-person shooter combat, massive arsenal of weaponry, RPG elements and four-player co-op, Borderlands is a breakthrough experience that challenges all the conventions of modern shooters. Borderlands places you in the role of a mercenary on the lawless and desolate planet of Pandora, hell-bent on finding a legendary stockpile of powerful alien technology known as The Vault.\n\nRole Playing Shooter (RPS) - combines frantic first-person shooting action with accessible role-playing character progression.\n\nCo-Op Frenzy - Fly solo in single player or drop in and out with up to 4 Player Co-Op online for a maniacal multiplayer experience.\n\nBazillions of Guns - Gun lust fulfilled with rocket-launching shotguns, enemy-torching revolvers, SMGs that fire lightning rounds, and tons more.\n\nRadical Art Style - New visual style combines traditional rendering techniques with hand-drawn textures to create a unique and eye-catching spin on the First Person genre.\n\nIntense Vehicular Combat - Get behind the wheel and engage in intense vehicle-to-vehicle combat.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "19/10/2009",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 3",
+        "Xbox 360",
+        "Xbox One",
+        "Mac",
+        "Nintendo Switch"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "1011",
+        "1877",
+        "19164",
+        "19564",
+        "55038",
+        "90099",
+        "105049",
+        "105269",
+        "107318",
+        "113114"
+      ],
+      "idVideo": "z1omVnfGVYw"
+    },
+    {
+      "id": "1011",
+      "title": "Borderlands 2",
+      "companies": [
+        "2K Games",
+        "Aspyr Media",
+        "Gearbox Software",
+        "Sony Computer Entertainment of America",
+        "Iron Galaxy Studios"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20tn.jpg",
+      "genres": [
+        "Shooter",
+        "Role-playing (RPG)"
+      ],
+      "storyline": "Five years after the events of Borderlands, a valuable mineral called \"Eridium\" starts flourishing through Pandora's crust. Handsome Jack, the leader of the Hyperion Corporation, secures this new resource and uses it to rule over Pandora with an iron fist. Meanwhile, rumors of an even larger Vault hidden on Pandora spread across the galaxy, drawing a new group of Vault Hunters to the planet in search of it.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "17/09/2012",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 3",
+        "PlayStation Vita",
+        "PlayStation 4",
+        "Xbox 360",
+        "Android",
+        "Xbox One",
+        "Linux",
+        "Mac",
+        "Nintendo Switch"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "498",
+        "1877",
+        "19164",
+        "19564",
+        "26574",
+        "55038",
+        "90099",
+        "105269",
+        "107318",
+        "113114"
+      ],
+      "idVideo": "8rmOUoBmChA"
+    },
+    {
+      "id": "19164",
+      "title": "Borderlands 3",
+      "companies": [
+        "2K Games",
+        "Gearbox Software"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20r3.jpg",
+      "genres": [
+        "Shooter",
+        "Role-playing (RPG)"
+      ],
+      "storyline": "The original shooter-looter returns, packing bazillions of guns and a mayhem-fueled adventure! Blast through new worlds and enemies as one of four new Vault Hunters. Play solo or with friends to take on insane enemies, score loads of loot and save your home from the most ruthless cult leaders in the galaxy.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "12/09/2019",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "Google Stadia",
+        "PlayStation 5",
+        "Xbox Series X|S",
+        "PlayStation 4",
+        "Xbox One",
+        "Mac"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "17548",
+        "47823",
+        "54775",
+        "55038",
+        "81249",
+        "96217",
+        "103303",
+        "106987",
+        "113636",
+        "115653"
+      ],
+      "idVideo": "LkHNbsQMxPI"
+    },
+    {
+      "id": "314246",
+      "title": "Borderlands 4",
+      "companies": [
+        "Gearbox Software",
+        "2K"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8pew.jpg",
+      "genres": [
+        "Shooter",
+        "Role-playing (RPG)",
+        "Adventure"
+      ],
+      "storyline": "See if you have what it takes to go down in history as a legendary Vault Hunter as you search for secret alien treasure, blasting everything in sight.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "30/12/2025",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 5",
+        "Xbox Series X|S"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "19164",
+        "55038",
+        "76877",
+        "96217",
+        "103292",
+        "105269",
+        "106805",
+        "106987",
+        "107318",
+        "115280"
+      ],
+      "idVideo": "BXzf6j2Sr5c"
+    },
+    {
+      "id": "43",
+      "title": "Deus Ex: Human Revolution",
+      "companies": [
+        "Feral Interactive",
+        "Square Enix",
+        "Eidos Montréal",
+        "Nixxes Software",
+        "GRIP Entertainment"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rd2.jpg",
+      "genres": [
+        "Shooter",
+        "Puzzle",
+        "Role-playing (RPG)"
+      ],
+      "storyline": "When a black ops team breaks in and kills the scientists Adam Jensen was hired to protect, everything he thought he knew about his job changes...",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "22/08/2011",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 3",
+        "Xbox 360",
+        "Mac"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "16",
+        "20",
+        "41",
+        "533",
+        "538",
+        "960",
+        "1006",
+        "1121",
+        "9498",
+        "9727"
+      ],
+      "idVideo": "EBsHm4Ccz5c"
+    },
+    {
+      "id": "9498",
+      "title": "Deus Ex: Mankind Divided",
+      "companies": [
+        "Feral Interactive",
+        "Square Enix",
+        "Eidos Montréal",
+        "Nixxes Software",
+        "AMD"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25jt.jpg",
+      "genres": [
+        "Shooter",
+        "Puzzle",
+        "Role-playing (RPG)",
+        "Adventure"
+      ],
+      "storyline": "Deus Ex: Mankind Divided directly follows the aftermath of the Aug Incident, a day when mechanically augmented citizens all over the world were stripped of control over their minds and bodies, resulting in the deaths of millions of innocents. The year is now 2029, and the golden era of augmentations is over. Mechanically augmented humans have been deemed outcasts and segregated from the rest of society. Crime and acts of terror serve as a thin veil to cover up an overarching conspiracy aimed at controlling the future of mankind…",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "22/08/2016",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 4",
+        "Xbox One",
+        "Linux",
+        "Mac"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "41",
+        "43",
+        "533",
+        "2031",
+        "3188",
+        "7351",
+        "9727",
+        "11118",
+        "19441",
+        "19531"
+      ],
+      "idVideo": "qeHARnYRnuE"
+    },
+    {
+      "id": "141540",
+      "title": "Disco Elysium: The Final Cut",
+      "companies": [
+        "ZA/UM"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ve1.jpg",
+      "genres": [
+        "Role-playing (RPG)",
+        "Adventure",
+        "Indie"
+      ],
+      "storyline": "Disco Elysium is a stylish open-world role playing game where it's up to you to decide what sort of detective you want to be.\n\nAfter waking up in a trashed hostel room with a hangover and no memory of his past, follow a detective trying to piece his life back together while investigating a murder in the town of Revachol.\n\nAfter initially appearing to be an open and close case, it soon transpires this murder has triggered a chain of events that has wider implications on the city and its inhabitants.\n\n​Death, sex, taxes, and disco – nothing is off the table. Revachol is a real place with real challenges. Solve the massive murder investigation or relax and kick back with sprawling side-cases.\n\nThe detective decides - the citizens abide.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "29/03/2021",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "Google Stadia",
+        "PlayStation 5",
+        "Xbox Series X|S",
+        "PlayStation 4",
+        "Xbox One",
+        "Mac",
+        "Nintendo Switch"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "17548",
+        "25311",
+        "28309",
+        "55984",
+        "79994",
+        "80916",
+        "96217",
+        "106987",
+        "109274",
+        "111253"
+      ],
+      "idVideo": "ixtTkkEnq0Q"
+    },
+    {
+      "id": "7351",
+      "title": "Doom",
+      "companies": [
+        "Certain Affinity",
+        "id Software",
+        "MachineGames",
+        "Tango Gameworks",
+        "BattleCry Studios",
+        "ZeniMax Germany",
+        "Escalation Studios",
+        "Bethesda Softworks"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nc7.jpg",
+      "genres": [
+        "Shooter",
+        "Puzzle"
+      ],
+      "storyline": "You’ve come here for a reason. The Union Aerospace Corporation’s massive research facility on Mars is overwhelmed by fierce and powerful demons, and only one person stands between their world and ours. As the lone DOOM Marine, you’ve been activated to do one thing – kill them all.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "11/05/2016",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 4",
+        "Xbox One"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "533",
+        "571",
+        "1006",
+        "2031",
+        "3188",
+        "7342",
+        "9498",
+        "9727",
+        "11118",
+        "19531"
+      ],
+      "idVideo": "MDQM55hYLeY"
+    },
+    {
+      "id": "133301",
+      "title": "Dirt 5",
+      "companies": [
+        "Codemasters",
+        "Codemasters Cheshire"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2e5b.jpg",
+      "genres": [
+        "Racing",
+        "Simulator",
+        "Sport",
+        "Adventure"
+      ],
+      "storyline": "World-renowned voice talents Troy Baker and Nolan North head up the cast of DIRT 5’s story-driven Career mode. Earn sponsorships and unique rewards and take on a fierce rival in our biggest ever Career.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "04/11/2020",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "Google Stadia",
+        "PlayStation 5",
+        "Xbox Series X|S",
+        "PlayStation 4",
+        "Xbox One"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "25311",
+        "35994",
+        "47161",
+        "105011",
+        "110411",
+        "114285",
+        "116376",
+        "118871",
+        "119161",
+        "120126"
+      ],
+      "idVideo": "4sU1G2sXRHQ"
+    },
+    {
+      "id": "26948",
+      "title": "Dirt 4",
+      "companies": [
+        "Feral Interactive",
+        "Codemasters"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1srr.jpg",
+      "genres": [
+        "Racing",
+        "Simulator",
+        "Sport"
+      ],
+      "storyline": "Dirt 4 is all about embracing danger. It’s about the thrill, exhilaration and adrenaline that is absolutely vital to off-road racing. It’s about loving the feeling of pushing flat out next to a sheer cliff drop, going for the gap that’s too small and seeing how much air you can get. Be Fearless.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "05/06/2017",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 4",
+        "Xbox One",
+        "Linux",
+        "Mac"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "524",
+        "561",
+        "564",
+        "943",
+        "1006",
+        "2150",
+        "7024",
+        "7966",
+        "9928",
+        "78511"
+      ],
+      "idVideo": "KjK00k-FYgU"
+    },
+    {
+      "id": "7603",
+      "title": "Hellblade: Senua's Sacrifice",
+      "companies": [
+        "Ninja Theory"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2l7l.jpg",
+      "genres": [
+        "Hack and slash/Beat 'em up",
+        "Adventure",
+        "Indie"
+      ],
+      "storyline": "From the makers of Heavenly Sword, Enslaved: Odyssey to the West, and DmC: Devil May Cry, comes a warrior’s brutal journey into myth and madness.\n\nSet in the Viking age, a broken Celtic warrior embarks on a haunting vision quest into Viking Hell to fight for the soul of her dead lover.\n\nCreated in collaboration with neuroscientists and people who experience psychosis, Hellblade: Senua’s Sacrifice will pull you deep into Senua’s mind.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "06/08/2017",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "Xbox Series X|S",
+        "PlayStation 4",
+        "Xbox One",
+        "Nintendo Switch"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "15409",
+        "19150",
+        "22387",
+        "36198",
+        "36952",
+        "55190",
+        "56033",
+        "96217",
+        "106987",
+        "113360"
+      ],
+      "idVideo": "0LVLFvwtHJk"
+    },
+    {
+      "id": "127342",
+      "title": "Senua's Saga: Hellblade II",
+      "companies": [
+        "Ninja Theory",
+        "Xbox Game Studios"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co81i4.jpg",
+      "genres": [
+        "Adventure"
+      ],
+      "storyline": "The sequel to the award winning Hellblade: Senua’s Sacrifice, Senua returns in a brutal journey of survival through the myth and torment of Viking Iceland. Intent on saving those who have fallen victim to the horrors of tyranny, Senua faces a battle of overcoming the darkness within and without.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "20/05/2024",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "Xbox Series X|S"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "18020",
+        "25646",
+        "28070",
+        "55199",
+        "96217",
+        "105049",
+        "106987",
+        "111130",
+        "114455",
+        "116530"
+      ],
+      "idVideo": "qJWI4bkD9ZM"
+    },
+    {
+      "id": "116794",
+      "title": "Kingdom Come: Deliverance - Royal Edition",
+      "companies": [
+        "Deep Silver",
+        "Warhorse Studios"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1m02.jpg",
+      "genres": [
+        "Role-playing (RPG)",
+        "Adventure"
+      ],
+      "storyline": "Bohemia – located in the heart of Europe, the region is rich in culture, silver, and sprawling castles. The death of its beloved ruler, Emperor Charles IV, has plunged the kingdom into dark times: war, corruption, and discord are tearing this jewel of the Holy Roman Empire apart.\n\nOne of Charles' sons, Wenceslas, has inherited the crown. Unlike his father, Wenceslas is a naive, self-indulgent, unambitious monarch. His half-brother and King of Hungary, Sigismund the Red Fox, senses weakness in Wenceslas. Feigning good will, Sigismund travels to Bohemia and kidnaps his half-brother. With no king on the throne, Sigismund is now free to plunder Bohemia and seize its riches.\n\nIn the midst of this chaos, you're Henry, the son of a blacksmith. Your peaceful life is shattered when a mercenary raid, ordered by King Sigismund himself, burns your village to the ground. By bittersweet fortune, you are one of the few survivors of this massacre.\n\nWithout a home, family, or future you end up in the service of Lord Radzig Kobyla, who is forming a resistance against the invasion. Fate drags you into this bloody conflict and shoves you into a raging civil war, where you help fight for the future of Bohemia.\n\nRedeem your past and emerge a hero!",
+      "ageRating": "E",
+      "globalScore": 4,
+      "releaseDate": "27/05/2019",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 4",
+        "Xbox One",
+        "Nintendo Switch"
+      ],
+      "reviews": [
+        {
+          "id": "e0c894d1-7674-4ee4-8ecf-5508f7d1277f",
+          "videojuegoId": "116794",
+          "usuarioId": "1",
+          "titulo": "Great game",
+          "puntuacionGraficos": 5,
+          "comentarioGraficos": "",
+          "puntuacionJugabilidad": 4,
+          "comentarioJugabilidad": "",
+          "puntuacionPrecioCalidad": 3,
+          "comentarioPrecioCalidad": "",
+          "calificacionGlobal": 4,
+          "contenido": "",
+          "fechaCreacion": "2024-11-14T18:17:02.537Z",
+          "comentarios": []
+        }
+      ],
+      "similarGames": [
+        "17548",
+        "19164",
+        "55038",
+        "81249",
+        "96217",
+        "103054",
+        "103303",
+        "106987",
+        "113360",
+        "115653"
+      ],
+      "idVideo": "nEX36NvLKwg"
+    },
+    {
+      "id": "298526",
+      "title": "Kingdom Come: Deliverance II",
+      "companies": [
+        "Deep Silver",
+        "Warhorse Studios",
+        "PLAION"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8qmv.jpg",
+      "genres": [
+        "Role-playing (RPG)",
+        "Adventure"
+      ],
+      "storyline": "You are Henry of Skalitz – an ordinary man doing extraordinary things – caught in a gripping tale of revenge, betrayal and discovery as he embarks on an epic journey, 'from a humble blacksmith's forge to the court of Kings', as he searches for purpose in this beautiful but brutal medieval world.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "10/02/2025",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 5",
+        "Xbox Series X|S"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "19164",
+        "26574",
+        "34155",
+        "80916",
+        "81249",
+        "96217",
+        "103054",
+        "103303",
+        "106987",
+        "115280"
+      ],
+      "idVideo": "q_WvHhlDRJ0"
+    },
+    {
+      "id": "3195",
+      "title": "Assassin's Creed III: Liberation",
+      "companies": [
+        "Ubisoft Entertainment",
+        "Ubisoft Sofia",
+        "Ubisoft Milan"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xim.jpg",
+      "genres": [
+        "Strategy",
+        "Hack and slash/Beat 'em up",
+        "Adventure"
+      ],
+      "storyline": "The year is 1765. As the events leading up to the American Revolution heat up in the north, Spanish forces plan to take control of Louisiana in the south – but they have yet to reckon with Aveline, a deadly Assassin who will use every weapon and ability in her arsenal on her quest for freedom. . Whether eliminating her enemies with her multiple assassinations technique or luring them into deadly traps using her tools, Aveline strikes mortal fear into the hearts of those who stand in her way.\n\nAs an Assassin, Aveline soon finds herself on an unforgettable journey that will take her from the crowded streets of New Orleans to voodoo-haunted swamps and ancient Mayan ruins. She will play a pivotal role in the turbulent New Orleans revolution and the beginning of a new nation. As she fights for freedom, not for herself, but for those whose life and hopes have been squashed.",
+      "ageRating": "E",
+      "globalScore": 0,
+      "releaseDate": "29/10/2012",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 3",
+        "PlayStation Vita",
+        "Xbox 360"
+      ],
+      "reviews": [],
+      "similarGames": [
+        "113",
+        "127",
+        "128",
+        "537",
+        "1266",
+        "1970",
+        "3025",
+        "5606",
+        "8263",
+        "19441"
+      ],
+      "idVideo": "7A06me5gbWc"
+    },
+    {
+      "id": "120",
+      "title": "Diablo III",
+      "companies": [
+        "Square Enix",
+        "Blizzard Entertainment"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2l1u.jpg",
+      "genres": [
+        "Role-playing (RPG)",
+        "Hack and slash/Beat 'em up",
+        "Adventure"
+      ],
+      "storyline": "The game takes place in the dark fantasy world of the Diablo series twenty years after the events of Diablo II. Deckard Cain and his niece Leah are in the Tristram Cathedral investigating ancient texts regarding an ominous prophecy. Suddenly, a mysterious star falling from the sky strikes the Cathedral, creating a deep crater into which Deckard Cain disappears.",
+      "ageRating": "E",
+      "globalScore": 3.7,
+      "releaseDate": "14/05/2012",
+      "platforms": [
+        "PC (Microsoft Windows)",
+        "PlayStation 3",
+        "PlayStation 4",
+        "Xbox 360",
+        "Xbox One",
+        "Mac"
+      ],
+      "reviews": [
+        {
+          "id": "932f246f-e0e8-4651-af73-24e6cacc45d8",
+          "videojuegoId": "120",
+          "usuarioId": "1",
+          "titulo": "Great game",
+          "puntuacionGraficos": 5,
+          "comentarioGraficos": "",
+          "puntuacionJugabilidad": 2,
+          "comentarioJugabilidad": "",
+          "puntuacionPrecioCalidad": 4,
+          "comentarioPrecioCalidad": "",
+          "calificacionGlobal": 3.7,
+          "contenido": "",
+          "fechaCreacion": "2024-11-15T16:14:18.658Z",
+          "comentarios": []
+        }
+      ],
+      "similarGames": [
+        "10776",
+        "17379",
+        "19560",
+        "28168",
+        "36198",
+        "47823",
+        "55199",
+        "96217",
+        "103168",
+        "105049"
+      ],
+      "idVideo": "C2zL-Eq-sNM"
+    }
+  ]
+}

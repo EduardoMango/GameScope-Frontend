@@ -1,0 +1,136 @@
+
+
+.login-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.div-form {
+  width: 100%;
+}
+
+.iniciar-sesion {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #ff8c00;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-div {
+  position: relative;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2e2e2e;
+  color: #ffffff;
+  transition: border-color 0.3s;
+}
+
+.form-control:focus {
+  outline: none;
+  border: 2px solid #ff8c00;
+  background-color: #373737;
+}
+
+.form-label {
+  position: absolute;
+  top: -12px;
+  left: 15px;
+  font-size: 0.9rem;
+  background-color: #1e1e1e;
+  padding: 0 5px;
+  color: #ff8c00;
+}
+
+.error-msj {
+  color: #ff5252;
+  font-size: 0.85rem;
+  margin-top: -10px;
+}
+
+.div-button {
+  text-align: center;
+}
+
+.button {
+  width: 100%;
+  padding: 10px 15px;
+  background-color: #ff8c00;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.button:disabled {
+  background-color: #757575;
+  cursor: not-allowed;
+}
+
+.button:hover:enabled {
+  background-color: #ffaa33;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.alert {
+  background-color: #ff5252;
+  color: #ffffff;
+  padding: 10px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .column {
+    padding: 15px;
+  }
+}

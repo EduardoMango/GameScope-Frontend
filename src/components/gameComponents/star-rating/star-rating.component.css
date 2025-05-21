@@ -1,0 +1,46 @@
+.star-rating {
+  display: flex;
+  gap: 5px;
+  font-size: 30px;
+  cursor: pointer;
+  flex-wrap: wrap;
+  width: fit-content;
+  transition: transform 0.3s ease;
+  margin-bottom: 12.8px;
+}
+
+.star {
+  color: #e0e0e0; /* Color gris claro para estrellas vacías */
+  transition: 0.3s ease;
+  position: relative;
+  text-shadow: 0 0 1rem rgba(0, 0, 0, 0.7);
+}
+
+.star.filled {
+  color: #ffcc00; /* Amarillo para estrellas seleccionadas */
+}
+
+.star:hover {
+  color: #ffcc00; /* Amarillo al pasar el mouse */
+  transform: scale(1.2); /* Aumenta ligeramente el tamaño cuando se pasa el mouse */
+  text-shadow: 0 0 1rem #ffcc0054;
+}
+
+
+.star-rating .star.disabled {
+  pointer-events: none; /* Desactivar las estrellas cuando no son clickeables */
+}
+
+@media (max-width: 600px) {
+  .star-rating {
+    font-size: 25px; /* Tamaño más pequeño para pantallas pequeñas */
+    gap: 3px; /* Menor espacio entre las estrellas */
+  }
+}
+
+@media (max-width: 400px) {
+  .star-rating {
+    font-size: 20px; /* Aún más pequeño para pantallas ultra pequeñas */
+    gap: 2px; /* Espacio aún más reducido */
+  }
+}

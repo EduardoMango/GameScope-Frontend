@@ -1,0 +1,535 @@
+.header-gamescope {
+  background-color: var(--clr-bg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.3rem 1%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  transition: .6s ease;
+  overflow: visible;
+}
+
+
+.header-gamescope::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(1rem);
+  z-index: -100000;
+}
+
+.header-gamescope::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: -100%;
+  background: linear-gradient(90deg, transparent, var(--box-shadow-white), transparent);
+  transition: .6s ease;
+}
+
+.header-gamescope:hover::after {
+  left: 100%;
+}
+
+
+.div-logo-gamescope {
+  flex: 1;
+  display: flex;
+  padding: 0 .7rem .7rem .7rem;
+  /* Ajusta según el diseño */
+  height: 8rem;
+  /* Altura fija del contenedor */
+  overflow: visible;
+  /* Oculta cualquier desbordamiento */
+  justify-content: start;
+  align-items: center;
+}
+
+.url-logo-gamescope {
+  height: 90%;
+  display: flex;
+}
+
+.logo-gamescope {
+  object-fit: cover;
+  transition: .3s ease;
+  backface-visibility: hidden;
+  will-change: transform;
+  transform-origin: center center;
+  /* Define el centro como origen */
+}
+
+.logo-gamescope:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  /* Aumenta el tamaño en un 10% */
+}
+
+.div-lista-navbar {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  flex: 3;
+  list-style: none;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  margin: 0;
+  overflow: visible;
+  z-index: -1;
+}
+
+.navbar-link a, .url-dropdown-top-games {
+  color: var(--clr-neon);
+  background: var(--clr-bg);
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  border: var(--clr-neon) 0.125rem solid;
+  padding: 0.25rem 1rem;
+  text-shadow:
+  0 0 .2rem #FFF7,
+  0 0 .3rem var(--clr-neon);
+  box-shadow:
+  inset 0 0 .5rem var(--clr-neon),
+  0 0 .5rem var(--clr-neon);
+  text-decoration: none;
+  white-space: nowrap;
+  font-size: 1.2rem;
+  margin: 0 .5rem;
+  border-radius: .25rem;
+  z-index: 1000;
+  transition: .3s ease;
+  /* pointer-events: none; */
+}
+
+.navbar-link a::before, .url-dropdown-top-games::before {
+  content: '';
+  position: absolute;
+  top: 140%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--clr-neon);
+  transform:
+  perspective(.2rem)
+  rotateX(10deg)
+  scale(1.3, 0.4);
+  filter: blur(.5rem);
+  opacity: 0;
+  transition: .3s ease;
+}
+
+.navbar-link a::after, .url-dropdown-top-games::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: var(--clr-neon);
+  box-shadow: 0 0 2rem var(--clr-neon);
+  z-index: -1;
+  transition: opacity .3s ease;
+  opacity: 0;
+}
+
+.top-games a::before {
+  display: none;
+}
+
+.navbar-link a:hover, .url-dropdown-top-games:hover {
+  overflow: visible;
+}
+
+.navbar-link a:hover::before, .url-dropdown-top-games::before {
+  opacity: .6;
+}
+
+
+.navbar-link a:hover::after, .url-dropdown-top-games:hover::after {
+  opacity: 1;
+}
+
+.navbar-link a:hover, .navbar-link a:focus, .url-dropdown-top-games:hover, .url-dropdown-top-games:focus {
+  color: white;
+}
+
+.dropdown-top-games {
+  position: relative; /* Contenedor de referencia */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra horizontalmente el contenido */
+}
+
+.url-dropdown-top-games {
+  display: inline-flex; /* Cambia a flexbox */
+  align-items: center; /* Centra verticalmente */
+  justify-content: center; /* Alinea horizontalmente */
+  text-decoration: none; /* Elimina subrayado */
+  color: var(--clr-neon); /* Mismo color que el texto */
+  font-size: 1.2rem; /* Ajusta el tamaño de la fuente */
+  transition: 0.3s ease; /* Animación suave al hover */
+}
+
+.url-dropdown-top-games i {
+  font-size: .8rem; /* Ajusta el tamaño de la flecha */
+  margin-left: .3rem;
+  display: inline-block;
+  transition: transform 0.3s ease, color 0.3s ease; /* Animación para el hover */
+}
+
+.url-dropdown-top-games:hover i {
+  color: white; /* Cambia el color si es necesario */
+}
+
+.dropdown-top-games:hover i {
+  transform: rotate(180deg); /* Gira la flecha al hover */
+}
+
+
+.top-games {
+  padding-inline: 1rem;
+  padding-bottom: 1rem;
+  background: linear-gradient(var(--clr-bg), transparent);
+  display: flex;
+  flex-direction: column;
+  max-height: 0;
+  opacity: 0;
+  position: absolute; /* Relativo a .dropdown-top-games */
+  top: 100%; /* Coloca el menú justo debajo del botón Top */
+  left: 50%; /* Alinea al centro */
+  transform: translateX(-50%); /* Ajusta para centrar */
+  border-radius: 5px; /* Mejora el diseño */
+  transition: 0.7s ease;
+  overflow: hidden;
+  z-index: -1;
+  padding-top: 0.25rem;
+}
+
+.dropdown-top-games:hover .top-games {
+  opacity: 1;
+  max-height: 20rem;
+  overflow: visible;
+}
+
+.dropdown-top-games > .url-dropdown-top-games::before {
+  display: none;
+}
+
+.navbar-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.dropdown-top-games .top-games a {
+  margin: .5rem;
+  opacity: 0;
+  transform: translateY(-5rem);
+  transition: .6s ease
+}
+
+.dropdown-top-games:hover .top-games a {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: calc(0.3s * var(--i)); /* Escalona la aparición según el índice */
+}
+
+.div-logueo {
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.div-logueo-vertical {
+  display: none;
+}
+
+.icons {
+  right: 5%;
+  font-size: 3rem;
+  color: var(--a-background);
+  cursor: pointer;
+  display: none;
+  transition: .3s ease;
+  backface-visibility: hidden;
+  will-change: transform;
+}
+
+.icons:hover {
+  transform: scale(1.1);
+  /* Aumenta el tamaño en un 10% */
+}
+
+#check {
+  display: none;
+}
+
+.div-logueo button, .div-logueo-vertical button {
+  color: var(--clr-neon);
+  background: var(--clr-bg);
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  border: var(--clr-neon) 0.125rem solid;
+  padding: 0.25rem 1rem;
+  text-shadow:
+  0 0 .2rem #FFF7,
+  0 0 .3rem var(--clr-neon);
+  box-shadow:
+  inset 0 0 .5rem var(--clr-neon),
+  0 0 .5rem var(--clr-neon);
+  text-decoration: none;
+  white-space: nowrap;
+  font-size: 1.2rem;
+  margin: .25rem .5rem;
+  border-radius: .25rem;
+  z-index: 1000;
+  transition: .3s ease;
+  /* pointer-events: none; */
+}
+
+.div-logueo .logout, .div-logueo-vertical .logout {
+  color: var(--clr-red);
+  background: var(--clr-bg);
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  border: var(--clr-red) 0.125rem solid;
+  padding: 0.25rem 1rem;
+  text-shadow:
+  0 0 .3rem var(--clr-red);
+  box-shadow:
+  inset 0 0 .5rem var(--clr-red),
+  0 0 .5rem var(--clr-red);
+  text-decoration: none;
+  white-space: nowrap;
+  font-size: 1.2rem;
+  margin: .25rem .5rem;
+  border-radius: .25rem;
+  z-index: 1000;
+  transition: .3s ease;
+  /* pointer-events: none; */
+}
+
+.div-logueo button::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: var(--clr-neon);
+  box-shadow: 0 0 2rem var(--clr-neon);
+  z-index: -1;
+  transition: opacity .3s ease;
+  opacity: 0;
+}
+
+.div-logueo .logout::after, .div-logueo-vertical .logout::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: var(--clr-red);
+  box-shadow: 0 0 2rem var(--clr-red);
+  z-index: -1;
+  transition: opacity .3s ease;
+  opacity: 0;
+}
+
+.div-logueo button:hover::after {
+  opacity: 1;
+}
+
+.div-logueo button:hover, .navbar-link a:focus {
+  color: white;
+}
+
+.div-logueo button:hover {
+  overflow: visible;
+}
+
+.dropdown-top-games .top-games .top-games-a:hover {
+  transition-delay: 0s;
+}
+
+@media (max-width: 1024px) {
+
+  .header-gamescope {
+    padding-block: 0;
+  }
+
+  .icons {
+    display: inline-flex;
+    position: absolute;
+  }
+
+  .icons #close-icon {
+    display: none;
+  }
+
+  /* Ocultar el div de logueo en pantallas pequeñas */
+  .div-logueo {
+    display: none; /* Elimina el logueo del header */
+  }
+
+  .div-logueo-vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #check:checked~.div-lista-navbar .div-logueo {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+  }
+
+  .div-lista-navbar {
+    display: block;
+    position: absolute;
+    padding: 0;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 0;
+    background: var(--clr-bg);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 .5rem 1rem var(--box-shadow-white);
+    transition: .6s ease;
+    overflow: hidden;
+  }
+
+  .navbar-link, .div-logueo-vertical button, .div-logueo-vertical .logout {
+    width: fit-content;
+    margin: 0 auto;
+    padding: .5rem;
+    display: block;
+    text-align: center;
+    transform: translateY(-5rem); /* Empieza fuera de su posición visible */
+    opacity: 0; /* Inicialmente invisible */
+    transition: 0.6s ease; /* Transición fluida para ambas propiedades */
+  }
+
+  #check:checked~.div-lista-navbar .navbar-link, #check:checked~.div-lista-navbar .div-logueo-vertical button {
+    transform: translateY(0); /* Regresa a su posición normal */
+    opacity: 1; /* Se vuelve visible */
+    transition-delay: calc(0.2s * var(--i)); /* Escalona la aparición según el índice */
+  }
+
+  #check:checked~.div-lista-navbar .div-logueo-vertical button:hover {
+    transition-delay: 0s;
+  }
+
+  #check:checked~.icons #menu-icon {
+    display: none;
+  }
+
+  #check:checked~.icons #close-icon {
+    display: block;
+  }
+
+  #check:checked~.div-lista-navbar {
+    padding-bottom: 1rem;
+    max-height: 1000px; /* Ajusta según el contenido máximo esperado */
+  }
+
+
+  .top-games {
+    padding: 0;
+    position: relative; /* Ya no es absoluto */
+    transform: translateX(0); /* Elimina el centrado horizontal */
+    left: 0;
+    margin: 0;
+    width: 100%; /* Ocupa todo el ancho del menú */
+    overflow: hidden;
+  }
+
+  .navbar-link {
+    display: flex;
+  }
+
+  .navbar-link a {
+    margin: 0;
+    z-index: 100;
+  }
+
+  .top-games a {
+    padding: .25rem 1rem;
+    margin-top: 1rem;
+    margin-inline: 1rem;
+    z-index: -10;
+  }
+
+  .dropdown-top-games:hover .top-games {
+    display: flex;
+    opacity: 1;
+    transform: translateY(0);
+    overflow: visible;
+  }
+
+  .dropdown-top-games {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Alinea elementos al inicio en móviles */
+  }
+
+  .navbar-link a {
+    font-size: 1.2rem;
+  }
+
+  .navbar-link a::before {
+    display: none;
+  }
+
+  .div-logueo-vertical button, .div-logueo-vertical .logout {
+    margin: .5rem;
+    padding-inline: 1rem;
+  }
+
+  .div-logueo-vertical button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: var(--clr-neon);
+    box-shadow: 0 0 2rem var(--clr-neon);
+    z-index: -1;
+    transition: opacity .3s ease;
+    opacity: 0;
+  }
+
+  .div-logueo-vertical button:hover::after {
+    opacity: 1;
+  }
+
+  .div-logueo-vertical button:hover, .navbar-link a:focus {
+    color: white;
+  }
+
+  .div-logueo-vertical button:hover {
+    overflow: visible;
+  }
+}

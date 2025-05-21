@@ -1,0 +1,10 @@
+<div class="avatar-selection">
+    <h6>Selecciona un Avatar:</h6>
+    <div class="avatar-container">
+      <img title="AvatarImage" *ngFor="let avatar of avatarUrls; let i = index"
+           [src]="avatar.url"
+           [alt]="avatar.name"
+           class="avatar-option"
+           (click)="selectAvatar(avatar)">
+    </div>
+  </div>

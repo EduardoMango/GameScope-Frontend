@@ -1,0 +1,112 @@
+.footer {
+  background-color: var(--clr-bg);
+  width: 100%;
+  padding: 0 1%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  z-index: 99;
+}
+
+.div-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  max-width: 33.333%;
+  flex-direction: column;
+}
+
+.div-logo {
+  flex: 1;
+  max-width: 33.333%;
+  display: flex;
+  padding: 0 .7rem .7rem .7rem;
+  /* Ajusta según el diseño */
+  height: 8rem;
+  /* Altura fija del contenedor */
+  overflow: visible;
+  /* Oculta cualquier desbordamiento */
+  justify-content: start;
+  align-items: center;
+}
+
+.url-logo-gamescope {
+  height: 90%;
+  display: flex;
+}
+
+.logo {
+  object-fit: cover;
+  transition: .3s ease;
+  backface-visibility: hidden;
+  will-change: transform;
+  transform-origin: center center;
+  /* Define el centro como origen */
+}
+
+.logo:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  /* Aumenta el tamaño en un 10% */
+}
+
+.div-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+}
+
+.div-nav a {
+  text-decoration: none;
+  color: var(--text-a);
+  padding: .5rem;
+  white-space: nowrap;
+  transition: .3s ease;
+}
+
+.div-nav a:hover {
+  color: white;
+}
+
+.div-rights {
+  color: var(--grey);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  text-align: center;
+}
+
+.div-rights-vertical {
+  display: none;
+}
+
+@media(max-width: 768px) {
+  .div-rights-vertical {
+    color: var(--grey);
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 33.333%;
+    align-items:center;
+    text-align: center;
+    padding: 0 .5rem;
+  }
+
+  .div-rights {
+    display: none;
+  }
+
+  .div-nav {
+    flex-direction: column;
+  }
+
+  .div-nav a {
+    padding: .25rem;
+  }
+}

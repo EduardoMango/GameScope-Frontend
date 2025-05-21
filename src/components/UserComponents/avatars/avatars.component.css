@@ -1,0 +1,60 @@
+.avatar-selection {
+  background-color: var(--clr-bg); /* Fondo acorde a un dark theme */
+  padding: 1rem;
+  color: #f5f5f5;
+  text-align: center;
+  border: 1px solid #444;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.avatar-selection h6 {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+/* Grid Container */
+.avatar-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas por defecto */
+  gap: 1rem;
+  padding: 1rem;
+}
+
+/* Avatar Options */
+.avatar-option {
+  max-width: 4rem;
+  aspect-ratio: 1/1; /* Hace las imágenes cuadradas */
+  border-radius: 50%;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.7);
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.avatar-option:hover {
+  transform: scale(1.1); /* Efecto de "zoom in" */
+  box-shadow: 0px 8px 15px rgba(255, 255, 255, 0.2);
+  border: 2px solid #16a085;
+}
+
+.avatar-option:active {
+  transform: scale(0.95); /* Efecto de presión al hacer clic */
+}
+
+@media (max-width: 480px) {
+  .avatar-selection {
+    padding: 1rem;
+  }
+
+  .avatar-selection h6 {
+    font-size: 1rem;
+  }
+
+  .avatar-container {
+    gap: 0.5rem;
+  }
+}

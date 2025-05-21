@@ -1,0 +1,29 @@
+<main class="main">
+
+  <div class="texto">
+    <div class="titulo">
+      <h1>Welcome to GameScope</h1>
+    </div>
+    <div class="subtitulo">
+      <h2>Home of your favorite videogames</h2>
+    </div>
+  </div>
+
+  <section class="galeria">
+    <ul class="grid-lista">
+      @for (videojuego of videojuegos; track $index){
+
+      <li class="tarjeta">
+        <img [src]=videojuego.image alt="The Last of Us Part I">
+        <div class="flex-descripcion">
+          <p class="descripcion">{{ videojuego.title }}</p>
+          <div class="iconos">
+            <i class="fa-solid fa-plus" (click)="addVideogame(videojuego)"></i>
+            <i class="fa-regular fa-clipboard" routerLink="/videogames/{{videojuego.id}}"></i>
+          </div>
+        </div>
+      </li>
+      }
+    </ul>
+  </section>
+</main>

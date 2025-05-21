@@ -1,0 +1,10 @@
+export enum userTitle {
+  NEWBIE = 'Newbie',              // Nuevo usuario
+  ENTHUSIAST = 'Enthusiast',       // Entusiasta de videojuegos
+  GAMER = 'Gamer',                 // Jugador habitual
+  REVIEWER = 'Reviewer',           // Reseñador
+  VETERAN = 'Veteran',             // Jugador veterano
+  GAMEMASTER = 'GameMaster',      // Maestro del juego
+  INFLUENCER = 'Influencer',       // Influenciador
+  COLLECTOR = 'Collector',         // Coleccionista
+}

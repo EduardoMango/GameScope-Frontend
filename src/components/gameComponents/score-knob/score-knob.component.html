@@ -1,0 +1,9 @@
+<div class="knob-container">
+    <div class="knob-background"></div>
+    <div class="knob-progress" [style.background]="
+        'conic-gradient(#4fce6f ' + scorePercentage + '%, #333 ' + scorePercentage + '%)'
+      "></div>
+    <div class="knob-center">
+        <div class="knob-text">{{ videogame.globalScore }} / 5</div>
+    </div>
+</div>

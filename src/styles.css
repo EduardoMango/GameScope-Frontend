@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+html {
+  box-sizing: border-box;
+  background: black;
+}
+
+body {
+  font-family: "Poppins", serif;
+  min-height: 100vh;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/* El contenido ocupa todo el espacio disponible menos el footer */
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+
+:root {
+  --raisin-black: #292831ff;
+  --delft-blue: #333f58ff;
+  --cerulean: #4a7a96ff;
+  --salmon-pink: #ee8695ff;
+  --melon: #fbbbadff;
+  --a: #0D6EFD;
+  --a-hover: #0A58CA;
+  --box-shadow-white: rgba(255, 255, 255, 0.1);
+  --a-background: #D8E2DC;
+  --text-a: #c1cac5;
+  --grey: #858b88;
+  --clr-neon: #14f7ff;
+  --clr-bg: #001414;
+  --clr-red: #FF1B1C;
+  --clr-green: #43B929;
+}

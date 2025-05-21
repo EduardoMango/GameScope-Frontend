@@ -1,0 +1,98 @@
+/* Contenedor principal */
+.bg-black {
+    padding: 20px;
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  /* Contenedor oscuro interno */
+  .bg-dark {
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #1e1e1e;
+    margin-top: 20px;
+  }
+  
+  /* Tarjeta para cada comentario */
+  .comment-card {
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .comment-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Estilo del título del comentario */
+  .comment-card h4 {
+    font-size: 1.5em;
+    color: #4db8ff;
+    margin: 0 0 10px;
+    font-weight: 600;
+  }
+  
+  .comment-card h4 a {
+    color: #4db8ff;
+    text-decoration: none;
+  }
+  
+  .comment-card h4 a:hover {
+    color: #7fcfff;
+    text-decoration: underline;
+  }
+  
+  /* Contenido del comentario */
+  .comment-card h5 {
+    font-size: 1em;
+    color: #cccccc;
+    margin: 0 0 10px;
+  }
+  
+  /* Fecha de creación del comentario */
+  .comment-card h6 {
+    font-size: 0.85em;
+    color: #888888;
+    font-weight: 300;
+    margin: 0;
+    text-align: right;
+  }
+  
+  /* Estilos para el área de ordenamiento */
+  section {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  section label {
+    font-size: 1em;
+    color: #ffffff;
+    margin-right: 10px;
+  }
+  
+  section select {
+    padding: 5px 10px;
+    font-size: 1em;
+    background-color: #2a2a2a;
+    color: #ffffff;
+    border: 1px solid #4db8ff;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  section select option {
+    background-color: #1e1e1e;
+    color: #ffffff;
+  }
+  
+  /* Animación en select para que tenga un pequeño cambio de color en hover */
+  section select:hover {
+    background-color: #3a3a3a;
+  }
+  

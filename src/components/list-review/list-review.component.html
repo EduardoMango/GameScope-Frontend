@@ -1,0 +1,26 @@
+
+<div class="bg-black text-white">
+
+
+    <section class="d-flex flex-column w-100">
+      <div class="pb-2">
+        <label for="sortOption">Ordenar por: </label>
+        <select name="sortOption" (change)="sortReviews($event)">
+          <option value="PROBAR">Nada</option>
+          <option value="fechaCreacion">Fecha</option>
+          <option value="rating">Rating</option>
+        </select>
+      </div>
+      @for (review of listReview; track $index) {
+        <div class="comment-card w-75">
+          <h4><a [routerLink]="['/review',review.id]">{{review.title}}</a></h4>
+          <h5>{{review.content}}</h5>
+          <h6>{{review.date}}</h6>
+        </div>
+      }
+    </section>
+
+
+
+</div>
+

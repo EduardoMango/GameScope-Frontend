@@ -1,0 +1,32 @@
+
+<div class="d-flex justify-content-center gamer-font text-white mt-5 ">
+    <h1>Welcome to GameScope</h1>
+  </div>
+  <div class="d-flex justify-content-center modern-font text-white ">
+    <h5>The home of your favorite videogames</h5>
+  </div>
+
+
+    <section class="galeria bg-black text-white">
+        <ul class="grid-lista">
+
+
+          @for (videojuego of videojuegos; track $index){
+
+            <li class="tarjeta">
+              <img [src]=videojuego.image alt="The Last of Us Part I">
+              <div class="flex-descripcion">
+                <p class="descripcion">{{ videojuego.title }}</p>
+                <div class="iconos">
+                  <i class="fa-solid fa-plus" (click)="addVideogame(videojuego)"></i>
+                  <i class="fa-regular fa-clipboard" routerLink="/videogames/{{videojuego.id}}"></i>
+                </div>
+              </div>
+            </li>
+
+          }
+
+
+        </ul>
+    </section>
+

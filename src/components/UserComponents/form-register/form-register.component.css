@@ -1,0 +1,122 @@
+/* Container Styles */
+.register-container {
+  background-color: #1e1e2f;
+  border-radius: 10px;
+  padding: 20px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  margin: 1.5rem auto;
+}
+
+/* Header Styles */
+.register-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+/* Form Styles */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Labels */
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #c0c0c0;
+}
+
+/* Input Styles */
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #444;
+  background-color: #2a2a3d;
+  color: #fff;
+  font-size: 14px;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 5px #4a90e2;
+}
+
+/* Error Messages */
+.error-msj {
+  font-size: 12px;
+  color: #ff6b6b;
+  margin-top: 5px;
+}
+
+/* Checkbox Styles */
+.form-check {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.form-check-label {
+  color: #fff;
+}
+
+.form-check-input {
+  width: 16px;
+  height: 16px;
+  accent-color: #4a90e2;
+}
+
+/* Button Styles */
+.div-button {
+  text-align: center;
+}
+
+.button {
+  background-color: #4a90e2;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #357ab7;
+}
+
+.button:disabled {
+  background-color: #888;
+  cursor: not-allowed;
+}
+
+/* Responsive Design */
+@media (max-width: 500px) {
+  .register-container {
+    padding: 15px;
+  }
+
+  .register-container h2 {
+    font-size: 20px;
+  }
+
+  .form-control {
+    font-size: 13px;
+  }
+
+  .button {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+}

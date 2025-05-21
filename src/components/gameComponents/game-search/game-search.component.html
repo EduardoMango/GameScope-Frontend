@@ -1,0 +1,27 @@
+<div class="game-search d-flex flex-column justify-content-center">
+
+  <div class="search-form-container">
+
+    <form class="form" [formGroup]="searchForm" (ngSubmit)="onSearch();">
+  
+      <label for="query">Search game</label>
+      <div class="search-form">
+        <input class="search-bar" id="query" formControlName="query" type="text"
+          placeholder="Game title">
+        <button type="submit" class="search-button" [disabled]="loading">Search</button>
+      </div>
+    </form>
+    <div class="messages">
+      @if (loading) {
+      <div class="loading">Loading...</div>
+      }
+      @if (error) {
+      <div class="error">{{ error }}</div>
+      }
+      @if (!results && !loading ){
+      <div class="no-results">Could not find any results</div>
+      }
+    </div>
+  </div>
+</div>
+<app-search-results [games]="games"></app-search-results>

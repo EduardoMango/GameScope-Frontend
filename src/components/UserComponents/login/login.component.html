@@ -1,0 +1,45 @@
+<section class="login-section">
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <div class="div-form">
+          <form class="form" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+            <h3 class="iniciar-sesion">Log In</h3>
+
+            <!-- Email Address Field -->
+            <div data-mdb-input-init class="input-div">
+              <input type="text" id="form2Example18" class="form-control" formControlName="username" required />
+              <label class="form-label" for="form2Example18">Username</label>
+            </div>
+
+            <!-- Password Field -->
+            <div data-mdb-input-init class="input-div">
+              <input type="password" id="form2Example28" class="form-control" formControlName="password" required />
+              <label class="form-label" for="form2Example28">Password</label>
+            </div>
+
+
+            <!-- Submit Button -->
+            <div class="div-button">
+              <button data-mdb-button-init data-mdb-ripple-init class="button" type="submit"
+                [disabled]="loginForm.invalid">Log In</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Image Section -->
+      <div class="column">
+        <img
+          src="https://img.freepik.com/free-vector/hand-drawn-retro-gaming-poster-design_23-2150852630.jpg?t=st=1731349937~exp=1731353537~hmac=0f9d3f506e0f049c89fec8c20000ae83cbe75556cc4512ee7837f93a71375149&w=740"
+          alt="Login image" class="img" />
+      </div>
+
+      @if (errorMessage){
+      <div class="alert" role="alert">
+        {{ errorMessage }}
+      </div>
+      }
+    </div>
+  </div>
+</section>

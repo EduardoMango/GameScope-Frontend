@@ -1,0 +1,74 @@
+<div class="info-user">
+  <div class="user-card">
+    <div class="user-row">
+      <div class="user-column-1">
+        <img [src]="imageUrl" alt="Avatar" class="avatar">
+
+        @if(isCurrentUser) {
+          <button class="button-avatar-selection" (click)="toggleAvatarSelection()">Select Avatar</button>
+          @if (showAvatars) {
+            <app-avatars (avatarSelected)="onAvatarSelected($event)"></app-avatars>
+          }
+        } @else {
+
+          @if(!isFollowing) {
+            <button class="button-follow-user" (click)="followUnfollowUser()">Follow</button>
+          } @else {
+            <button class="button-unfollow-user" (click)="followUnfollowUser()">Unfollow</button>
+          }
+
+        }
+      </div>
+
+      <div class="column-break">
+        <hr class="break">
+      </div>
+
+      @if (user) {
+        <div class="user-column-2">
+          <div class="card-body">
+            <h5 class="card-title">{{ user?.username }}</h5>
+
+            @if(isCurrentUser) {
+              <div class="card-text">
+                <select
+                  [(ngModel)]="user.currentTitle"
+                  (change)="changeTitle(user.currentTitle)">
+                  <option *ngFor="let title of userTitle | keyvalue" [value]="title.key">
+                    {{ title.value }}
+                  </option>
+                </select>
+              </div>
+            } @else {
+              <h5 class="card-title">{{ user?.currentTitle }}</h5>
+            }
+
+            <br>
+            <p class="card-text">Username: {{ user?.username }}</p>
+            <p class="card-text">Email: {{ user?.email }}</p>
+            <p class="card-text">Karma: {{ user?.karma }}</p>
+            <p class="card-text">Followers: {{ user?.followerCount }}</p>
+            <p class="card-text">Following {{ user?.followingCount }} users</p>
+          </div>
+
+          <div class="div-admin">
+            <!-- Botón de eliminar solo visible si es admin -->
+            <button class="button-ban" *ngIf="isAdmin && !isCurrentUser &&!isBanned" (click)="banUser()">
+              Ban user
+            </button>
+            <button class="button-ban" *ngIf="isAdmin && !isCurrentUser &&isBanned" (click)="unbanUser()">
+              Unban user
+            </button>
+            <button class="button-deactivate" *ngIf="isCurrentUser" (click)="deactivateAccount()">
+              Deactivate account
+            </button>
+            <button class="button-update" *ngIf="isCurrentUser" [routerLink]="['/userProfile', user?.id,'update']">Update</button>
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</div>
+
+
+

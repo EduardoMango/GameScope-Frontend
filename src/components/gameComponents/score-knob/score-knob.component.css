@@ -1,0 +1,46 @@
+.knob-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333; /* Color de fondo del contenedor */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1); /* Sombra interna para efecto de profundidad */
+    margin-bottom: 1rem;
+  }
+  
+  .knob-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #333; /* Color de fondo de la perilla */
+  }
+  
+  .knob-progress {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  
+  .knob-center {
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    background-color: var(--clr-bg); /* Color del centro vacío */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 1); /* Sombra interna para efecto de profundidad */
+  }
+  
+  .knob-text {
+    color: #fff; /* Color del texto */
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.contenedor-principal {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Configura el router-outlet para ocupar el espacio disponible */
+.contenido {
+  margin-top: 10.5993rem;
+  flex-grow: 1;
+}
+
+body {
+  background-color: var(--background-color);
+  margin: 0;
+}
+
+@media(max-width: 1024px) {
+  .contenido {
+    margin-top: 128px;
+  }
+}

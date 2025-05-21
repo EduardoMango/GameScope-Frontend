@@ -1,0 +1,76 @@
+import {Component, OnInit} from '@angular/core';
+import {DomSanitizer, SafeResourceUrl} from '@angular/platform-browser';
+import {Videogame} from '../../../Model/Interfaces/videogame';
+import {VideogameGenres} from '../../../Model/enums/videogame-genres';
+import {VideoGamePlatform} from '../../../Model/enums/videogamePlatform';
+import {YoutubePlayerComponent} from 'ngx-youtube-player';
+import {CommonModule} from '@angular/common';
+import {VideojuegosService} from '../../../services/videojuegos.service';
+import {AuthService} from '../../../services/AuthService';
+import {Router} from '@angular/router';
+import {UsersService} from '../../../services/Users.service';
+
+@Component({
+  selector: 'app-videogameoftheweek',
+  standalone: true,
+  imports: [YoutubePlayerComponent, CommonModule],
+  templateUrl: './videogameoftheweek.component.html',
+  styleUrl: './videogameoftheweek.component.css'
+})
+export class VideogameoftheweekComponent implements OnInit {
+
+  player!: YT.Player;
+
+  videogame!: Videogame;
+
+  constructor(private videogameService: VideojuegosService,
+              private router: Router,
+              private authService: AuthService,
+              private userService: UsersService) {}
+
+  ngOnInit() {
+
+    this.videogameService.getGOTW().subscribe({
+      next: videogame => {
+        this.videogame = videogame;
+      },
+      error: error => {
+        console.log(error);
+      }
+    })
+  }
+
+  savePlayer(player: YT.Player) {
+    this.player = player;
+  }
+  onStateChange(event: any) {
+    console.log("player state", event.data);
+  }
+
+  addToLibrary(){
+    let user = this.authService.getCurrentUser();
+    if(user){
+      this.userService.addVideogameToLibrary(user!.id, this.videogame.id).subscribe({
+        next: (data) => {
+          alert("Game added to your library");
+        },
+        error: (error) => {
+          if (error.status === 400) {
+            alert("Game already in your library");
+          }
+        }
+      });
+    } else{
+      alert('You must be logged in to add videogames to your library.');
+    }
+  }
+
+  goToReviews(){
+    if(this.videogame.globalScore != 0){
+      this.router.navigate([`/videogames/${this.videogame.id}/reviews`]);
+    } else {
+      alert("This game doesn't have any reviews yet");
+    }
+
+  }
+}

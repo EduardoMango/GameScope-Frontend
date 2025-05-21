@@ -1,0 +1,19 @@
+<div class="reviews-section" *ngIf="reviews">
+  <h3>REVIEWS:</h3>
+
+
+    <div class="review" *ngFor="let review of reviews">
+      <h4 (click)="seleccionarReview(review)" style="cursor: pointer; color: #ffcc00;">
+        {{ review.title }}
+      </h4>
+      <p><strong>Review Score:</strong> {{ review.averageRating }}</p>
+      <p><strong>Review Karma:</strong> {{ review.reviewKarma }}</p>
+
+      <p *ngIf="review.comentarios?.length">
+        <strong>Summary:</strong> {{ review.comentarios }}
+      </p>
+
+    </div>
+  </div>
+
+

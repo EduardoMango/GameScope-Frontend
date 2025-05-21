@@ -1,0 +1,11 @@
+<div class="user-library-banner">
+  <!-- Hero Section -->
+  <div class="hero-banner">
+    <div class="profile-info">
+      <img class="avatar" src="{{ user?.avatarUrl }}" alt="Profile Picture" (click)="goToProfile()" />
+      <h5 class="card-title">{{ user?.username }}</h5>
+    </div>
+
+    <!--  <input type="text" class="search-bar form-control w-25" placeholder="Search.." [(ngModel)]="searchQuery" />-->
+  </div>
+</div>

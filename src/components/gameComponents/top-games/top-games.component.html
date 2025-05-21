@@ -1,0 +1,40 @@
+<div class="top-10-container">
+  @if(period=='week'){
+    <h1 class="top-10-title text-white">Top rated games of the week</h1>
+  }
+  @if(period=='month'){
+    <h1 class="top-10-title text-white">Top rated games of the month</h1>
+  }
+  @if(period=='historic'){
+    <h1 class="top-10-title text-white">Top rated games of all time</h1>
+  }
+
+  <div class="game-card" *ngFor="let game of videogames; let i = index">
+    <div class="game-rank">{{ i + 1 }}</div>
+
+    <div class="game-content">
+      <div class="game-image">
+        <img [src]="game.image" [alt]="game.title">
+      </div>
+
+      <div class="game-details">
+        <div class="game-header">
+          <h2 class="game-title">{{ game.title }}</h2>
+          <div class="game-score">
+              <div class="score-circle" [style.--score]="calculateScorePercentage(game.globalScore)">
+                {{ game.globalScore.toFixed(1) }}
+              </div>
+          </div>
+        </div>
+
+        <p class="game-storyline">
+          {{ truncateStoryline(game.storyline) }}
+        </p>
+
+        <button class="details-button" (click)="goToGameDetails(game.id)">
+          View more <i class="icon-chevron"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,100 @@
+<div class="container">
+
+  <div class="div-search">
+    <input type="search" class="search" [(ngModel)]="busqueda" placeholder="Username" aria-label="Search"
+      aria-describedby="search-addon" />
+    <button type="button" class="search-button" (click)="searchUser(busqueda)" data-mdb-ripple-init>Search</button>
+    @if (searched) {
+      <button type="reset" class="reset-button" (click)="resetSearch()"></button>
+    }
+  </div>
+
+  @if(!resultados){
+  <div class="alert">
+    No se encontraron resultados
+  </div>
+  }
+
+  @if (searched) {
+    @for(item of users; track $index){
+
+
+      <div class="div-card">
+        <div class="div-image">
+          <img [src]=item.avatarUrl class="img" alt="Profile avatar">
+        </div>
+
+        <div class="div-user">
+          <h4 class="username">{{ item.username }}</h4>
+          <span>{{ userTitle[item.currentTitle] }}</span>
+
+          <div class="div-stats">
+            <div class="div-reviews">
+              <span class="span-reviews">Reviews</span>
+              <span class="number1">{{item.reviewCount}}</span>
+            </div>
+            <div class="div-followers">
+              <span class="span-followers">Followers</span>
+              <span class="number3">{{ item.followerCount }}</span>
+            </div>
+            <div class="div-karma">
+              <span class="span-karma">Karma</span>
+              <span class="number4">{{ item.karma }}</span>
+            </div>
+          </div>
+
+          <div class="div-buttons">
+            <a [routerLink]="['/userProfile', item.id]" class="view-profile" aria-label="Perfil">View Profile</a>
+            <button class="follow" (click)="followUser(item.id)">Follow</button>
+          </div>
+        </div>
+      </div>
+    }
+  } @else {
+    <div class="title">
+      <h1>Followed users</h1>
+    </div>
+    @for(item of following; track $index){
+      <div class="div-card">
+        <div class="div-image">
+          <img [src]=item.avatarUrl class="img" alt="Profile avatar">
+        </div>
+
+        <div class="div-user">
+          <h4 class="username">{{ item.username }}</h4>
+          <span>{{ userTitle[item.currentTitle] }}</span>
+
+          <div class="div-stats">
+            <div class="div-reviews">
+              <span class="span-reviews">Reviews</span>
+              <span class="number1">{{item.reviewCount}}</span>
+            </div>
+            <div class="div-followers">
+              <span class="span-followers">Followers</span>
+              <span class="number3">{{ item.followerCount }}</span>
+            </div>
+            <div class="div-karma">
+              <span class="span-karma">Karma</span>
+              <span class="number4">{{ item.karma }}</span>
+            </div>
+          </div>
+
+          <div class="div-buttons">
+            <a [routerLink]="['/userProfile', item.id]" class="view-profile" aria-label="Perfil">View Profile</a>
+          </div>
+        </div>
+      </div>
+    }
+  }
+
+  <nav class="paginator-content">
+    <p-paginator
+      [first]="currentPage * pageSize"
+      [rows]="pageSize"
+      [totalRecords]="totalRecords"
+      [showCurrentPageReport]="true"
+      (onPageChange)="onPageChange($event)">
+    </p-paginator>
+  </nav>
+
+</div>

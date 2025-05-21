@@ -1,0 +1,86 @@
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-open {
+  display: block;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 500px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #666;
+}
+
+.notification-item {
+  display: flex; /* Aplica diseño en línea */
+  align-items: center; /* Alinea verticalmente */
+  justify-content: space-between; /* Añade espacio entre el mensaje y los botones */
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+.notification-message {
+  flex: 1; /* Toma todo el espacio disponible */
+  margin: 0; /* Asegúrate de eliminar márgenes para el párrafo */
+}
+
+
+.notification-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.mark-read-btn, .navigate-btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.mark-read-btn {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.navigate-btn {
+  background-color: #5762D5;
+  color: white;
+}
+
+.no-notifications {
+  text-align: center;
+  color: #888;
+  padding: 20px;
+}

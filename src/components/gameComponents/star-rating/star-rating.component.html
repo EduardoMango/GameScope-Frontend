@@ -1,0 +1,12 @@
+<div class="star-rating">
+    <ng-container *ngFor="let filled of stars; let i = index">
+      <i
+        class="star"
+        [class.filled]="filled"
+        (click)="setRating(i)"
+      >
+      <i class='bx bxs-star'></i>
+      </i>
+    </ng-container>
+  </div>
+  

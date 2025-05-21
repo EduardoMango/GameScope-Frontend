@@ -1,0 +1,37 @@
+<main class="bg-black bg">
+
+  <section class="galeria bg-black text-white">
+    <ul class="grid-lista">
+
+
+      @for (videojuego of library; track $index){
+
+        <li class="tarjeta">
+          <img [src]=videojuego.image alt="Videogame photo">
+          <div class="flex-descripcion">
+            <p class="descripcion">{{ videojuego.title }}</p>
+            <div class="iconos">
+              <i class="fa-solid fa-minus" (click)="removeVideogame(videojuego)"></i>
+              <i class="fa-regular fa-clipboard" routerLink="/videogames/{{videojuego.id}}"></i>
+              <i class="bx bx-star" routerLink="/videogames/{{videojuego.id}}/reviews/new"></i>
+            </div>
+          </div>
+        </li>
+
+      }
+
+
+    </ul>
+    <nav class="paginator-content">
+      <p-paginator
+        [first]="currentPage * pageSize"
+        [rows]="pageSize"
+        [totalRecords]="totalRecords"
+        [showCurrentPageReport]="true"
+        (onPageChange)="onPageChange($event)"
+        currentPageReportTemplate="Showing {first} to {last} of {totalRecords}"  >
+      </p-paginator>
+    </nav>
+  </section>
+
+</main>

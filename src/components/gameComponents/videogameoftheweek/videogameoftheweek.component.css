@@ -1,0 +1,208 @@
+.container {
+  max-width: 1200px;
+  margin: 5rem auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+
+}
+
+.week-banner {
+  text-align: center;
+  background: linear-gradient(to right, #0d6efd, #dc3545);
+  color: white;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.week-banner h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.trailer-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.game-info-container {
+  display: flex;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.game-image {
+  width: 33.33%;
+}
+
+.game-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.game-details {
+  width: 66.66%;
+  padding: 20px;
+}
+
+.game-details h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #333;
+  font-size: 22px;
+}
+
+.game-info-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.game-info-section p,
+.game-info-section div {
+  color: #555;
+  line-height: 1.6;
+}
+
+.game-info-section strong {
+  color: #333;
+  margin-right: 10px;
+}
+
+.global-score {
+  color: #2ecc71;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .game-info-container {
+    flex-direction: column;
+  }
+
+  .game-image,
+  .game-details {
+    width: 100%;
+  }
+
+  .game-image img {
+    max-height: 300px;
+  }
+
+}
+
+.button {
+  position: relative;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ffffff;
+  background: linear-gradient(45deg, #6a11cb 0%, #2575fc 100%);
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(37, 117, 252, 0.4);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(37, 117, 252, 0.6);
+}
+
+.button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255,255,255,0.3),
+    transparent
+  );
+  transition: all 0.6s ease;
+}
+
+.button:hover::before {
+  left: 100%;
+}
+
+.button .icon-chevron {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  transform: translateX(0);
+  transition: transform 0.3s ease;
+}
+
+.button:hover .icon-chevron {
+  animation: chevron-move 0.5s infinite alternate;
+}
+
+@keyframes chevron-move {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(5px);
+  }
+}
+
+.button:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px 8px rgba(37, 117, 252, 0.4);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .button {
+    padding: 10px 18px;
+    font-size: 14px;
+  }
+}
+
+.action-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Espacio entre botones */
+  width: 100%;
+  padding: 15px 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .action-section {
+    flex-direction: column;
+    gap: 15px; /* Menos espacio en dispositivos móviles */
+  }
+
+  .action-section .button {
+    width: 80%; /* Botones más anchos en móviles */
+    max-width: 300px; /* Ancho máximo */
+  }
+}
+
+@media (max-width: 480px) {
+  .action-section {
+    gap: 10px;
+  }
+
+  .action-section .button {
+    width: 90%;
+  }
+}

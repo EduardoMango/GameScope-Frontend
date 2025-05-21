@@ -1,0 +1,50 @@
+import {ChangeDetectorRef, Component, OnInit} from '@angular/core';
+import {Videogame} from '../../../Model/Interfaces/videogame';
+import {AuthService} from '../../../services/AuthService';
+import {VideojuegosService} from '../../../services/videojuegos.service';
+import {ActivatedRoute, Router} from '@angular/router';
+import {CommonModule} from '@angular/common';
+
+@Component({
+  selector: 'app-top-games',
+  standalone: true,
+  imports: [CommonModule],
+  templateUrl: './top-games.component.html',
+  styleUrl: './top-games.component.css'
+})
+export class TopGamesComponent implements OnInit {
+
+  videogames: Videogame[] = [];
+  period: string | null = null;
+
+  constructor(private authService: AuthService,
+              private videojuegosService: VideojuegosService,
+              private router: Router,
+              private activatedRoute: ActivatedRoute) {
+  }
+
+  ngOnInit(): void {
+    this.activatedRoute.paramMap.subscribe(params => {
+      this.period = params.get('period') || 'week'; // Obtenemos el tipo de top desde la ruta
+      this.loadGames(); // Vuelve a cargar los juegos
+    });
+
+  }
+
+  loadGames() {
+    this.videojuegosService.getTopGames(this.period!).subscribe(response => {
+      this.videogames = response._embedded?.videogameDTOList || [];
+      console.log(this.videogames);
+    });
+  }
+
+  truncateStoryline(storyline: string, maxLength: number = 150): string {
+    return storyline.length > maxLength
+      ? storyline.substring(0, maxLength) + '...'
+      : storyline;
+  }
+
+  goToGameDetails(id: string) {
+    this.router.navigate(['/videogames', id]);
+  }
+}

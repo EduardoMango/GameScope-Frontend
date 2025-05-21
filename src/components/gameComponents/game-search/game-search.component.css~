@@ -1,0 +1,27 @@
+section {
+  background-color: #012A36;
+
+}
+
+.game-search {
+  color: var(--text-color);
+  font-size: 2rem;
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 5rem;
+  height: 75vh; /* Altura completa de la ventana */
+}
+
+form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+input {
+  flex: 1;
+}
+
+.error {
+  color: red;
+  margin-top: 1rem;
+}

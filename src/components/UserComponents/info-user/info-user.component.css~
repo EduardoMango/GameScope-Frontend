@@ -1,0 +1,201 @@
+/* Container principal */
+.info-user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  max-width: 900px;
+}
+
+/* User Card */
+.user-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #2b2b2b;
+  border: 1px solid #444;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* User Row */
+.user-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+/* Column 1: Avatar y Botones */
+.user-column-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  flex: 0 0 25%;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #4caf50;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+  object-fit: cover;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.avatar:hover {
+  transform: scale(1.1);
+}
+
+.button-avatar-selection,
+.button-follow-user,
+.button-unfollow-user {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-follow-user {
+  background-color: #4caf50;
+}
+
+.button-unfollow-user {
+  background-color: #f44336;
+}
+
+.button-avatar-selection:hover,
+.button-follow-user:hover,
+.button-unfollow-user:hover {
+  background-color: #388e3c;
+}
+
+/* Column Break */
+.column-break {
+  flex: 0 0 2%;
+}
+
+.break {
+  border: none;
+  width: 2px;
+  height: 100%;
+  background-color: #555;
+}
+
+/* Column 2: User Information */
+.user-column-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 0 0 70%;
+}
+
+.card-body {
+  padding: 10px 0;
+}
+
+.card-title {
+  color: #f1f1f1;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  color: #bbb;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+/* Dropdown select */
+select {
+  width: 150px;
+  padding: 5px;
+  border: 1px solid #555;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+/* Admin and Action Buttons */
+.div-admin {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.button-ban,
+.button-deactivate,
+.button-update {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-ban {
+  background-color: #f44336;
+}
+
+.button-deactivate {
+  background-color: #fbc02d;
+}
+
+.button-update {
+  background-color: #2196f3;
+}
+
+.button-ban:hover {
+  background-color: #e53935;
+}
+
+.button-deactivate:hover {
+  background-color: #f9a825;
+}
+
+.button-update:hover {
+  background-color: #1976d2;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .user-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .break {
+    display: none;
+  }
+
+  .user-column-1,
+  .user-column-2 {
+    flex: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .div-admin {
+    justify-content: center;
+  }
+}
+
+.img:hover{
+  cursor: pointer;
+}

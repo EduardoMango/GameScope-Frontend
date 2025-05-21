@@ -1,0 +1,95 @@
+<div class="register-container">
+  <h2 class="register-container-h2">{{ videogame?.title }}</h2>
+  <div class="form-container">
+    <form class="form" [formGroup]="reviewForm" (ngSubmit)="onSubmit()">
+
+      <!-- TITULO REVIEW -->
+      <div class="form-group">
+        <h4>Review Title</h4>
+        <label for="titulo"></label>
+        <input type="text" id="titulo" formControlName="title" class="form-control titulo" placeholder="Title" />
+
+        <div *ngIf="reviewForm.get('title')?.touched && reviewForm.get('title')?.invalid" class="error-msj">
+          <small *ngIf="reviewForm.get('title')?.errors?.['required']">The title is required.</small>
+          <small *ngIf="reviewForm.get('title')?.errors?.['minlength']">The title must be at least 10 characters long.</small>
+          <small *ngIf="reviewForm.get('title')?.errors?.['maxlength']">The title must not exceed 100 characters.</small>
+        </div>
+      </div>
+
+      <!-- CONTENIDO -->
+      <div class="form-group">
+        <h4>General comments</h4>
+        <label for="contenido"></label>
+        <textarea id="contenido" formControlName="content" rows="4" cols="58" class="form-control" placeholder="Write your comment..."></textarea>
+
+        <div *ngIf="reviewForm.get('content')?.touched && reviewForm.get('content')?.invalid">
+          <small *ngIf="reviewForm.get('content')?.errors?.['required']">General comment is required.</small>
+          <small *ngIf="reviewForm.get('content')?.errors?.['minlength']">The comment must be at least 50 characters long.</small>
+          <small *ngIf="reviewForm.get('content')?.errors?.['maxlength']">The comment must not exceed 500 characters.</small>
+        </div>
+      </div>
+
+      <!-- CALIFICACION GRÁFICOS -->
+      <div class="form-group">
+        <h4>Graphics</h4>
+        <app-star-rating
+          [rating]="reviewForm.get('graphicsRating')?.value"
+          (ratingChange)="reviewForm.get('graphicsRating')?.setValue($event)">
+        </app-star-rating>
+        <div *ngIf="reviewForm.get('graphicsRating')?.touched && reviewForm.get('graphicsRating')?.invalid">
+          <small *ngIf="reviewForm.get('graphicsRating')?.errors?.['required']">Rating for Graphics is required.</small>
+        </div>
+
+        <textarea formControlName="graphicComment" rows="3" cols="58" placeholder="Write your comment on the graphics..."></textarea>
+        <div *ngIf="reviewForm.get('graphicsComment')?.touched && reviewForm.get('graphicsComment')?.invalid">
+          <small *ngIf="reviewForm.get('graphicsComment')?.errors?.['minlength']">The comment must be at least 50 characters long.</small>
+          <small *ngIf="reviewForm.get('graphicsComment')?.errors?.['maxlength']">The comment must not exceed 500 characters.</small>
+        </div>
+      </div>
+
+      <!-- CALIFICACION JUGABILIDAD -->
+      <div class="form-group">
+        <h4>Gameplay</h4>
+        <app-star-rating
+          [rating]="reviewForm.get('gameplayRating')?.value"
+          (ratingChange)="reviewForm.get('gameplayRating')?.setValue($event)">
+        </app-star-rating>
+        <div *ngIf="reviewForm.get('gameplayRating')?.touched && reviewForm.get('gameplayRating')?.invalid">
+          <small *ngIf="reviewForm.get('gameplayRating')?.errors?.['required']">Rating for Gameplay is required.</small>
+        </div>
+
+        <textarea formControlName="gameplayComment" rows="3" cols="58" placeholder="Write your comment about the gameplay..."></textarea>
+        <div *ngIf="reviewForm.get('gameplayComment')?.touched && reviewForm.get('gameplayComment')?.invalid">
+          <small *ngIf="reviewForm.get('gameplayComment')?.errors?.['required']">Playability comment is required.</small>
+          <small *ngIf="reviewForm.get('gameplayComment')?.errors?.['minlength']">The comment must be at least 50 characters long.</small>
+          <small *ngIf="reviewForm.get('gameplayComment')?.errors?.['maxlength']">The comment must not exceed 500 characters.</small>
+        </div>
+      </div>
+
+      <!-- CALIFICACION RELACION COSTO/CALIDAD -->
+      <div class="form-group">
+        <h4>Cost/Quality Ratio</h4>
+        <app-star-rating
+          [rating]="reviewForm.get('priceQualityRating')?.value"
+          (ratingChange)="reviewForm.get('priceQualityRating')?.setValue($event)">
+        </app-star-rating>
+        <div *ngIf="reviewForm.get('priceQualityRating')?.touched && reviewForm.get('priceQualityRating')?.invalid">
+          <small *ngIf="reviewForm.get('priceQualityRating')?.errors?.['required']">Rating for Cost/Quality is required.</small>
+        </div>
+
+        <textarea formControlName="priceQualityComment" rows="3" cols="58" placeholder="Write your comment about the cost/quality ratio..."></textarea>
+        <div *ngIf="reviewForm.get('priceQualityComment')?.touched && reviewForm.get('priceQualityComment')?.invalid">
+          <small *ngIf="reviewForm.get('priceQualityComment')?.errors?.['required']">Cost/quality comment is required.</small>
+          <small *ngIf="reviewForm.get('priceQualityComment')?.errors?.['minlength']">The comment must be at least 50 characters long.</small>
+          <small *ngIf="reviewForm.get('priceQualityComment')?.errors?.['maxlength']">The comment must not exceed 500 characters.</small>
+        </div>
+      </div>
+
+      <!-- BOTON DE ENVIO -->
+      <div class="button-div">
+        <button type="submit" class="button" [disabled]="reviewForm.invalid">Submit Review</button>
+      </div>
+
+    </form>
+  </div>
+</div>
